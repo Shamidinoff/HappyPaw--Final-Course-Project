@@ -1,0 +1,269 @@
+@import '_reset.scss';
+@import '_variables.scss';
+
+@mixin flex ($display: flex, $direction: row, $align_items: center) {
+    display: $display;
+    flex-direction: $direction;
+    align-items: $align_items;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    padding: 44px 0;
+    .container {
+      display: block;
+      width: 1684px;
+      margin: 0 auto;
+  
+      .header-flex {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+  
+        .header-flex-logo {
+          margin-right: 114px; // По дизайну расстояние от лого до линков больше
+  
+          .burger-menu {
+            display: none; /* display - block when phone version */
+            background-image: url(../images-main/0-1-menu-burger.png);
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+          }
+          .close-menu {
+            display: none; /* close menu icon */
+            background-image: url(../images-main/0-2-close-menu.png);
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+          }
+  
+          a {
+            .main-logo {
+              display: block;
+            }
+          }
+        }
+        .header-flex-link {
+          ul {
+            display: flex;
+            flex-direction: row;
+            li {
+              list-style: none;
+              margin-right: 74px;
+  
+              &:last-child {
+                margin-right: 0;
+              }
+              a {
+                text-decoration: none;
+                list-style: none;
+  
+                font-family: "Open Sans";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 27px;
+                align-items: center;
+                color: #25282b;
+              }
+            }
+          }
+        }
+        .header-flex-reg {
+          display: flex;
+          flex-direction: row;
+          .sign-in {
+            padding: 8.5px 22px;
+            border-radius: 50px;
+            background-color: #728adf;
+            border: 1px solid #728adf;
+            margin-right: 20px;
+  
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 15px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #ffffff;
+            cursor: pointer;
+          }
+          .log-in {
+            padding: 8.5px 22px;
+            border-radius: 50px;
+            background-color: #fff;
+            border: 1px solid #728adf;
+  
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 15px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #728adf;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  
+  .nav1_contacts {
+    @include flex;
+    background-color: #F8F8F8;
+    padding-top: 46px;
+    padding-bottom: 48px;
+    padding-left: 120px;
+  }
+  .nav1_contacts img {
+    padding: 0 10px 0 10px;
+  }
+  .nav1_contacts .main {
+    color: #25282B;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .nav1_contacts .contacts {
+    color: $a_color;
+    text-decoration: none;
+    font-family: $a1_font;
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .container{
+    max-width: 1680px;
+    display: flex;
+    justify-content: center;
+    margin: 50px 120px;
+  }
+  
+// Углы таблицы не скругляются
+
+  .table_contacts{
+    border-radius: 10px;
+    border: 1px solid rgba(51, 156, 179, 0.25);
+    border-collapse: collapse;
+    display: block;
+    
+      .main_info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 99px 113px 99px 113px;
+
+        .h2_table{
+        font-family: $h2_font;
+        font-size: 48px;
+        line-height: 56px;
+        width: 1016px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: $h2_color;
+        margin-bottom: 92px;
+        
+        }
+        .general_info{
+        @include flex (flex, row, none);
+        justify-content: space-between;
+        max-width: 1454px;
+   
+          map{
+          width: 707px;
+          height: 628px;  
+        }
+        .internal_info{
+         max-width: 441px;
+
+              .telephone_contacts{
+              margin-bottom: 40px;
+              @include flex(flex, column, flex-start);
+              gap: 20px;
+              }
+
+              .mail_contacts{
+                margin-bottom: 40px;
+                @include flex(flex, column, flex-start);
+                gap: 20px;
+              }
+
+              .address_contacts{
+                margin-bottom: 50px;
+                @include flex(flex, column, flex-start);
+                gap: 20px;
+              }
+
+              // Не работает flex-start, текст должен стоять слева
+              .caption_contacts{
+                margin-bottom: 27px;
+                @include flex(flex, column, flex-start);
+                
+
+                // Последнее слово не закрашивается в фиолетовый цвет
+              //  .caption_contacts: last-child {
+              //   color: $p_purple;
+              //   }
+              }
+
+              .social_networks{
+                @include flex;
+                gap: 27px;
+              }
+          }
+      }
+      h3{
+      font-family: $h3_font;
+      color: $h3_color;
+      font-size: 31px;
+      line-height: 36px;
+    }
+      p{
+      font-family: $p_font;
+      color: $p_black;
+      font-size: 20px;
+      line-height: 27px;
+   }
+  }
+}
+
+
+// Не стоит с правой стороны
+  footer .container {
+    width: 1684px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .myfreedom {
+    margin-top: 50px;
+
+    background-color: rgba(51, 156, 179, 0.25);
+    padding: 17px 0;
+    .container {
+      width: 1684px;
+      margin: 0 auto;
+      text-align: right;
+      p {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        color: #25282b;
+      }
+    }
+  }
