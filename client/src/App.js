@@ -1,12 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Header from "./components/header/Header";
 import Main from "./pages/main/Main";
+import Service from "./pages/servicepage/Service";
 
 function App() {
   return (
     <div className="App">
       <Main />
+      {/* <Service /> */}
     </div>
   );
 }

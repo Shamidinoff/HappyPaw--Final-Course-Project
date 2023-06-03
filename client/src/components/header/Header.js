@@ -10,8 +10,8 @@ function Header() {
             <a href="#">
               <img
                 class="main-logo"
-                src="./images-main/1.0-happy-paws-logo-1.svg"
-                alt="-happy-paws-logo-1"
+                src="/images-main/1.0-happy-paws-logo-1.svg"
+                alt="happy-paws-logo-1"
               />
             </a>
           </div>
