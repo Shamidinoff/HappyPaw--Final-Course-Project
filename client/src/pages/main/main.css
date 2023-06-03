@@ -28,14 +28,14 @@ header .container .header-flex .header-flex-logo {
 }
 header .container .header-flex .header-flex-logo .burger-menu {
   display: none; /* display - block when phone version */
-  background-image: url(/client/public/images-main/0-1-menu-burger.png);
+  background-image: url(/public/images-main/0-1-menu-burger.png);
   background-size: cover;
   width: 50px;
   height: 50px;
 }
 header .container .header-flex .header-flex-logo .close-menu {
   display: none; /* close menu icon */
-  background-image: url(/images-main/0-2-close-menu.png);
+  background-image: url(/public/images-main/0-2-close-menu.png);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -104,7 +104,7 @@ header .container .header-flex .header-flex-reg .log-in {
 }
 
 main .section1-page {
-  background-image: url(/images-main/1.1-main-bg-picture.png);
+  background-image: url(/public/images-main/1.1-main-bg-picture.png);
   width: auto;
   height: 1000px;
   background-size: cover;
@@ -884,7 +884,7 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(../../../public/images-main/0-1-menu-burger.png);
+    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -892,7 +892,7 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(../../../public/images-main/0-2-close-menu.png);
+    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -963,7 +963,7 @@ footer .myfreedom .container p {
     cursor: pointer;
   }
   main .section1-page {
-    background-image: url(../../../public/images-main/1.1-main-bg-picture.png);
+    background-image: url(/public/images-main/1.1-main-bg-picture.png);
     width: auto;
     height: 1000px;
     background-size: cover;
@@ -1742,14 +1742,14 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/images-main/0-1-menu-burger.png);
+    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/images-main/0-2-close-menu.png);
+    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1820,7 +1820,7 @@ footer .myfreedom .container p {
     cursor: pointer;
   }
   main .section1-page {
-    background-image: url(/images-main/1.1-main-bg-picture.png);
+    background-image: url(/public/images-main/1.1-main-bg-picture.png);
     width: auto;
     height: 1000px;
     background-size: cover;
@@ -2625,14 +2625,14 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/images-main/0-1-menu-burger.png);
+    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/images-main/0-2-close-menu.png);
+    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -2701,7 +2701,7 @@ footer .myfreedom .container p {
     cursor: pointer;
   }
   main .section1-page {
-    background-image: url(/images-main/1.1-main-bg-picture.png);
+    background-image: url(/public/images-main/1.1-main-bg-picture.png);
     width: auto;
     height: 1000px;
     background-size: cover;
@@ -3515,7 +3515,7 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/images-main/0-1-menu-burger.png);
+    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -3524,7 +3524,7 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/images-main/0-2-close-menu.png);
+    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -3598,7 +3598,7 @@ footer .myfreedom .container p {
     cursor: pointer;
   }
   main .section1-page {
-    background-image: url(/images-main/1.1-main-bg-picture.png);
+    background-image: url(/public/images-main/1.1-main-bg-picture.png);
     width: auto;
     height: 1000px;
     background-size: cover;
@@ -4414,7 +4414,7 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/images-main/0-1-menu-burger.png);
+    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -4423,7 +4423,7 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/images-main/0-2-close-menu.png);
+    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -4497,7 +4497,7 @@ footer .myfreedom .container p {
     cursor: pointer;
   }
   main .section1-page {
-    background-image: url(/images-main/1.1-main-bg-picture.png);
+    background-image: url(/public/images-main/1.1-main-bg-picture.png);
     width: auto;
     height: 1000px;
     background-size: cover;
@@ -5318,7 +5318,7 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/images-main/0-1-menu-burger.png);
+    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -5327,7 +5327,7 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/images-main/0-2-close-menu.png);
+    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -5401,7 +5401,7 @@ footer .myfreedom .container p {
     cursor: pointer;
   }
   main .section1-page {
-    background-image: url(/images-main/1.1-main-bg-picture.png);
+    background-image: url(/public/images-main/1.1-main-bg-picture.png);
     width: auto;
     height: 920px;
     background-size: cover;
@@ -6229,7 +6229,7 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/images-main/0-1-menu-burger.png);
+    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -6238,7 +6238,7 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/images-main/0-2-close-menu.png);
+    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -6312,7 +6312,7 @@ footer .myfreedom .container p {
     cursor: pointer;
   }
   main .section1-page {
-    background-image: url(/images-main/1.1-main-bg-picture.png);
+    background-image: url(/public/images-main/1.1-main-bg-picture.png);
     width: auto;
     height: 920px;
     background-size: cover;

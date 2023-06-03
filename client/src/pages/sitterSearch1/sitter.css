@@ -28,14 +28,14 @@ header .container .header-flex .header-flex-logo {
 }
 header .container .header-flex .header-flex-logo .burger-menu {
   display: none; /* display - block when phone version */
-  background-image: url(/public/images-service/0-1-menu-burger.png);
+  background-image: url(/public/images-sitter1/0-1-menu-burger.png);
   background-size: cover;
   width: 50px;
   height: 50px;
 }
 header .container .header-flex .header-flex-logo .close-menu {
   display: none; /* close menu icon */
-  background-image: url(/public/images-service/0-2-close-menu.png);
+  background-image: url(/public/images-sitter1/0-2-close-menu.png);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -103,264 +103,185 @@ header .container .header-flex .header-flex-reg .log-in {
   cursor: pointer;
 }
 
-main .section1-link {
-  padding: 46px 0 48px 0;
-  background-color: #f8f8f8;
+main .section1-sitter {
+  background-color: #f7f7f7;
+  width: auto;
+  padding-bottom: 161px;
 }
-main .section1-link .container {
+main .section1-sitter .container {
   width: 1684px;
   margin: 0 auto;
 }
-main .section1-link .container .section1-link-content {
+main .section1-sitter .container .s1-description {
   display: flex;
   justify-content: flex-start;
-  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 63px;
 }
-main .section1-link .container .section1-link-content .link-item {
+main .section1-sitter .container .s1-description .descr-text {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   text-align: left;
-  gap: 10px;
 }
-main .section1-link .container .section1-link-content .link-item p {
+main .section1-sitter .container .s1-description .descr-text p {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
   align-items: center;
-  text-align: left;
   color: #25282b;
-  cursor: pointer;
-  margin-right: 15px;
+  margin-right: 10px;
 }
-main .section1-link .container .section1-link-content .link-item .service-link {
-  color: #339cb3;
+main .section1-sitter .container .s1-sitter-bg {
+  display: flex;
+  justify-content: center;
 }
-main .section2-services {
-  padding-top: 50px;
-}
-main .section2-services .container {
-  width: 1684px;
-  margin: 0 auto;
+main .section1-sitter .container .s1-sitter-bg .sitter-content {
+  /* Белый фон контент -  Белый фон контент */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1081px;
   text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 50px 81px 63px;
 }
-main .section2-services .container h2 {
+main .section1-sitter .container .s1-sitter-bg .sitter-content h1 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 56px;
+  font-size: 31px;
+  line-height: 36px;
   color: #25282b;
   margin-bottom: 60px;
 }
-main .section2-services .container .service-cards {
+main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data {
   display: flex;
   justify-content: space-between;
 }
-main .section2-services .container .service-cards .card-item {
-  padding: 48px 53px 78px 53px;
-  max-width: 540px;
-  background-color: #fff;
-  box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-main .section2-services .container .service-cards .card-item h3 {
-  display: block;
+main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item h2 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  font-size: 31px;
-  line-height: 36px;
-  color: #25282b;
-  text-align: center;
-  margin-bottom: 78px;
-}
-main .section2-services .container .service-cards .card-item .wrapper {
-  max-height: 500px;
-}
-main .section2-services .container .service-cards .card-item .wrapper .card-item-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  text-align: left;
-  margin-bottom: 33px;
-}
-main .section2-services .container .service-cards .card-item .wrapper .card-item-content img {
-  max-width: 100%;
-  margin-right: 16px;
-  vertical-align: middle;
-}
-main .section2-services .container .service-cards .card-item .wrapper .card-item-content p {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 400;
   font-size: 20px;
   line-height: 23px;
+  align-items: center;
   color: #25282b;
-  text-align: left;
-  vertical-align: middle;
+  margin-bottom: 10px;
 }
-main .section2-services .container .service-cards .card-item button {
+main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select {
+  padding: 12px 36px 12px 12px;
+  border: 1px solid #78d1e5;
+  border-radius: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  color: #b3aeae;
+  cursor: pointer;
+}
+main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select option {
+  padding: 12px 36px 12px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  color: #b3aeae;
+}
+main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date {
+  /* Форма для даты -  Форма для даты */
+}
+main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  align-items: center;
+  color: #25282b;
+  margin-bottom: 10px;
+}
+main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form {
+  padding: 12px 15px 12px 12px;
+  border: 1px solid #78d1e5;
+  border-radius: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  color: #b3aeae;
+  cursor: pointer;
+}
+main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form label {
+  padding: 12px 36px 12px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  color: #b3aeae;
+}
+main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form .calendar-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search {
+  /* Кнопка поиска -  Кнопка поиска */
+}
+main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  align-items: center;
+  color: rgba(255, 255, 255, 0);
+  margin-bottom: 10px;
+}
+main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search .form-item .search-btn {
+  padding: 11.5px 60px;
+  border: 1px solid #339cb3;
+  border-radius: 10px;
+  background-color: #339cb3;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+main .section1-sitter .container .s1-sitter-bg .sitter-content .advancedbtn {
+  padding: 18px 22px;
+  margin-top: 50px;
+  width: 230px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
-  text-align: center;
-  color: #fff;
-  cursor: pointer;
-  background-color: #339cb3;
-  border: 1px solid #339cb3;
-  border-radius: 10px;
-  padding: 18px 70px 18px 70px;
-  margin-top: 50px;
-}
-main .section3-petsitter {
-  padding-top: 100px;
-}
-main .section3-petsitter .container {
-  width: 1684px;
-  margin: 0 auto;
-}
-main .section3-petsitter .container .petsitter-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 15px;
-}
-main .section3-petsitter .container .petsitter-content .wrapper {
-  max-width: 540px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 6px;
-}
-main .section3-petsitter .container .petsitter-content .wrapper .sitter-card p {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 31px;
-  line-height: 36px;
   align-items: center;
   text-align: center;
   color: #728adf;
-}
-main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-line p {
-  margin-top: 12px;
-}
-main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text {
-  max-width: 446px;
-  text-align: left;
-}
-main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text h2 {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 31px;
-  line-height: 36px;
-  align-items: center;
-  text-align: left;
-  color: #25282b;
-  margin-bottom: 20px;
-}
-main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text p {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 27px;
-  color: #25282b;
-  text-align: left;
-}
-main .section4-become {
-  padding-top: 128px;
-}
-main .section4-become .container {
-  width: 1684px;
-  margin: 0 auto;
-}
-main .section4-become .container h1 {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 56px;
-  align-items: center;
-  text-align: center;
-  color: #25282b;
-  margin-bottom: 133px;
-}
-main .section4-become .container .become-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-main .section4-become .container .become-wrapper .become-wrapper-descr {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: top;
-  width: 1043px;
-}
-main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card {
-  max-width: 467px;
-}
-main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-bottom: 30px;
-}
-main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item:last-child {
-  margin-bottom: 0;
-}
-main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item img {
-  display: block;
-  width: auto;
-  margin-right: 20px;
-}
-main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item p {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 27px;
-  color: #25282b;
-}
-main .section4-become .container .become-wrapper .become-wrapper-descr button {
-  margin-top: 50px;
-  padding: 18px 142px;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 19px;
-  align-items: center;
-  text-align: center;
-  color: #ffffff;
-  cursor: pointer;
-  background-color: #339cb3;
+  background-color: #fff;
+  border: 1px solid rgba(143, 160, 223, 0.25);
   border-radius: 10px;
-  border: 1px solid #339cb3;
-}
-main .section4-become .container .become-wrapper .become-wrapper-image img {
-  display: block;
-  width: auto;
+  cursor: pointer;
 }
 main .section8-underline {
-  margin-top: 180px;
+  margin-top: 37px;
 }
 main .section8-underline .container {
   width: 1684px;
@@ -447,7 +368,7 @@ footer .myfreedom .container p {
     padding: 44px 0;
   }
   header .container {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
   }
   header .container .header-flex {
@@ -458,14 +379,14 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-service/0-1-menu-burger.png);
+    background-image: url(/public/images-sitter1/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-service/0-2-close-menu.png);
+    background-image: url(/public/images-sitter1/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -535,264 +456,181 @@ footer .myfreedom .container p {
     color: #728adf;
     cursor: pointer;
   }
-  main .section1-link {
-    padding: 46px 0 48px 0;
-    background-color: #f8f8f8;
+  main .section1-sitter {
+    background-color: #f7f7f7;
+    width: auto;
+    padding-bottom: 161px;
   }
-  main .section1-link .container {
+  main .section1-sitter .container {
     width: 95%;
     margin: 0 auto;
   }
-  main .section1-link .container .section1-link-content {
+  main .section1-sitter .container .s1-description {
     display: flex;
     justify-content: flex-start;
-    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 63px;
   }
-  main .section1-link .container .section1-link-content .link-item {
+  main .section1-sitter .container .s1-description .descr-text {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     text-align: left;
-    gap: 10px;
   }
-  main .section1-link .container .section1-link-content .link-item p {
+  main .section1-sitter .container .s1-description .descr-text p {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
     align-items: center;
-    text-align: left;
     color: #25282b;
-    cursor: pointer;
-    margin-right: 15px;
+    margin-right: 10px;
   }
-  main .section1-link .container .section1-link-content .link-item .service-link {
-    color: #339cb3;
+  main .section1-sitter .container .s1-sitter-bg {
+    display: flex;
+    justify-content: center;
   }
-  main .section2-services {
-    padding-top: 50px;
-  }
-  main .section2-services .container {
-    width: 95%;
-    margin: 0 auto;
+  main .section1-sitter .container .s1-sitter-bg .sitter-content {
+    /* Белый фон контент -  Белый фон контент */
+    width: 1081px;
     text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 50px 81px 63px;
   }
-  main .section2-services .container h2 {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content h1 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 31px;
+    line-height: 36px;
     color: #25282b;
     margin-bottom: 60px;
   }
-  main .section2-services .container .service-cards {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data {
     display: flex;
     justify-content: space-between;
   }
-  main .section2-services .container .service-cards .card-item {
-    padding: 48px 53px 78px 53px;
-    max-width: 540px;
-    background-color: #fff;
-    box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  main .section2-services .container .service-cards .card-item h3 {
-    display: block;
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item h2 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
-    color: #25282b;
-    text-align: center;
-    margin-bottom: 78px;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper {
-    max-height: 500px;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: left;
-    margin-bottom: 33px;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content img {
-    max-width: 100%;
-    margin-right: 16px;
-    vertical-align: middle;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content p {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 23px;
+    align-items: center;
     color: #25282b;
-    text-align: left;
-    vertical-align: middle;
+    margin-bottom: 10px;
   }
-  main .section2-services .container .service-cards .card-item button {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select {
+    padding: 12px 36px 12px 12px;
+    border: 1px solid #78d1e5;
+    border-radius: 10px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select option {
+    padding: 12px 36px 12px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date {
+    /* Форма для даты -  Форма для даты */
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date h2 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: #25282b;
+    margin-bottom: 10px;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form {
+    padding: 12px 15px 12px 12px;
+    border: 1px solid #78d1e5;
+    border-radius: 10px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form label {
+    padding: 12px 36px 12px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form .calendar-btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search {
+    /* Кнопка поиска -  Кнопка поиска */
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search h2 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0);
+    margin-bottom: 10px;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search .form-item .search-btn {
+    padding: 11.5px 60px;
+    border: 1px solid #339cb3;
+    border-radius: 10px;
+    background-color: #339cb3;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .advancedbtn {
+    padding: 18px 22px;
+    margin-top: 50px;
+    width: 230px;
     font-family: "Raleway";
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
-    color: #fff;
-    cursor: pointer;
-    background-color: #339cb3;
-    border: 1px solid #339cb3;
-    border-radius: 10px;
-    padding: 18px 70px 18px 70px;
-    margin-top: 50px;
-  }
-  main .section3-petsitter {
-    padding-top: 100px;
-  }
-  main .section3-petsitter .container {
-    width: 95%;
-    margin: 0 auto;
-  }
-  main .section3-petsitter .container .petsitter-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper {
-    max-width: 540px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 6px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card p {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
     align-items: center;
     text-align: center;
     color: #728adf;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-line p {
-    margin-top: 12px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text {
-    max-width: 446px;
-    text-align: left;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text h2 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
-    align-items: center;
-    text-align: left;
-    color: #25282b;
-    margin-bottom: 20px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text p {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: #25282b;
-    text-align: left;
-  }
-  main .section4-become {
-    padding-top: 128px;
-  }
-  main .section4-become .container {
-    width: 95%;
-    margin: 0 auto;
-  }
-  main .section4-become .container h1 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
-    align-items: center;
-    text-align: center;
-    color: #25282b;
-    margin-bottom: 133px;
-  }
-  main .section4-become .container .become-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: top;
-    width: 1043px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card {
-    max-width: 467px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-bottom: 30px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item:last-child {
-    margin-bottom: 0;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item img {
-    display: block;
-    width: auto;
-    margin-right: 20px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item p {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: #25282b;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr button {
-    margin-top: 50px;
-    padding: 18px 142px;
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19px;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-    cursor: pointer;
-    background-color: #339cb3;
+    background-color: #fff;
+    border: 1px solid rgba(143, 160, 223, 0.25);
     border-radius: 10px;
-    border: 1px solid #339cb3;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-image img {
-    display: block;
-    width: auto;
   }
   main .section8-underline {
-    margin-top: 180px;
+    margin-top: 37px;
   }
   main .section8-underline .container {
     width: 95%;
@@ -873,12 +711,12 @@ footer .myfreedom .container p {
     color: #25282b;
   }
 }
-@media (max-width: 1615px) {
+@media (max-width: 1685px) {
   header {
     padding: 44px 0;
   }
   header .container {
-    width: 95%; /* changed */
+    width: 90%;
     margin: 0 auto;
   }
   header .container .header-flex {
@@ -889,20 +727,20 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-service/0-1-menu-burger.png);
+    background-image: url(/public/images-sitter1/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-service/0-2-close-menu.png);
+    background-image: url(/public/images-sitter1/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .header-flex-logo {
-    margin-right: 0px; /* changed */
+    margin-right: 114px;
   }
   header .container .header-flex .header-flex-logo a .main-logo {
     display: block;
@@ -966,270 +804,181 @@ footer .myfreedom .container p {
     color: #728adf;
     cursor: pointer;
   }
-  main .section1-link {
-    padding: 46px 0 48px 0;
-    background-color: #f8f8f8;
+  main .section1-sitter {
+    background-color: #f7f7f7;
+    width: auto;
+    padding-bottom: 161px;
   }
-  main .section1-link .container {
+  main .section1-sitter .container {
     width: 95%;
     margin: 0 auto;
   }
-  main .section1-link .container .section1-link-content {
+  main .section1-sitter .container .s1-description {
     display: flex;
     justify-content: flex-start;
-    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 63px;
   }
-  main .section1-link .container .section1-link-content .link-item {
+  main .section1-sitter .container .s1-description .descr-text {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     text-align: left;
-    gap: 10px;
   }
-  main .section1-link .container .section1-link-content .link-item p {
+  main .section1-sitter .container .s1-description .descr-text p {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
     align-items: center;
-    text-align: left;
     color: #25282b;
-    cursor: pointer;
-    margin-right: 15px;
+    margin-right: 10px;
   }
-  main .section1-link .container .section1-link-content .link-item .service-link {
-    color: #339cb3;
+  main .section1-sitter .container .s1-sitter-bg {
+    display: flex;
+    justify-content: center;
   }
-  main .section2-services {
-    padding-top: 50px;
-  }
-  main .section2-services .container {
-    width: 95%;
-    margin: 0 auto;
+  main .section1-sitter .container .s1-sitter-bg .sitter-content {
+    /* Белый фон контент -  Белый фон контент */
+    width: 1081px;
     text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 50px 81px 63px;
   }
-  main .section2-services .container h2 {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content h1 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 31px;
+    line-height: 36px;
     color: #25282b;
     margin-bottom: 60px;
   }
-  main .section2-services .container .service-cards {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-  main .section2-services .container .service-cards .card-item {
-    padding: 48px 53px 78px 53px;
-    max-width: 540px;
-    background-color: #fff;
-    box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
   }
-  main .section2-services .container .service-cards .card-item h3 {
-    display: block;
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item h2 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
-    color: #25282b;
-    text-align: center;
-    margin-bottom: 78px;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper {
-    max-height: 500px;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: left;
-    margin-bottom: 33px;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content img {
-    max-width: 100%;
-    margin-right: 16px;
-    vertical-align: middle;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content p {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 23px;
+    align-items: center;
     color: #25282b;
-    text-align: left;
-    vertical-align: middle;
+    margin-bottom: 10px;
   }
-  main .section2-services .container .service-cards .card-item button {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select {
+    padding: 12px 36px 12px 12px;
+    border: 1px solid #78d1e5;
+    border-radius: 10px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select option {
+    padding: 12px 36px 12px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date {
+    /* Форма для даты -  Форма для даты */
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date h2 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: #25282b;
+    margin-bottom: 10px;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form {
+    padding: 12px 15px 12px 12px;
+    border: 1px solid #78d1e5;
+    border-radius: 10px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form label {
+    padding: 12px 36px 12px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form .calendar-btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search {
+    /* Кнопка поиска -  Кнопка поиска */
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search h2 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0);
+    margin-bottom: 10px;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search .form-item .search-btn {
+    padding: 11.5px 60px;
+    border: 1px solid #339cb3;
+    border-radius: 10px;
+    background-color: #339cb3;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .advancedbtn {
+    padding: 18px 22px;
+    margin-top: 50px;
+    width: 230px;
     font-family: "Raleway";
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
-    color: #fff;
-    cursor: pointer;
-    background-color: #339cb3;
-    border: 1px solid #339cb3;
-    border-radius: 10px;
-    padding: 18px 70px 18px 70px;
-    margin-top: 50px;
-  }
-  main .section3-petsitter {
-    padding-top: 100px;
-  }
-  main .section3-petsitter .container {
-    width: 95%;
-    margin: 0 auto;
-  }
-  main .section3-petsitter .container .petsitter-content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 30px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper {
-    max-width: 540px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 6px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card p {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
     align-items: center;
     text-align: center;
     color: #728adf;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-line p {
-    margin-top: 12px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text {
-    max-width: 446px;
-    text-align: left;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text h2 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
-    align-items: center;
-    text-align: left;
-    color: #25282b;
-    margin-bottom: 20px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text p {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: #25282b;
-    text-align: left;
-  }
-  main .section4-become {
-    padding-top: 128px;
-  }
-  main .section4-become .container {
-    width: 95%;
-    margin: 0 auto;
-  }
-  main .section4-become .container h1 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
-    align-items: center;
-    text-align: center;
-    color: #25282b;
-    margin-bottom: 133px;
-  }
-  main .section4-become .container .become-wrapper {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap-reverse;
-    align-items: center;
-    gap: 30px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-    gap: 50px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card {
-    max-width: 467px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-bottom: 30px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item:last-child {
-    margin-bottom: 0;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item img {
-    display: block;
-    width: auto;
-    margin-right: 20px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item p {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: #25282b;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr button {
-    margin-top: 50px;
-    padding: 18px 142px;
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19px;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-    cursor: pointer;
-    background-color: #339cb3;
+    background-color: #fff;
+    border: 1px solid rgba(143, 160, 223, 0.25);
     border-radius: 10px;
-    border: 1px solid #339cb3;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-image img {
-    display: block;
-    width: auto;
   }
   main .section8-underline {
-    margin-top: 180px;
+    margin-top: 37px;
   }
   main .section8-underline .container {
     width: 95%;
@@ -1242,7 +991,7 @@ footer .myfreedom .container p {
     width: 100%;
   }
   footer .container {
-    width: 90%;
+    max-width: 95%;
     margin: 0 auto;
     text-align: left;
   }
@@ -1251,11 +1000,7 @@ footer .myfreedom .container p {
   }
   footer .container .footer-content {
     display: flex;
-    justify-content: center; /* changed */
-    flex-wrap: wrap;
-  }
-  footer .container .footer-content .footer-content-item {
-    padding: 30px 30px; /* changed */
+    justify-content: space-between;
   }
   footer .container .footer-content .footer-content-item h3 {
     font-family: "Raleway";
@@ -1288,16 +1033,12 @@ footer .myfreedom .container p {
   footer .container .footer-content .footer-content-item .footer-social-network {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
-    /* width: 100px; */
   }
   footer .container .footer-content .footer-content-item .footer-social-network .social-list {
-    margin-right: 0px;
-    padding: 30px 30px; /* changed */
-    max-width: 200px;
+    margin-right: 27px;
   }
   footer .container .footer-content .footer-content-item .footer-social-network .social-list:last-child {
-    margin-right: 0;
+    margin-right: 200px; /* last-child - 200px */
   }
   footer .myfreedom {
     margin-top: 50px;
@@ -1334,14 +1075,14 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-service/0-1-menu-burger.png);
+    background-image: url(/public/images-sitter1/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-service/0-2-close-menu.png);
+    background-image: url(/public/images-sitter1/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1411,274 +1152,191 @@ footer .myfreedom .container p {
     color: #728adf;
     cursor: pointer;
   }
-  main .section1-link {
-    padding: 46px 0 48px 0;
-    background-color: #f8f8f8;
+  main .section1-sitter {
+    background-color: #f7f7f7;
+    width: auto;
+    padding-bottom: 161px;
   }
-  main .section1-link .container {
-    width: 95%;
+  main .section1-sitter .container {
+    max-width: 95%;
     margin: 0 auto;
   }
-  main .section1-link .container .section1-link-content {
+  main .section1-sitter .container .s1-description {
     display: flex;
     justify-content: flex-start;
-    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 63px;
   }
-  main .section1-link .container .section1-link-content .link-item {
+  main .section1-sitter .container .s1-description .descr-text {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     text-align: left;
-    gap: 10px;
   }
-  main .section1-link .container .section1-link-content .link-item p {
+  main .section1-sitter .container .s1-description .descr-text p {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
     align-items: center;
-    text-align: left;
     color: #25282b;
-    cursor: pointer;
-    margin-right: 15px;
+    margin-right: 10px;
   }
-  main .section1-link .container .section1-link-content .link-item .service-link {
-    color: #339cb3;
+  main .section1-sitter .container .s1-sitter-bg {
+    display: flex;
+    justify-content: center;
   }
-  main .section2-services {
-    padding-top: 50px;
-  }
-  main .section2-services .container {
-    width: 95%;
-    margin: 0 auto;
+  main .section1-sitter .container .s1-sitter-bg .sitter-content {
+    /* Белый фон контент -  Белый фон контент */
+    max-width: 500px;
+    align-items: center;
     text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px 30px 25px 30px;
   }
-  main .section2-services .container h2 {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content h1 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 31px;
+    line-height: 36px;
     color: #25282b;
     margin-bottom: 60px;
   }
-  main .section2-services .container .service-cards {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
-  }
-  main .section2-services .container .service-cards .card-item {
-    padding: 48px 53px 78px 53px;
-    max-width: 540px;
-    background-color: #fff;
-    box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
-    border-radius: 10px;
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 20px;
   }
-  main .section2-services .container .service-cards .card-item h3 {
-    display: block;
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item h2 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
-    color: #25282b;
-    text-align: center;
-    margin-bottom: 78px;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper {
-    max-height: 500px;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: left;
-    margin-bottom: 33px;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content img {
-    max-width: 100%;
-    margin-right: 16px;
-    vertical-align: middle;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content p {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 23px;
+    align-items: center;
     color: #25282b;
-    text-align: left;
-    vertical-align: middle;
+    margin-bottom: 10px;
   }
-  main .section2-services .container .service-cards .card-item button {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select {
+    padding: 12px 36px 12px 12px;
+    border: 1px solid #78d1e5;
+    border-radius: 10px;
+    width: 250px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select option {
+    padding: 12px 36px 12px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date {
+    /* Форма для даты -  Форма для даты */
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date h2 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: #25282b;
+    margin-bottom: 10px;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form {
+    padding: 12px 15px 12px 12px;
+    border: 1px solid #78d1e5;
+    border-radius: 10px;
+    width: 250px;
+    display: inline-block;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form label {
+    padding: 12px 36px 12px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form .calendar-btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search {
+    /* Кнопка поиска -  Кнопка поиска */
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search h2 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0);
+    margin-bottom: 10px;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search .form-item .search-btn {
+    padding: 11.5px 60px;
+    border: 1px solid #339cb3;
+    border-radius: 10px;
+    background-color: #339cb3;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .advancedbtn {
+    padding: 18px 22px;
+    margin-top: 50px;
+    width: 230px;
     font-family: "Raleway";
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
-    color: #fff;
-    cursor: pointer;
-    background-color: #339cb3;
-    border: 1px solid #339cb3;
-    border-radius: 10px;
-    padding: 18px 70px 18px 70px;
-    margin-top: 50px;
-  }
-  main .section3-petsitter {
-    padding-top: 100px;
-  }
-  main .section3-petsitter .container {
-    width: 95%;
-    margin: 0 auto;
-  }
-  main .section3-petsitter .container .petsitter-content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 30px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper {
-    max-width: 540px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 6px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card p {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
     align-items: center;
     text-align: center;
     color: #728adf;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-line p {
-    margin-top: 12px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text {
-    max-width: 446px;
-    text-align: left;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text h2 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
-    align-items: center;
-    text-align: left;
-    color: #25282b;
-    margin-bottom: 20px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text p {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: #25282b;
-    text-align: left;
-  }
-  main .section4-become {
-    padding-top: 128px;
-  }
-  main .section4-become .container {
-    width: 95%;
-    margin: 0 auto;
-  }
-  main .section4-become .container h1 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
-    align-items: center;
-    text-align: center;
-    color: #25282b;
-    margin-bottom: 133px;
-  }
-  main .section4-become .container .become-wrapper {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap-reverse;
-    align-items: center;
-    gap: 30px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: top;
-    gap: 30px;
-    max-width: 800px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card {
-    max-width: 467px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-bottom: 30px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item:last-child {
-    margin-bottom: 0;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item img {
-    display: block;
-    width: auto;
-    margin-right: 20px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item p {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: #25282b;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr button {
-    margin-top: 50px;
-    padding: 18px 142px;
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19px;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-    cursor: pointer;
-    background-color: #339cb3;
+    background-color: #fff;
+    border: 1px solid rgba(143, 160, 223, 0.25);
     border-radius: 10px;
-    border: 1px solid #339cb3;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-image img {
-    display: block;
-    width: auto;
   }
   main .section8-underline {
-    margin-top: 180px;
+    margin-top: 100px; /* changed */
   }
   main .section8-underline .container {
-    width: 95%;
+    width: 90%; /* changed */
     margin: 0 auto;
     text-align: center;
   }
@@ -1780,14 +1438,14 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-service/0-1-menu-burger.png);
+    background-image: url(/public/images-sitter1/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-service/0-2-close-menu.png);
+    background-image: url(/public/images-sitter1/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1855,274 +1513,190 @@ footer .myfreedom .container p {
     color: #728adf;
     cursor: pointer;
   }
-  main .section1-link {
-    padding: 46px 0 48px 0;
-    background-color: #f8f8f8;
+  main .section1-sitter {
+    background-color: #f7f7f7;
+    width: auto;
+    padding-bottom: 161px;
   }
-  main .section1-link .container {
-    width: 95%;
+  main .section1-sitter .container {
+    max-width: 95%;
     margin: 0 auto;
   }
-  main .section1-link .container .section1-link-content {
+  main .section1-sitter .container .s1-description {
     display: flex;
     justify-content: flex-start;
-    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 63px;
   }
-  main .section1-link .container .section1-link-content .link-item {
+  main .section1-sitter .container .s1-description .descr-text {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     text-align: left;
-    gap: 10px;
   }
-  main .section1-link .container .section1-link-content .link-item p {
+  main .section1-sitter .container .s1-description .descr-text p {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
     align-items: center;
-    text-align: left;
     color: #25282b;
-    cursor: pointer;
-    margin-right: 15px;
+    margin-right: 10px;
   }
-  main .section1-link .container .section1-link-content .link-item .service-link {
-    color: #339cb3;
+  main .section1-sitter .container .s1-sitter-bg {
+    display: flex;
+    justify-content: center;
   }
-  main .section2-services {
-    padding-top: 50px;
-  }
-  main .section2-services .container {
-    width: 95%;
-    margin: 0 auto;
+  main .section1-sitter .container .s1-sitter-bg .sitter-content {
+    /* Белый фон контент -  Белый фон контент */
+    max-width: 500px;
     text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px 30px 25px 30px;
   }
-  main .section2-services .container h2 {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content h1 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 31px;
+    line-height: 36px;
     color: #25282b;
     margin-bottom: 60px;
   }
-  main .section2-services .container .service-cards {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
-  }
-  main .section2-services .container .service-cards .card-item {
-    padding: 48px 53px 78px 53px;
-    max-width: 540px;
-    background-color: #fff;
-    box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
-    border-radius: 10px;
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 20px;
   }
-  main .section2-services .container .service-cards .card-item h3 {
-    display: block;
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item h2 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
-    color: #25282b;
-    text-align: center;
-    margin-bottom: 78px;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper {
-    max-height: 500px;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: left;
-    margin-bottom: 33px;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content img {
-    max-width: 100%;
-    margin-right: 16px;
-    vertical-align: middle;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content p {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 23px;
+    align-items: center;
     color: #25282b;
-    text-align: left;
-    vertical-align: middle;
+    margin-bottom: 10px;
   }
-  main .section2-services .container .service-cards .card-item button {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select {
+    padding: 12px 36px 12px 12px;
+    border: 1px solid #78d1e5;
+    border-radius: 10px;
+    width: 250px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select option {
+    padding: 12px 36px 12px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date {
+    /* Форма для даты -  Форма для даты */
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date h2 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: #25282b;
+    margin-bottom: 10px;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form {
+    padding: 12px 15px 12px 12px;
+    border: 1px solid #78d1e5;
+    border-radius: 10px;
+    width: 250px;
+    display: inline-block;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form label {
+    padding: 12px 36px 12px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form .calendar-btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search {
+    /* Кнопка поиска -  Кнопка поиска */
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search h2 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0);
+    margin-bottom: 10px;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search .form-item .search-btn {
+    padding: 11.5px 60px;
+    border: 1px solid #339cb3;
+    border-radius: 10px;
+    background-color: #339cb3;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .advancedbtn {
+    padding: 18px 22px;
+    margin-top: 50px;
+    width: 230px;
     font-family: "Raleway";
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
-    color: #fff;
-    cursor: pointer;
-    background-color: #339cb3;
-    border: 1px solid #339cb3;
-    border-radius: 10px;
-    padding: 18px 70px 18px 70px;
-    margin-top: 50px;
-  }
-  main .section3-petsitter {
-    padding-top: 100px;
-  }
-  main .section3-petsitter .container {
-    width: 95%;
-    margin: 0 auto;
-  }
-  main .section3-petsitter .container .petsitter-content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 30px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper {
-    max-width: 540px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 6px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card p {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
     align-items: center;
     text-align: center;
     color: #728adf;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-line p {
-    margin-top: 12px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text {
-    max-width: 446px;
-    text-align: left;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text h2 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
-    align-items: center;
-    text-align: left;
-    color: #25282b;
-    margin-bottom: 20px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text p {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: #25282b;
-    text-align: left;
-  }
-  main .section4-become {
-    padding-top: 128px;
-  }
-  main .section4-become .container {
-    width: 95%;
-    margin: 0 auto;
-  }
-  main .section4-become .container h1 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
-    align-items: center;
-    text-align: center;
-    color: #25282b;
-    margin-bottom: 133px;
-  }
-  main .section4-become .container .become-wrapper {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap-reverse;
-    align-items: center;
-    gap: 30px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: top;
-    gap: 30px;
-    max-width: 600px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card {
-    max-width: 467px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-bottom: 30px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item:last-child {
-    margin-bottom: 0;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item img {
-    display: block;
-    width: auto;
-    margin-right: 20px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item p {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: #25282b;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr button {
-    margin-top: 50px;
-    padding: 18px 142px;
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19px;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-    cursor: pointer;
-    background-color: #339cb3;
+    background-color: #fff;
+    border: 1px solid rgba(143, 160, 223, 0.25);
     border-radius: 10px;
-    border: 1px solid #339cb3;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-image img {
-    display: block;
-    width: auto;
   }
   main .section8-underline {
-    margin-top: 180px;
+    margin-top: 75px; /* changed */
   }
   main .section8-underline .container {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
   }
@@ -2230,7 +1804,7 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-service/0-1-menu-burger.png);
+    background-image: url(/public/images-sitter1/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -2239,7 +1813,7 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-service/0-2-close-menu.png);
+    background-image: url(/public/images-sitter1/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -2312,274 +1886,190 @@ footer .myfreedom .container p {
     color: #728adf;
     cursor: pointer;
   }
-  main .section1-link {
-    padding: 46px 0 48px 0;
-    background-color: #f8f8f8;
+  main .section1-sitter {
+    background-color: #f7f7f7;
+    width: auto;
+    padding-bottom: 161px;
   }
-  main .section1-link .container {
-    width: 95%;
+  main .section1-sitter .container {
+    max-width: 95%;
     margin: 0 auto;
   }
-  main .section1-link .container .section1-link-content {
+  main .section1-sitter .container .s1-description {
     display: flex;
     justify-content: flex-start;
-    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 63px;
   }
-  main .section1-link .container .section1-link-content .link-item {
+  main .section1-sitter .container .s1-description .descr-text {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     text-align: left;
-    gap: 10px;
   }
-  main .section1-link .container .section1-link-content .link-item p {
+  main .section1-sitter .container .s1-description .descr-text p {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
     align-items: center;
-    text-align: left;
     color: #25282b;
-    cursor: pointer;
-    margin-right: 15px;
+    margin-right: 10px;
   }
-  main .section1-link .container .section1-link-content .link-item .service-link {
-    color: #339cb3;
+  main .section1-sitter .container .s1-sitter-bg {
+    display: flex;
+    justify-content: center;
   }
-  main .section2-services {
-    padding-top: 50px;
-  }
-  main .section2-services .container {
-    width: 95%;
-    margin: 0 auto;
+  main .section1-sitter .container .s1-sitter-bg .sitter-content {
+    /* Белый фон контент -  Белый фон контент */
+    max-width: 500px;
     text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px 30px 25px 30px;
   }
-  main .section2-services .container h2 {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content h1 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 31px;
+    line-height: 36px;
     color: #25282b;
     margin-bottom: 60px;
   }
-  main .section2-services .container .service-cards {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
-  }
-  main .section2-services .container .service-cards .card-item {
-    padding: 48px 53px 78px 53px;
-    max-width: 540px;
-    background-color: #fff;
-    box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
-    border-radius: 10px;
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 20px;
   }
-  main .section2-services .container .service-cards .card-item h3 {
-    display: block;
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item h2 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
-    color: #25282b;
-    text-align: center;
-    margin-bottom: 78px;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper {
-    max-height: 500px;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: left;
-    margin-bottom: 33px;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content img {
-    max-width: 100%;
-    margin-right: 16px;
-    vertical-align: middle;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content p {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 23px;
+    align-items: center;
     color: #25282b;
-    text-align: left;
-    vertical-align: middle;
+    margin-bottom: 10px;
   }
-  main .section2-services .container .service-cards .card-item button {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select {
+    padding: 12px 36px 12px 12px;
+    border: 1px solid #78d1e5;
+    border-radius: 10px;
+    width: 250px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select option {
+    padding: 12px 36px 12px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date {
+    /* Форма для даты -  Форма для даты */
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date h2 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: #25282b;
+    margin-bottom: 10px;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form {
+    padding: 12px 15px 12px 12px;
+    border: 1px solid #78d1e5;
+    border-radius: 10px;
+    width: 250px;
+    display: inline-block;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form label {
+    padding: 12px 36px 12px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form .calendar-btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search {
+    /* Кнопка поиска -  Кнопка поиска */
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search h2 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0);
+    margin-bottom: 10px;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search .form-item .search-btn {
+    padding: 11.5px 60px;
+    border: 1px solid #339cb3;
+    border-radius: 10px;
+    background-color: #339cb3;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .advancedbtn {
+    padding: 18px 22px;
+    margin-top: 50px;
+    width: 230px;
     font-family: "Raleway";
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
-    color: #fff;
-    cursor: pointer;
-    background-color: #339cb3;
-    border: 1px solid #339cb3;
-    border-radius: 10px;
-    padding: 18px 70px 18px 70px;
-    margin-top: 50px;
-  }
-  main .section3-petsitter {
-    padding-top: 100px;
-  }
-  main .section3-petsitter .container {
-    width: 95%;
-    margin: 0 auto;
-  }
-  main .section3-petsitter .container .petsitter-content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 30px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper {
-    max-width: 540px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 6px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card p {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
     align-items: center;
     text-align: center;
     color: #728adf;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-line p {
-    margin-top: 12px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text {
-    max-width: 446px;
-    text-align: left;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text h2 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
-    align-items: center;
-    text-align: left;
-    color: #25282b;
-    margin-bottom: 20px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text p {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: #25282b;
-    text-align: left;
-  }
-  main .section4-become {
-    padding-top: 128px;
-  }
-  main .section4-become .container {
-    width: 95%;
-    margin: 0 auto;
-  }
-  main .section4-become .container h1 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
-    align-items: center;
-    text-align: center;
-    color: #25282b;
-    margin-bottom: 133px;
-  }
-  main .section4-become .container .become-wrapper {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap-reverse;
-    align-items: center;
-    gap: 30px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: top;
-    gap: 30px;
-    max-width: 500px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card {
-    max-width: 467px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-bottom: 30px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item:last-child {
-    margin-bottom: 0;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item img {
-    display: block;
-    width: auto;
-    margin-right: 20px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item p {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: #25282b;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr button {
-    margin-top: 50px;
-    padding: 18px 142px;
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19px;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-    cursor: pointer;
-    background-color: #339cb3;
+    background-color: #fff;
+    border: 1px solid rgba(143, 160, 223, 0.25);
     border-radius: 10px;
-    border: 1px solid #339cb3;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-image img {
-    display: block;
-    width: auto;
   }
   main .section8-underline {
-    margin-top: 180px;
+    margin-top: 75px; /* changed */
   }
   main .section8-underline .container {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
   }
@@ -2687,7 +2177,7 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-service/0-1-menu-burger.png);
+    background-image: url(/public/images-sitter1/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -2696,7 +2186,7 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-service/0-2-close-menu.png);
+    background-image: url(/public/images-sitter1/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -2769,278 +2259,190 @@ footer .myfreedom .container p {
     color: #728adf;
     cursor: pointer;
   }
-  main .section1-link {
-    padding: 46px 0 48px 0;
-    background-color: #f8f8f8;
+  main .section1-sitter {
+    background-color: #f7f7f7;
+    width: auto;
+    padding-bottom: 161px;
   }
-  main .section1-link .container {
-    width: 95%;
+  main .section1-sitter .container {
+    max-width: 95%;
     margin: 0 auto;
   }
-  main .section1-link .container .section1-link-content {
+  main .section1-sitter .container .s1-description {
     display: flex;
     justify-content: flex-start;
-    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 63px;
   }
-  main .section1-link .container .section1-link-content .link-item {
+  main .section1-sitter .container .s1-description .descr-text {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     text-align: left;
-    gap: 10px;
   }
-  main .section1-link .container .section1-link-content .link-item p {
+  main .section1-sitter .container .s1-description .descr-text p {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
     align-items: center;
-    text-align: left;
     color: #25282b;
-    cursor: pointer;
-    margin-right: 15px;
+    margin-right: 10px;
   }
-  main .section1-link .container .section1-link-content .link-item .service-link {
-    color: #339cb3;
+  main .section1-sitter .container .s1-sitter-bg {
+    display: flex;
+    justify-content: center;
   }
-  main .section2-services {
-    padding-top: 50px;
-  }
-  main .section2-services .container {
-    width: 95%;
-    margin: 0 auto;
+  main .section1-sitter .container .s1-sitter-bg .sitter-content {
+    /* Белый фон контент -  Белый фон контент */
+    max-width: 500px;
     text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px 30px 25px 30px;
   }
-  main .section2-services .container h2 {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content h1 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 31px;
+    line-height: 36px;
     color: #25282b;
     margin-bottom: 60px;
   }
-  main .section2-services .container .service-cards {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
-  }
-  main .section2-services .container .service-cards .card-item {
-    padding: 30px 30px;
-    max-width: 540px;
-    background-color: #fff;
-    box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
-    border-radius: 10px;
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 20px;
   }
-  main .section2-services .container .service-cards .card-item h3 {
-    display: block;
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item h2 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
-    color: #25282b;
-    text-align: center;
-    margin-bottom: 78px;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper {
-    max-height: 500px;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: left;
-    margin-bottom: 33px;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content img {
-    max-width: 100%;
-    margin-right: 16px;
-    vertical-align: middle;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content p {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 23px;
+    align-items: center;
     color: #25282b;
-    text-align: left;
-    vertical-align: middle;
+    margin-bottom: 10px;
   }
-  main .section2-services .container .service-cards .card-item button {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select {
+    padding: 12px 36px 12px 12px;
+    border: 1px solid #78d1e5;
+    border-radius: 10px;
+    width: 250px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select option {
+    padding: 12px 36px 12px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date {
+    /* Форма для даты -  Форма для даты */
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date h2 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: #25282b;
+    margin-bottom: 10px;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form {
+    padding: 12px 15px 12px 12px;
+    border: 1px solid #78d1e5;
+    border-radius: 10px;
+    width: 250px;
+    display: inline-block;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form label {
+    padding: 12px 36px 12px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form .calendar-btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search {
+    /* Кнопка поиска -  Кнопка поиска */
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search h2 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0);
+    margin-bottom: 10px;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search .form-item .search-btn {
+    padding: 11.5px 60px;
+    border: 1px solid #339cb3;
+    border-radius: 10px;
+    background-color: #339cb3;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .advancedbtn {
+    padding: 18px 22px;
+    margin-top: 50px;
+    width: 230px;
     font-family: "Raleway";
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
-    color: #fff;
-    cursor: pointer;
-    background-color: #339cb3;
-    border: 1px solid #339cb3;
-    border-radius: 10px;
-    padding: 18px 70px 18px 70px;
-    margin-top: 50px;
-  }
-  main .section3-petsitter {
-    padding-top: 100px;
-  }
-  main .section3-petsitter .container {
-    width: 95%;
-    margin: 0 auto;
-  }
-  main .section3-petsitter .container .petsitter-content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 30px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper {
-    max-width: 540px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 6px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card p {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
     align-items: center;
     text-align: center;
     color: #728adf;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-line p {
-    margin-top: 12px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text {
-    max-width: 446px;
-    text-align: left;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text h2 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
-    align-items: center;
-    text-align: left;
-    color: #25282b;
-    margin-bottom: 20px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text p {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: #25282b;
-    text-align: left;
-  }
-  main .section4-become {
-    padding-top: 128px;
-  }
-  main .section4-become .container {
-    width: 95%;
-    margin: 0 auto;
-  }
-  main .section4-become .container h1 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
-    align-items: center;
-    text-align: center;
-    color: #25282b;
-    margin-bottom: 133px;
-  }
-  main .section4-become .container .become-wrapper {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap-reverse;
-    align-items: center;
-    gap: 30px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: top;
-    gap: 30px;
-    max-width: 500px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card {
-    max-width: 467px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-bottom: 30px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item:last-child {
-    margin-bottom: 0;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item img {
-    display: block;
-    width: auto;
-    margin-right: 20px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item p {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: #25282b;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr button {
-    margin-top: 50px;
-    padding: 18px 142px;
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19px;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-    cursor: pointer;
-    background-color: #339cb3;
+    background-color: #fff;
+    border: 1px solid rgba(143, 160, 223, 0.25);
     border-radius: 10px;
-    border: 1px solid #339cb3;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-image {
-    display: block;
-    padding: 0px 10px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-image img {
-    display: block;
-    width: 100%;
   }
   main .section8-underline {
-    margin-top: 180px;
+    margin-top: 75px; /* changed */
   }
   main .section8-underline .container {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
   }
@@ -3149,7 +2551,7 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-service/0-1-menu-burger.png);
+    background-image: url(/public/images-sitter1/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -3158,7 +2560,7 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-service/0-2-close-menu.png);
+    background-image: url(/public/images-sitter1/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -3231,279 +2633,190 @@ footer .myfreedom .container p {
     color: #728adf;
     cursor: pointer;
   }
-  main .section1-link {
-    padding: 46px 0 48px 0;
-    background-color: #f8f8f8;
+  main .section1-sitter {
+    background-color: #f7f7f7;
+    width: auto;
+    padding-bottom: 161px;
   }
-  main .section1-link .container {
-    width: 95%;
+  main .section1-sitter .container {
+    max-width: 95%;
     margin: 0 auto;
   }
-  main .section1-link .container .section1-link-content {
+  main .section1-sitter .container .s1-description {
     display: flex;
     justify-content: flex-start;
-    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 63px;
   }
-  main .section1-link .container .section1-link-content .link-item {
+  main .section1-sitter .container .s1-description .descr-text {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     text-align: left;
-    gap: 10px;
   }
-  main .section1-link .container .section1-link-content .link-item p {
+  main .section1-sitter .container .s1-description .descr-text p {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
     align-items: center;
-    text-align: left;
     color: #25282b;
-    cursor: pointer;
-    margin-right: 15px;
+    margin-right: 10px;
   }
-  main .section1-link .container .section1-link-content .link-item .service-link {
-    color: #339cb3;
-  }
-  main .section2-services {
-    padding-top: 50px;
-  }
-  main .section2-services .container {
-    width: 95%;
-    margin: 0 auto;
-    text-align: center;
-  }
-  main .section2-services .container h2 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
-    color: #25282b;
-    margin-bottom: 60px;
-  }
-  main .section2-services .container .service-cards {
+  main .section1-sitter .container .s1-sitter-bg {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 0;
   }
-  main .section2-services .container .service-cards .card-item {
-    padding: 30px 30px;
-    max-width: 400px;
+  main .section1-sitter .container .s1-sitter-bg .sitter-content {
+    /* Белый фон контент -  Белый фон контент */
+    max-width: 350px;
+    text-align: center;
     background-color: #fff;
-    box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 30px;
+    padding: 25px 30px 25px 30px;
   }
-  main .section2-services .container .service-cards .card-item h3 {
-    display: block;
+  main .section1-sitter .container .s1-sitter-bg .sitter-content h1 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
     font-size: 31px;
     line-height: 36px;
     color: #25282b;
-    text-align: center;
-    margin-bottom: 78px;
+    margin-bottom: 40px;
   }
-  main .section2-services .container .service-cards .card-item .wrapper {
-    max-height: 550px;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: left;
-    margin-bottom: 33px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
   }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content img {
-    max-width: 100%;
-    margin-right: 16px;
-    vertical-align: middle;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content p {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item h2 {
     font-family: "Raleway";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 20px;
     line-height: 23px;
+    align-items: center;
     color: #25282b;
-    text-align: left;
-    vertical-align: middle;
+    margin-bottom: 10px;
   }
-  main .section2-services .container .service-cards .card-item button {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select {
+    padding: 12px 36px 12px 12px;
+    border: 1px solid #78d1e5;
+    border-radius: 10px;
+    width: 250px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select option {
+    padding: 12px 36px 12px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date {
+    /* Форма для даты -  Форма для даты */
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date h2 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: #25282b;
+    margin-bottom: 10px;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form {
+    padding: 12px 15px 12px 12px;
+    border: 1px solid #78d1e5;
+    border-radius: 10px;
+    width: 250px;
+    display: inline-block;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form label {
+    padding: 12px 36px 12px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form .calendar-btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search {
+    /* Кнопка поиска -  Кнопка поиска */
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search h2 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0);
+    margin-bottom: 10px;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search .form-item .search-btn {
+    padding: 11.5px 60px;
+    border: 1px solid #339cb3;
+    border-radius: 10px;
+    background-color: #339cb3;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .advancedbtn {
+    padding: 18px 22px;
+    margin-top: 50px;
+    width: 230px;
     font-family: "Raleway";
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
-    color: #fff;
-    cursor: pointer;
-    background-color: #339cb3;
-    border: 1px solid #339cb3;
-    border-radius: 10px;
-    padding: 18px 20px;
-    margin-top: 50px;
-  }
-  main .section3-petsitter {
-    padding-top: 100px;
-  }
-  main .section3-petsitter .container {
-    width: 95%;
-    margin: 0 auto;
-  }
-  main .section3-petsitter .container .petsitter-content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 30px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper {
-    max-width: 540px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 6px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card p {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
     align-items: center;
     text-align: center;
     color: #728adf;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-line p {
-    margin-top: 12px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text {
-    max-width: 446px;
-    text-align: left;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text h2 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
-    align-items: center;
-    text-align: left;
-    color: #25282b;
-    margin-bottom: 20px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text p {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: #25282b;
-    text-align: left;
-  }
-  main .section4-become {
-    padding-top: 128px;
-  }
-  main .section4-become .container {
-    width: 95%;
-    margin: 0 auto;
-  }
-  main .section4-become .container h1 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
-    align-items: center;
-    text-align: center;
-    color: #25282b;
-    margin-bottom: 133px;
-  }
-  main .section4-become .container .become-wrapper {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap-reverse;
-    align-items: center;
-    gap: 30px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: top;
-    gap: 30px;
-    max-width: 500px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card {
-    max-width: 350px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-bottom: 30px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item:last-child {
-    margin-bottom: 0;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item img {
-    display: block;
-    width: auto;
-    margin-right: 20px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item p {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: #25282b;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr button {
-    margin-top: 50px;
-    padding: 18px 142px;
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19px;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-    cursor: pointer;
-    background-color: #339cb3;
+    background-color: #fff;
+    border: 1px solid rgba(143, 160, 223, 0.25);
     border-radius: 10px;
-    border: 1px solid #339cb3;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-image {
-    display: block;
-    padding: 0px 10px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-image img {
-    display: block;
-    width: 100%;
   }
   main .section8-underline {
-    margin-top: 180px;
+    margin-top: 75px; /* changed */
   }
   main .section8-underline .container {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
   }
@@ -3617,7 +2930,7 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-service/0-1-menu-burger.png);
+    background-image: url(/public/images-sitter1/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -3626,7 +2939,7 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-service/0-2-close-menu.png);
+    background-image: url(/public/images-sitter1/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -3699,279 +3012,190 @@ footer .myfreedom .container p {
     color: #728adf;
     cursor: pointer;
   }
-  main .section1-link {
-    padding: 46px 0 48px 0;
-    background-color: #f8f8f8;
+  main .section1-sitter {
+    background-color: #f7f7f7;
+    width: auto;
+    padding-bottom: 161px;
   }
-  main .section1-link .container {
-    width: 95%;
+  main .section1-sitter .container {
+    max-width: 95%;
     margin: 0 auto;
   }
-  main .section1-link .container .section1-link-content {
+  main .section1-sitter .container .s1-description {
     display: flex;
     justify-content: flex-start;
-    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 63px;
   }
-  main .section1-link .container .section1-link-content .link-item {
+  main .section1-sitter .container .s1-description .descr-text {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     text-align: left;
-    gap: 10px;
   }
-  main .section1-link .container .section1-link-content .link-item p {
+  main .section1-sitter .container .s1-description .descr-text p {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
     align-items: center;
-    text-align: left;
     color: #25282b;
-    cursor: pointer;
-    margin-right: 15px;
+    margin-right: 10px;
   }
-  main .section1-link .container .section1-link-content .link-item .service-link {
-    color: #339cb3;
-  }
-  main .section2-services {
-    padding-top: 50px;
-  }
-  main .section2-services .container {
-    width: 95%;
-    margin: 0 auto;
-    text-align: center;
-  }
-  main .section2-services .container h2 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
-    color: #25282b;
-    margin-bottom: 60px;
-  }
-  main .section2-services .container .service-cards {
+  main .section1-sitter .container .s1-sitter-bg {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 0;
   }
-  main .section2-services .container .service-cards .card-item {
-    padding: 30px 30px;
-    max-width: 400px;
+  main .section1-sitter .container .s1-sitter-bg .sitter-content {
+    /* Белый фон контент -  Белый фон контент */
+    max-width: 350px;
+    text-align: center;
     background-color: #fff;
-    box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 30px;
+    padding: 25px 30px 25px 30px;
   }
-  main .section2-services .container .service-cards .card-item h3 {
-    display: block;
+  main .section1-sitter .container .s1-sitter-bg .sitter-content h1 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
     font-size: 31px;
     line-height: 36px;
     color: #25282b;
-    text-align: center;
-    margin-bottom: 78px;
+    margin-bottom: 40px;
   }
-  main .section2-services .container .service-cards .card-item .wrapper {
-    max-height: 550px;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: left;
-    margin-bottom: 33px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
   }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content img {
-    max-width: 100%;
-    margin-right: 16px;
-    vertical-align: middle;
-  }
-  main .section2-services .container .service-cards .card-item .wrapper .card-item-content p {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item h2 {
     font-family: "Raleway";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 20px;
     line-height: 23px;
+    align-items: center;
     color: #25282b;
-    text-align: left;
-    vertical-align: middle;
+    margin-bottom: 10px;
   }
-  main .section2-services .container .service-cards .card-item button {
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select {
+    padding: 12px 36px 12px 12px;
+    border: 1px solid #78d1e5;
+    border-radius: 10px;
+    width: 250px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select option {
+    padding: 12px 36px 12px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date {
+    /* Форма для даты -  Форма для даты */
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date h2 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: #25282b;
+    margin-bottom: 10px;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form {
+    padding: 12px 15px 12px 12px;
+    border: 1px solid #78d1e5;
+    border-radius: 10px;
+    width: 250px;
+    display: inline-block;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form label {
+    padding: 12px 36px 12px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #b3aeae;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form .calendar-btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search {
+    /* Кнопка поиска -  Кнопка поиска */
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search h2 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0);
+    margin-bottom: 10px;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search .form-item .search-btn {
+    padding: 11.5px 60px;
+    border: 1px solid #339cb3;
+    border-radius: 10px;
+    background-color: #339cb3;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  main .section1-sitter .container .s1-sitter-bg .sitter-content .advancedbtn {
+    padding: 18px 22px;
+    margin-top: 50px;
+    width: 230px;
     font-family: "Raleway";
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
-    color: #fff;
-    cursor: pointer;
-    background-color: #339cb3;
-    border: 1px solid #339cb3;
-    border-radius: 10px;
-    padding: 18px 20px;
-    margin-top: 50px;
-  }
-  main .section3-petsitter {
-    padding-top: 100px;
-  }
-  main .section3-petsitter .container {
-    width: 95%;
-    margin: 0 auto;
-  }
-  main .section3-petsitter .container .petsitter-content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 30px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper {
-    max-width: 350px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 6px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card p {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
     align-items: center;
     text-align: center;
     color: #728adf;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-line p {
-    margin-top: 12px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text {
-    max-width: 446px;
-    text-align: left;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text h2 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
-    align-items: center;
-    text-align: left;
-    color: #25282b;
-    margin-bottom: 20px;
-  }
-  main .section3-petsitter .container .petsitter-content .wrapper .sitter-card-text p {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: #25282b;
-    text-align: left;
-  }
-  main .section4-become {
-    padding-top: 128px;
-  }
-  main .section4-become .container {
-    width: 95%;
-    margin: 0 auto;
-  }
-  main .section4-become .container h1 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
-    align-items: center;
-    text-align: center;
-    color: #25282b;
-    margin-bottom: 133px;
-  }
-  main .section4-become .container .become-wrapper {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap-reverse;
-    align-items: center;
-    gap: 30px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: top;
-    gap: 30px;
-    max-width: 350px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card {
-    max-width: 350px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-bottom: 30px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item:last-child {
-    margin-bottom: 0;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item img {
-    display: block;
-    width: auto;
-    margin-right: 20px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr .wrapper-content .become-card .card-item p {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    color: #25282b;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-descr button {
-    margin-top: 50px;
-    padding: 18px 75px;
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19px;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-    cursor: pointer;
-    background-color: #339cb3;
+    background-color: #fff;
+    border: 1px solid rgba(143, 160, 223, 0.25);
     border-radius: 10px;
-    border: 1px solid #339cb3;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-image {
-    display: block;
-    padding: 0px 10px;
-  }
-  main .section4-become .container .become-wrapper .become-wrapper-image img {
-    display: block;
-    width: 100%;
   }
   main .section8-underline {
-    margin-top: 180px;
+    margin-top: 75px; /* changed */
   }
   main .section8-underline .container {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
   }
@@ -4061,4 +3285,4 @@ footer .myfreedom .container p {
     line-height: 27px;
     color: #25282b;
   }
-}/*# sourceMappingURL=service.css.map */
+}/*# sourceMappingURL=sitter.css.map */

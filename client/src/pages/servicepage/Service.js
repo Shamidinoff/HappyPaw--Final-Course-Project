@@ -12,7 +12,7 @@ function Service() {
             <div class="section1-link-content">
               <div class="link-item">
                 <p>Главная</p>
-                <p>&#8250</p>
+                <p>&#8250;</p>
                 <p class="service-link">Услуги</p>
               </div>
             </div>
@@ -29,7 +29,7 @@ function Service() {
                 <div class="wrapper">
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>Знакомство</p>
@@ -37,7 +37,7 @@ function Service() {
 
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>
@@ -47,7 +47,7 @@ function Service() {
 
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>Прогулки 2 раза в день, по привычному расписанию</p>
@@ -55,7 +55,7 @@ function Service() {
 
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>Мытье лапок</p>
@@ -63,7 +63,7 @@ function Service() {
 
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>Кормление по расписанию</p>
@@ -71,7 +71,7 @@ function Service() {
 
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>Игры</p>
@@ -79,7 +79,7 @@ function Service() {
 
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>Уход и забота</p>
@@ -87,7 +87,7 @@ function Service() {
 
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>Фото и видеоотчет</p>
@@ -103,7 +103,7 @@ function Service() {
                 <div class="wrapper">
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>Знакомство</p>
@@ -111,7 +111,7 @@ function Service() {
 
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>
@@ -121,7 +121,7 @@ function Service() {
 
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>Уборка лотка</p>
@@ -129,7 +129,7 @@ function Service() {
 
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>Кормление по расписанию</p>
@@ -137,7 +137,7 @@ function Service() {
 
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>Кормление по расписанию</p>
@@ -145,7 +145,7 @@ function Service() {
 
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>Игры и веселое времяпрепровождение</p>
@@ -153,7 +153,7 @@ function Service() {
 
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>Уход и забота</p>
@@ -161,7 +161,7 @@ function Service() {
 
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>Фото и видеоотчет</p>
@@ -177,7 +177,7 @@ function Service() {
                 <div class="wrapper">
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>Знакомство</p>
@@ -185,7 +185,7 @@ function Service() {
 
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>Выгульщик приезжает к питомцу сам</p>
@@ -193,7 +193,7 @@ function Service() {
 
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>Тренировки (по договоренности)</p>
@@ -201,7 +201,7 @@ function Service() {
 
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>60 минут прогулки на свежем воздухе</p>
@@ -209,7 +209,7 @@ function Service() {
 
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>Игры и веселое времяпрепровождение</p>
@@ -217,7 +217,7 @@ function Service() {
 
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>Мытье лапок после прогулки</p>
@@ -225,7 +225,7 @@ function Service() {
 
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>Кормление</p>
@@ -233,7 +233,7 @@ function Service() {
 
                   <div class="card-item-content">
                     <img
-                      src="images-main/p2-section2-icon.svg"
+                      src="images-service/p2-section2-icon.svg"
                       alt="section2-icon"
                     />
                     <p>Фото и видеоотчет</p>
@@ -316,7 +316,7 @@ function Service() {
                   <div class="become-card">
                     <div class="card-item">
                       <img
-                        src="images-main/p2-section4-checkbox.svg"
+                        src="images-service/p2-section4-checkbox.svg"
                         alt="checkbox"
                       />
                       <p>
@@ -327,7 +327,7 @@ function Service() {
 
                     <div class="card-item">
                       <img
-                        src="images-main/p2-section4-checkbox.svg"
+                        src="images-service/p2-section4-checkbox.svg"
                         alt="checkbox"
                       />
                       <p>
@@ -338,7 +338,7 @@ function Service() {
 
                     <div class="card-item">
                       <img
-                        src="images-main/p2-section4-checkbox.svg"
+                        src="images-service/p2-section4-checkbox.svg"
                         alt="checkbox"
                       />
                       <p>
@@ -352,7 +352,7 @@ function Service() {
                   <div class="become-card">
                     <div class="card-item">
                       <img
-                        src="images-main/p2-section4-checkbox.svg"
+                        src="images-service/p2-section4-checkbox.svg"
                         alt="checkbox"
                       />
                       <p>
@@ -364,7 +364,7 @@ function Service() {
 
                     <div class="card-item">
                       <img
-                        src="images-main/p2-section4-checkbox.svg"
+                        src="images-service/p2-section4-checkbox.svg"
                         alt="checkbox"
                       />
                       <p>
@@ -375,7 +375,7 @@ function Service() {
 
                     <div class="card-item">
                       <img
-                        src="images-main/p2-section4-checkbox.svg"
+                        src="images-service/p2-section4-checkbox.svg"
                         alt="checkbox"
                       />
                       <p>
@@ -391,7 +391,7 @@ function Service() {
 
               <div class="become-wrapper-image">
                 <img
-                  src="images-main/p2-section4-girl.png"
+                  src="images-service/p2-section4-girl.png"
                   alt="girl with dog"
                 />
               </div>
