@@ -104,6 +104,10 @@ header {
   grid-template-columns: 1fr 1fr;
   margin-top: 50px;
 
+  .avatar-container > img {
+    width: 100%;
+  }
+
   @media (max-width: 1200px) {
     display: flex;
     flex-direction: column;
@@ -122,6 +126,10 @@ header {
   }
 
   &__right {
+    @media (max-width: $tablet_media_point) {
+      margin-top: 10px;
+    }
+
     > button {
       display: flex;
       align-items: center;
@@ -179,6 +187,10 @@ header {
   justify-content: flex-end;
   margin-top: 50px;
   gap: 24px;
+
+  @media (max-width: $tablet_media_point) {
+    flex-wrap: wrap;
+  }
 
   &__item {
     font-size: 25px;

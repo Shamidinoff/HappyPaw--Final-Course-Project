@@ -500,8 +500,76 @@ header .header-flex .header-flex-reg .log-in {
     color: #728adf;
     cursor: pointer;
   }
+  footer .container {
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  footer .container .footer-logo {
+    padding: 50px 0;
+  }
+  footer .container .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .container .footer-content .footer-content-item h3 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+    align-items: center;
+    text-align: left;
+    color: #728adf;
+    margin-bottom: 30px;
+  }
+  footer .container .footer-content .footer-content-item .a-list {
+    margin-bottom: 20px;
+  }
+  footer .container .footer-content .footer-content-item .a-list:last-child {
+    margin-bottom: 0px;
+  }
+  footer .container .footer-content .footer-content-item .a-list a {
+    text-decoration: none;
+  }
+  footer .container .footer-content .footer-content-item .a-list a p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #25282b;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list {
+    margin-right: 27px;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:last-child {
+    margin-right: 200px; /* last-child - 200px */
+  }
+  footer .myfreedom {
+    margin-top: 50px;
+    background-color: rgba(51, 156, 179, 0.25);
+    padding: 17px 0;
+  }
+  footer .myfreedom .container {
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: right;
+  }
+  footer .myfreedom .container p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #25282b;
+  }
 }
-@media (max-width: 1615px) {
+@media (max-width: 1685px) {
   header {
     padding: 44px 0;
   }
@@ -593,6 +661,74 @@ header .header-flex .header-flex-reg .log-in {
     text-align: center;
     color: #728adf;
     cursor: pointer;
+  }
+  footer .container {
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  footer .container .footer-logo {
+    padding: 50px 0;
+  }
+  footer .container .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .container .footer-content .footer-content-item h3 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+    align-items: center;
+    text-align: left;
+    color: #728adf;
+    margin-bottom: 30px;
+  }
+  footer .container .footer-content .footer-content-item .a-list {
+    margin-bottom: 20px;
+  }
+  footer .container .footer-content .footer-content-item .a-list:last-child {
+    margin-bottom: 0px;
+  }
+  footer .container .footer-content .footer-content-item .a-list a {
+    text-decoration: none;
+  }
+  footer .container .footer-content .footer-content-item .a-list a p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #25282b;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list {
+    margin-right: 27px;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:last-child {
+    margin-right: 200px; /* last-child - 200px */
+  }
+  footer .myfreedom {
+    margin-top: 50px;
+    background-color: rgba(51, 156, 179, 0.25);
+    padding: 17px 0;
+  }
+  footer .myfreedom .container {
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: right;
+  }
+  footer .myfreedom .container p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #25282b;
   }
 }
 @media (max-width: 1250px) {
@@ -688,6 +824,82 @@ header .header-flex .header-flex-reg .log-in {
     color: #728adf;
     cursor: pointer;
   }
+  footer .container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  footer .container .footer-logo {
+    padding: 50px 0;
+  }
+  footer .container .footer-content {
+    display: flex;
+    justify-content: center; /* changed */
+    flex-wrap: wrap;
+  }
+  footer .container .footer-content .footer-content-item {
+    padding: 30px 30px; /* changed */
+  }
+  footer .container .footer-content .footer-content-item h3 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+    align-items: center;
+    text-align: left;
+    color: #728adf;
+    margin-bottom: 30px;
+  }
+  footer .container .footer-content .footer-content-item .a-list {
+    margin-bottom: 20px;
+  }
+  footer .container .footer-content .footer-content-item .a-list:last-child {
+    margin-bottom: 0px;
+  }
+  footer .container .footer-content .footer-content-item .a-list a {
+    text-decoration: none;
+  }
+  footer .container .footer-content .footer-content-item .a-list a p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #25282b;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* width: 100px; */
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list {
+    margin-right: 0px;
+    padding: 30px 30px; /* changed */
+    max-width: 200px;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:last-child {
+    margin-right: 0;
+  }
+  footer .myfreedom {
+    margin-top: 50px;
+    background-color: rgba(51, 156, 179, 0.25);
+    padding: 17px 0;
+  }
+  footer .myfreedom .container {
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: right;
+  }
+  footer .myfreedom .container p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #25282b;
+  }
 }
 @media (max-width: 1000px) {
   header {
@@ -779,6 +991,82 @@ header .header-flex .header-flex-reg .log-in {
     text-align: center;
     color: #728adf;
     cursor: pointer;
+  }
+  footer .container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  footer .container .footer-logo {
+    padding: 50px 0;
+  }
+  footer .container .footer-content {
+    display: flex;
+    justify-content: center; /* changed */
+    flex-wrap: wrap;
+  }
+  footer .container .footer-content .footer-content-item {
+    padding: 30px 30px; /* changed */
+  }
+  footer .container .footer-content .footer-content-item h3 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+    align-items: center;
+    text-align: left;
+    color: #728adf;
+    margin-bottom: 30px;
+  }
+  footer .container .footer-content .footer-content-item .a-list {
+    margin-bottom: 20px;
+  }
+  footer .container .footer-content .footer-content-item .a-list:last-child {
+    margin-bottom: 0px;
+  }
+  footer .container .footer-content .footer-content-item .a-list a {
+    text-decoration: none;
+  }
+  footer .container .footer-content .footer-content-item .a-list a p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #25282b;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* width: 100px; */
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list {
+    margin-right: 0px;
+    padding: 30px 30px; /* changed */
+    max-width: 200px;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:last-child {
+    margin-right: 0;
+  }
+  footer .myfreedom {
+    margin-top: 50px;
+    background-color: rgba(51, 156, 179, 0.25);
+    padding: 17px 0;
+  }
+  footer .myfreedom .container {
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: right;
+  }
+  footer .myfreedom .container p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #25282b;
   }
 }
 @media (max-width: 768px) {
@@ -885,6 +1173,82 @@ header .header-flex .header-flex-reg .log-in {
     color: #728adf;
     cursor: pointer;
   }
+  footer .container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  footer .container .footer-logo {
+    padding: 50px 0;
+  }
+  footer .container .footer-content {
+    display: flex;
+    justify-content: center; /* changed */
+    flex-wrap: wrap;
+  }
+  footer .container .footer-content .footer-content-item {
+    padding: 30px 30px; /* changed */
+  }
+  footer .container .footer-content .footer-content-item h3 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+    align-items: center;
+    text-align: left;
+    color: #728adf;
+    margin-bottom: 30px;
+  }
+  footer .container .footer-content .footer-content-item .a-list {
+    margin-bottom: 20px;
+  }
+  footer .container .footer-content .footer-content-item .a-list:last-child {
+    margin-bottom: 0px;
+  }
+  footer .container .footer-content .footer-content-item .a-list a {
+    text-decoration: none;
+  }
+  footer .container .footer-content .footer-content-item .a-list a p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #25282b;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* width: 100px; */
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list {
+    margin-right: 0px;
+    padding: 30px 30px; /* changed */
+    max-width: 200px;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:last-child {
+    margin-right: 0;
+  }
+  footer .myfreedom {
+    margin-top: 50px;
+    background-color: rgba(51, 156, 179, 0.25);
+    padding: 17px 0;
+  }
+  footer .myfreedom .container {
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: right;
+  }
+  footer .myfreedom .container p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #25282b;
+  }
 }
 @media (max-width: 685px) {
   header {
@@ -989,6 +1353,82 @@ header .header-flex .header-flex-reg .log-in {
     text-align: center;
     color: #728adf;
     cursor: pointer;
+  }
+  footer .container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  footer .container .footer-logo {
+    padding: 50px 0;
+  }
+  footer .container .footer-content {
+    display: flex;
+    justify-content: center; /* changed */
+    flex-wrap: wrap;
+  }
+  footer .container .footer-content .footer-content-item {
+    padding: 30px 30px; /* changed */
+  }
+  footer .container .footer-content .footer-content-item h3 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+    align-items: center;
+    text-align: left;
+    color: #728adf;
+    margin-bottom: 30px;
+  }
+  footer .container .footer-content .footer-content-item .a-list {
+    margin-bottom: 20px;
+  }
+  footer .container .footer-content .footer-content-item .a-list:last-child {
+    margin-bottom: 0px;
+  }
+  footer .container .footer-content .footer-content-item .a-list a {
+    text-decoration: none;
+  }
+  footer .container .footer-content .footer-content-item .a-list a p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #25282b;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* width: 100px; */
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list {
+    margin-right: 0px;
+    padding: 30px 30px; /* changed */
+    max-width: 200px;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:last-child {
+    margin-right: 0;
+  }
+  footer .myfreedom {
+    margin-top: 50px;
+    background-color: rgba(51, 156, 179, 0.25);
+    padding: 17px 0;
+  }
+  footer .myfreedom .container {
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: right;
+  }
+  footer .myfreedom .container p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #25282b;
   }
 }
 @media (max-width: 550px) {
@@ -1096,6 +1536,87 @@ header .header-flex .header-flex-reg .log-in {
     color: #728adf;
     cursor: pointer;
   }
+  footer .container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  footer .container .footer-logo {
+    padding: 50px 0;
+  }
+  footer .container .footer-content {
+    display: flex;
+    justify-content: center; /* changed */
+    flex-wrap: wrap;
+  }
+  footer .container .footer-content .footer-content-item {
+    padding: 30px 30px; /* changed */
+    width: 350px;
+  }
+  footer .container .footer-content .footer-content-item h3 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+    align-items: center;
+    text-align: left;
+    color: #728adf;
+    margin-bottom: 30px;
+  }
+  footer .container .footer-content .footer-content-item .a-list {
+    margin-bottom: 20px;
+  }
+  footer .container .footer-content .footer-content-item .a-list:last-child {
+    margin-bottom: 0px;
+  }
+  footer .container .footer-content .footer-content-item .a-list a {
+    text-decoration: none;
+  }
+  footer .container .footer-content .footer-content-item .a-list a p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #25282b;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: left;
+    /* width: 100px; */
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list {
+    margin-right: 0px;
+    padding: 10px 10px; /* changed */
+    max-width: 350px;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:first-child {
+    padding-left: 0;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:last-child {
+    margin-right: 0;
+  }
+  footer .myfreedom {
+    margin-top: 50px;
+    background-color: rgba(51, 156, 179, 0.25);
+    padding: 17px 0;
+  }
+  footer .myfreedom .container {
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: right;
+  }
+  footer .myfreedom .container p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #25282b;
+  }
 }
 @media (max-width: 488px) {
   header {
@@ -1201,6 +1722,87 @@ header .header-flex .header-flex-reg .log-in {
     text-align: center;
     color: #728adf;
     cursor: pointer;
+  }
+  footer .container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  footer .container .footer-logo {
+    padding: 50px 0;
+  }
+  footer .container .footer-content {
+    display: flex;
+    justify-content: center; /* changed */
+    flex-wrap: wrap;
+  }
+  footer .container .footer-content .footer-content-item {
+    padding: 30px 30px; /* changed */
+    width: 350px;
+  }
+  footer .container .footer-content .footer-content-item h3 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+    align-items: center;
+    text-align: left;
+    color: #728adf;
+    margin-bottom: 30px;
+  }
+  footer .container .footer-content .footer-content-item .a-list {
+    margin-bottom: 20px;
+  }
+  footer .container .footer-content .footer-content-item .a-list:last-child {
+    margin-bottom: 0px;
+  }
+  footer .container .footer-content .footer-content-item .a-list a {
+    text-decoration: none;
+  }
+  footer .container .footer-content .footer-content-item .a-list a p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #25282b;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: left;
+    /* width: 100px; */
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list {
+    margin-right: 0px;
+    padding: 10px 10px; /* changed */
+    max-width: 350px;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:first-child {
+    padding-left: 0;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:last-child {
+    margin-right: 0;
+  }
+  footer .myfreedom {
+    margin-top: 50px;
+    background-color: rgba(51, 156, 179, 0.25);
+    padding: 17px 0;
+  }
+  footer .myfreedom .container {
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: right;
+  }
+  footer .myfreedom .container p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #25282b;
   }
 }
 .search-header {
