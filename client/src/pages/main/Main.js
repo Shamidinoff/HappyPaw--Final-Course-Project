@@ -1,4 +1,5 @@
 import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
 import "./main.css";
 
 function Main() {
@@ -57,7 +58,7 @@ function Main() {
                         <label>Выберите даты</label>
                         <button class="calendar-btn">
                           <img
-                            src="images-main/1.1-calendar-icon.svg"
+                            src="/images-main/1.1-calendar-icon.svg"
                             alt="calendar-icon"
                           />
                         </button>
@@ -82,7 +83,7 @@ function Main() {
             <h2>Наши услуги</h2>
             <div class="service-cards">
               <div class="card-item">
-                <img src="../images-main/2.1-cat.png" alt="cat" />
+                <img src="/images-main/2.1-cat.png" alt="cat" />
                 <h3>Няня для животных</h3>
                 <p>
                   Нужно срочно уехать и не с кем оставить домашнего питомца?
@@ -93,7 +94,7 @@ function Main() {
               </div>
 
               <div class="card-item">
-                <img src="../images-main/2.2-dog.png" alt="cat" />
+                <img src="/images-main/2.2-dog.png" alt="cat" />
                 <h3>Выгул собак</h3>
                 <p>
                   Если вам пришлось задержаться на работе, уехать на какое-то
@@ -104,7 +105,7 @@ function Main() {
               </div>
 
               <div class="card-item">
-                <img src="../images-main/2.3-dog-girl.png" alt="cat" />
+                <img src="/images-main/2.3-dog-girl.png" alt="cat" />
                 <h3>Стать пэтситтером</h3>
                 <p>
                   Если вы хотите попробовать себя в роли ситтера или выгульщика
@@ -123,7 +124,7 @@ function Main() {
             <div class="why-cards">
               <div class="why-item">
                 <div class="why-item-list">
-                  <img src="../images-main/3.0-checkbox.svg" alt="checkbox" />
+                  <img src="/images-main/3.0-checkbox.svg" alt="checkbox" />
                   <p>
                     Все наши пэтситтеры прошли специальное обучение и
                     верификацию личности
@@ -131,14 +132,14 @@ function Main() {
                 </div>
 
                 <div class="why-item-list">
-                  <img src="../images-main/3.0-checkbox.svg" alt="checkbox" />
+                  <img src="/images-main/3.0-checkbox.svg" alt="checkbox" />
                   <p>
                     Удобная и понятная платформа и анкеты по подбору ситтеров
                   </p>
                 </div>
 
                 <div class="why-item-list">
-                  <img src="../images-main/3.0-checkbox.svg" alt="checkbox" />
+                  <img src="/images-main/3.0-checkbox.svg" alt="checkbox" />
                   <p>Все отзывы наших пользователей прошли проверку </p>
                 </div>
                 <button>Найти пэтситтера &#8594;</button>
@@ -146,7 +147,7 @@ function Main() {
 
               <div class="why-item">
                 <div class="why-item-list">
-                  <img src="../images-main/3.0-checkbox.svg" alt="checkbox" />
+                  <img src="/images-main/3.0-checkbox.svg" alt="checkbox" />
                   <p>
                     Возможность личной встречи с ситтером перед его встречей с
                     питомцем
@@ -154,12 +155,12 @@ function Main() {
                 </div>
 
                 <div class="why-item-list">
-                  <img src="../images-main/3.0-checkbox.svg" alt="checkbox" />
+                  <img src="/images-main/3.0-checkbox.svg" alt="checkbox" />
                   <p>GPS карты прогулок и видео- фотоотчет от пэтситтера</p>
                 </div>
 
                 <div class="why-item-list">
-                  <img src="../images-main/3.0-checkbox.svg" alt="checkbox" />
+                  <img src="/images-main/3.0-checkbox.svg" alt="checkbox" />
                   <p>
                     Поддержка менеджеров платформы и связь с пэтситтером 24/7
                   </p>
@@ -169,10 +170,7 @@ function Main() {
 
               <div class="why-item-img">
                 <div class="why-item-card">
-                  <img
-                    src="../images-main/3.1-cat-why-we.png"
-                    alt="cat-why-we"
-                  />
+                  <img src="/images-main/3.1-cat-why-we.png" alt="cat-why-we" />
                 </div>
               </div>
             </div>
@@ -185,7 +183,7 @@ function Main() {
             <div class="about-cards">
               <div class="about-item">
                 <img
-                  src="../images-main/4.1-hand-cat-girl.png"
+                  src="/images-main/4.1-hand-cat-girl.png"
                   alt="hand-cat-girl"
                 />
               </div>
@@ -243,7 +241,7 @@ function Main() {
 
                     <div class="btn-content">
                       <img
-                        src="../images-main/5.0-arrow-down.svg"
+                        src="/images-main/5.0-arrow-down.svg"
                         alt="arrow-down"
                       />
                     </div>
@@ -259,7 +257,7 @@ function Main() {
 
                     <div class="btn-content">
                       <img
-                        src="../images-main/5.0-arrow-down.svg"
+                        src="/images-main/5.0-arrow-down.svg"
                         alt="arrow-down"
                       />
                     </div>
@@ -272,7 +270,7 @@ function Main() {
 
                     <div class="btn-content">
                       <img
-                        src="../images-main/5.0-arrow-down.svg"
+                        src="/images-main/5.0-arrow-down.svg"
                         alt="arrow-down"
                       />
                     </div>
@@ -285,7 +283,7 @@ function Main() {
 
                     <div class="btn-content">
                       <img
-                        src="../images-main/5.0-arrow-down.svg"
+                        src="/images-main/5.0-arrow-down.svg"
                         alt="arrow-down"
                       />
                     </div>
@@ -298,7 +296,7 @@ function Main() {
 
                     <div class="btn-content">
                       <img
-                        src="../images-main/5.0-arrow-down.svg"
+                        src="/images-main/5.0-arrow-down.svg"
                         alt="arrow-down"
                       />
                     </div>
@@ -311,7 +309,7 @@ function Main() {
 
                     <div class="btn-content">
                       <img
-                        src="../images-main/5.0-arrow-down.svg"
+                        src="/images-main/5.0-arrow-down.svg"
                         alt="arrow-down"
                       />
                     </div>
@@ -321,7 +319,7 @@ function Main() {
 
               <div class="question-item-img">
                 <img
-                  src="../images-main/5.1-dog-with-glasses.png"
+                  src="/images-main/5.1-dog-with-glasses.png"
                   alt="hand-cat-girl"
                 />
 
@@ -340,23 +338,20 @@ function Main() {
             <div class="article-cards">
               <div class="card-item">
                 <img
-                  src="../images-main/6.1-cat-our-last-posts.png"
+                  src="/images-main/6.1-cat-our-last-posts.png"
                   alt="cat-our-last-posts"
                 />
 
                 <div class="date-content">
                   <div class="date-item">
                     <img
-                      src="../images-main/6.0.1-calendar-icon.svg"
+                      src="/images-main/6.0.1-calendar-icon.svg"
                       alt="calendar-icon"
                     />
                     <p>25 Августа, 2022</p>
                   </div>
                   <div class="date-item">
-                    <img
-                      src="../images-main/6.0.2-eye-icon.svg"
-                      alt="eye-icon"
-                    />
+                    <img src="/images-main/6.0.2-eye-icon.svg" alt="eye-icon" />
                     <p>181</p>
                   </div>
                 </div>
@@ -370,21 +365,18 @@ function Main() {
               </div>
 
               <div class="card-item">
-                <img src="../images-main/6.2-dog.png" alt="dog" />
+                <img src="/images-main/6.2-dog.png" alt="dog" />
 
                 <div class="date-content">
                   <div class="date-item">
                     <img
-                      src="../images-main/6.0.1-calendar-icon.svg"
+                      src="/images-main/6.0.1-calendar-icon.svg"
                       alt="calendar-icon"
                     />
                     <p>20 Августа, 2022</p>
                   </div>
                   <div class="date-item">
-                    <img
-                      src="../images-main/6.0.2-eye-icon.svg"
-                      alt="eye-icon"
-                    />
+                    <img src="/images-main/6.0.2-eye-icon.svg" alt="eye-icon" />
                     <p>98</p>
                   </div>
                 </div>
@@ -398,21 +390,18 @@ function Main() {
               </div>
 
               <div class="card-item">
-                <img src="../images-main/6.3-two-dogs.png" alt="two-dogs" />
+                <img src="/images-main/6.3-two-dogs.png" alt="two-dogs" />
 
                 <div class="date-content">
                   <div class="date-item">
                     <img
-                      src="../images-main/6.0.1-calendar-icon.svg"
+                      src="/images-main/6.0.1-calendar-icon.svg"
                       alt="calendar-icon"
                     />
                     <p>14 Августа, 2022</p>
                   </div>
                   <div class="date-item">
-                    <img
-                      src="../images-main/6.0.2-eye-icon.svg"
-                      alt="eye-icon"
-                    />
+                    <img src="/images-main/6.0.2-eye-icon.svg" alt="eye-icon" />
                     <p>101</p>
                   </div>
                 </div>
@@ -426,24 +415,18 @@ function Main() {
               </div>
 
               <div class="card-item">
-                <img
-                  src="../images-main/6.4-cat-and-dog.png"
-                  alt="cat-and-dog"
-                />
+                <img src="/images-main/6.4-cat-and-dog.png" alt="cat-and-dog" />
 
                 <div class="date-content">
                   <div class="date-item">
                     <img
-                      src="../images-main/6.0.1-calendar-icon.svg"
+                      src="/images-main/6.0.1-calendar-icon.svg"
                       alt="calendar-icon"
                     />
                     <p>09 Августа, 2022</p>
                   </div>
                   <div class="date-item">
-                    <img
-                      src="../images-main/6.0.2-eye-icon.svg"
-                      alt="eye-icon"
-                    />
+                    <img src="/images-main/6.0.2-eye-icon.svg" alt="eye-icon" />
                     <p>135</p>
                   </div>
                 </div>
@@ -469,7 +452,7 @@ function Main() {
             <div class="reviews-cards">
               <div class="card-item">
                 <div class="user-picture">
-                  <img src="../images-main/7.1-veronika.png" alt="veronika" />
+                  <img src="/images-main/7.1-veronika.png" alt="veronika" />
                 </div>
 
                 <div class="user-content">
@@ -484,7 +467,7 @@ function Main() {
                   <div class="user-location">
                     <div class="map-city">
                       <img
-                        src="../images-main/7.0.1-location-icon.svg"
+                        src="/images-main/7.0.1-location-icon.svg"
                         alt="location-icon"
                       />
                       <p>Минск</p>
@@ -498,7 +481,7 @@ function Main() {
 
               <div class="card-item">
                 <div class="user-picture">
-                  <img src="../images-main/7.2-nikita.png" alt="nikita" />
+                  <img src="/images-main/7.2-nikita.png" alt="nikita" />
                 </div>
 
                 <div class="user-content">
@@ -512,7 +495,7 @@ function Main() {
                   <div class="user-location">
                     <div class="map-city">
                       <img
-                        src="../images-main/7.0.1-location-icon.svg"
+                        src="/images-main/7.0.1-location-icon.svg"
                         alt="location-icon"
                       />
                       <p>Минск</p>
@@ -526,7 +509,7 @@ function Main() {
 
               <div class="card-item">
                 <div class="user-picture">
-                  <img src="../images-main/7.3-irina.png" alt="irina" />
+                  <img src="/images-main/7.3-irina.png" alt="irina" />
                 </div>
 
                 <div class="user-content">
@@ -540,7 +523,7 @@ function Main() {
                   <div class="user-location">
                     <div class="map-city">
                       <img
-                        src="../images-main/7.0.1-location-icon.svg"
+                        src="/images-main/7.0.1-location-icon.svg"
                         alt="location-icon"
                       />
                       <p>Логойск</p>
@@ -565,6 +548,7 @@ function Main() {
           </div>
         </section>
       </main>
+      <Footer />
     </div>
   );
 }

@@ -26,14 +26,15 @@ header {
 
         .burger-menu {
           display: none; /* display - block when phone version */
-          background-image: url(../images-main/0-1-menu-burger.png);
+          background-image: url(/public/images-main/0-1-menu-burger.png);
           background-size: cover;
           width: 50px;
           height: 50px;
+          // color: white;
         }
         .close-menu {
           display: none; /* close menu icon */
-          background-image: url(../images-main/0-2-close-menu.png);
+          background-image: url(/public/images-main/0-2-close-menu.png);
           background-size: cover;
           width: 50px;
           height: 50px;
@@ -116,7 +117,7 @@ header {
 
 main {
   .section1-page {
-    background-image: url(../images-main/1.1-main-bg-picture.png);
+    background-image: url(/public/images-main/1.1-main-bg-picture.png);
     width: auto;
     height: 1000px; // max-height - 100% or auto
     background-size: cover;
@@ -1015,14 +1016,15 @@ footer {
         align-items: center;
         .burger-menu {
           display: none; /* display - block when phone version */
-          background-image: url(../images-main/0-1-menu-burger.png);
+          background-image: url(/public/images-main/0-1-menu-burger.png);
           background-size: cover;
           width: 50px;
           height: 50px;
+          background-size: 50px;
         }
         .close-menu {
           display: none; /* close menu icon */
-          background-image: url(../images-main/0-2-close-menu.png);
+          background-image: url(/public/images-main/0-2-close-menu.png);
           background-size: cover;
           width: 50px;
           height: 50px;
@@ -1106,7 +1108,7 @@ footer {
 
   main {
     .section1-page {
-      background-image: url(../images-main/1.1-main-bg-picture.png);
+      background-image: url(/public/images-main/1.1-main-bg-picture.png);
       width: auto;
       height: 1000px; // max-height - 100% or auto
       background-size: cover;
@@ -2006,14 +2008,14 @@ footer {
         align-items: center;
         .burger-menu {
           display: none; /* display - block when phone version */
-          background-image: url(../images-main/0-1-menu-burger.png);
+          background-image: url(/public/images-main/0-1-menu-burger.png);
           background-size: cover;
           width: 50px;
           height: 50px;
         }
         .close-menu {
           display: none; /* close menu icon */
-          background-image: url(../images-main/0-2-close-menu.png);
+          background-image: url(/public/images-main/0-2-close-menu.png);
           background-size: cover;
           width: 50px;
           height: 50px;
@@ -2097,7 +2099,7 @@ footer {
 
   main {
     .section1-page {
-      background-image: url(../images-main/1.1-main-bg-picture.png);
+      background-image: url(/public/images-main/1.1-main-bg-picture.png);
       width: auto;
       height: 1000px; // max-height - 100% or auto
       background-size: cover;
@@ -3027,14 +3029,14 @@ footer {
         align-items: center;
         .burger-menu {
           display: none; /* display - block when phone version */
-          background-image: url(../images-main/0-1-menu-burger.png);
+          background-image: url(/public/images-main/0-1-menu-burger.png);
           background-size: cover;
           width: 50px;
           height: 50px;
         }
         .close-menu {
           display: none; /* close menu icon */
-          background-image: url(../images-main/0-2-close-menu.png);
+          background-image: url(/public/images-main/0-2-close-menu.png);
           background-size: cover;
           width: 50px;
           height: 50px;
@@ -3118,7 +3120,7 @@ footer {
 
   main {
     .section1-page {
-      background-image: url(../images-main/1.1-main-bg-picture.png);
+      background-image: url(/public/images-main/1.1-main-bg-picture.png);
       width: auto;
       height: 1000px; // max-height - 100% or auto
       background-size: cover;
@@ -4058,7 +4060,7 @@ footer {
 
           .burger-menu {
             display: block; /* display - block when phone version */
-            background-image: url(../images-main/0-1-menu-burger.png);
+            background-image: url(/public/images-main/0-1-menu-burger.png);
             background-size: cover;
             width: 50px;
             height: 50px;
@@ -4067,7 +4069,7 @@ footer {
           }
           .close-menu {
             display: block; /* close menu icon */
-            background-image: url(../images-main/0-2-close-menu.png);
+            background-image: url(/public/images-main/0-2-close-menu.png);
             background-size: cover;
             width: 50px;
             height: 50px;
@@ -4158,7 +4160,7 @@ footer {
 
   main {
     .section1-page {
-      background-image: url(../images-main/1.1-main-bg-picture.png);
+      background-image: url(/public/images-main/1.1-main-bg-picture.png);
       width: auto;
       height: 1000px; // max-height - 100% or auto
       background-size: cover;
@@ -5102,7 +5104,7 @@ footer {
 
           .burger-menu {
             display: block; /* display - block when phone version */
-            background-image: url(../images-main/0-1-menu-burger.png);
+            background-image: url(/public/images-main/0-1-menu-burger.png);
             background-size: cover;
             width: 50px;
             height: 50px;
@@ -5111,7 +5113,7 @@ footer {
           }
           .close-menu {
             display: block; /* close menu icon */
-            background-image: url(../images-main/0-2-close-menu.png);
+            background-image: url(/public/images-main/0-2-close-menu.png);
             background-size: cover;
             width: 50px;
             height: 50px;
@@ -5202,7 +5204,7 @@ footer {
 
   main {
     .section1-page {
-      background-image: url(../images-main/1.1-main-bg-picture.png);
+      background-image: url(/public/images-main/1.1-main-bg-picture.png);
       width: auto;
       height: 1000px; // max-height - 100% or auto
       background-size: cover;
@@ -6153,7 +6155,7 @@ footer {
 
           .burger-menu {
             display: block; /* display - block when phone version */
-            background-image: url(../images-main/0-1-menu-burger.png);
+            background-image: url(/public/images-main/0-1-menu-burger.png);
             background-size: cover;
             width: 50px;
             height: 50px;
@@ -6162,7 +6164,7 @@ footer {
           }
           .close-menu {
             display: block; /* close menu icon */
-            background-image: url(../images-main/0-2-close-menu.png);
+            background-image: url(/public/images-main/0-2-close-menu.png);
             background-size: cover;
             width: 50px;
             height: 50px;
@@ -6253,7 +6255,7 @@ footer {
 
   main {
     .section1-page {
-      background-image: url(../images-main/1.1-main-bg-picture.png);
+      background-image: url(/public/images-main/1.1-main-bg-picture.png);
       width: auto;
       height: 920px; // max-height - 100% or auto
       background-size: cover;
@@ -7210,7 +7212,7 @@ footer {
 
           .burger-menu {
             display: block; /* display - block when phone version */
-            background-image: url(../images-main/0-1-menu-burger.png);
+            background-image: url(/public/images-main/0-1-menu-burger.png);
             background-size: cover;
             width: 50px;
             height: 50px;
@@ -7219,7 +7221,7 @@ footer {
           }
           .close-menu {
             display: block; /* close menu icon */
-            background-image: url(../images-main/0-2-close-menu.png);
+            background-image: url(/public/images-main/0-2-close-menu.png);
             background-size: cover;
             width: 50px;
             height: 50px;
@@ -7310,7 +7312,7 @@ footer {
 
   main {
     .section1-page {
-      background-image: url(../images-main/1.1-main-bg-picture.png);
+      background-image: url(/public/images-main/1.1-main-bg-picture.png);
       width: auto;
       height: 920px; // max-height - 100% or auto
       background-size: cover;
