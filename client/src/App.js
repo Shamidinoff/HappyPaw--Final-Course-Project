@@ -1,4 +1,5 @@
 import "./App.css";
+import Blog1 from "./pages/Ayazhan/blog1/Blog1";
 import LoginPage from "./pages/loginPage/LoginPage";
 import Main from "./pages/main/Main";
 import OwnerPage from "./pages/ownerPage/OwnerPage";
@@ -10,13 +11,14 @@ import SitterSearch2 from "./pages/sitterSearch2/SitterSearch2";
 function App() {
   return (
     <div className="App">
-      <Main />
+      {/* <Main /> */}
       {/*  <Service /> */}
       {/* <SitterSearch1 /> */}
       {/* <SitterSearch2 /> */}
       {/* <PersonalPage /> */}
       {/* <OwnerPage /> */}
       {/* <LoginPage /> */}
+      <Blog1 />
     </div>
   );
 }
