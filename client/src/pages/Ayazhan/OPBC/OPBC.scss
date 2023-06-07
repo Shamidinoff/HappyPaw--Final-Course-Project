@@ -1,0 +1,135 @@
+@import "../common.scss";
+
+.text2 {
+  font-size: 25px;
+}
+
+.head3_blue {
+  font-size: 31px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  color: $h3_color;
+}
+
+header {
+  .header-flex-reg {
+    // max-width: 153px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    .account {
+      text-decoration: none;
+      list-style: none;
+
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 27px;
+      align-items: center;
+      color: #25282b;
+    }
+
+    .log_out {
+      text-decoration: none;
+      list-style: none;
+
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 27px;
+      align-items: center;
+      color: #728adf;
+    }
+  }
+}
+
+.nav1_opm {
+  @include flex(flex, row, none);
+  background-color: #f8f8f8;
+  font-family: $a1_font;
+  padding: 46px 0;
+  font-size: 20px;
+  line-height: 27px;
+  text-decoration: none;
+  margin-bottom: 50px;
+
+  img {
+    padding: 0 10px 0 10px;
+  }
+
+  .main {
+    color: $a_black;
+    text-decoration: none;
+  }
+
+  .my_account {
+    color: $a_black;
+    text-decoration: none;
+  }
+
+  .messages_nav1 {
+    color: #339cb3;
+    text-decoration: none;
+  }
+}
+
+.nav2_opm {
+  @include flex(flex, row, none);
+  gap: 8px;
+
+  a {
+    font-family: $a1_font;
+    font-size: 20px;
+    line-height: 27.24px;
+    text-decoration: none;
+    color: $a_black;
+    padding-right: 16px;
+  }
+}
+
+.main_opb {
+  .tabs {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    gap: 24px;
+
+    &__item {
+      font-size: 25px;
+      padding: 6px;
+
+      @media (max-width: $tablet_media_point) {
+        font-size: 16px;
+      }
+    }
+
+    &__item-active {
+      border-bottom: 1px solid $h2_color;
+    }
+  }
+
+  .content {
+    @include flex(flex, row, center);
+    padding: 262px 0;
+    justify-content: center;
+
+    > h2 {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 56px;
+
+      /* Ui/Text */
+
+      color: #25282b;
+    }
+  }
+
+  margin-bottom: 97px;
+}

@@ -1,5 +1,12 @@
 import "./App.css";
+import Contacts from "./pages/Ayazhan/Contacts/Contacts";
+import Opb from "./pages/Ayazhan/OPB/Opb";
+import Opbc from "./pages/Ayazhan/OPBC/Opbc";
+import Opbpo from "./pages/Ayazhan/OPBPO/Opbpo";
+import Opm from "./pages/Ayazhan/OPM/Opm";
+import Search from "./pages/Ayazhan/Search/Search";
 import Blog1 from "./pages/Ayazhan/blog1/Blog1";
+import Blog2 from "./pages/Ayazhan/blog2/Blog2";
 import LoginPage from "./pages/loginPage/LoginPage";
 import Main from "./pages/main/Main";
 import OwnerPage from "./pages/ownerPage/OwnerPage";
@@ -19,6 +26,13 @@ function App() {
       {/* <OwnerPage /> */}
       {/* <LoginPage /> */}
       <Blog1 />
+      {/* <Blog2 /> */}
+      {/* <Contacts /> */}
+      {/* <Opb /> */}
+      {/* <Opbc /> */}
+      {/* <Opbpo /> */}
+      {/* <Opm /> */}
+      {/* <Search /> */}
     </div>
   );
 }

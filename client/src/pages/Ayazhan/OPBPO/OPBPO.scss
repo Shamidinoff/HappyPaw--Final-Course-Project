@@ -1,0 +1,293 @@
+@import "../common.scss";
+
+header {
+  .header-flex-reg {
+    // max-width: 153px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    .account {
+      text-decoration: none;
+      list-style: none;
+
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 27px;
+      align-items: center;
+      color: #25282b;
+    }
+
+    .log_out {
+      text-decoration: none;
+      list-style: none;
+
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 27px;
+      align-items: center;
+      color: #728adf;
+    }
+  }
+}
+
+.nav1_opm {
+  @include flex(flex, row, none);
+  background-color: #f8f8f8;
+  font-family: $a1_font;
+  padding: 46px 0;
+  font-size: 20px;
+  line-height: 27px;
+  text-decoration: none;
+  margin-bottom: 50px;
+
+  img {
+    padding: 0 10px 0 10px;
+  }
+
+  .main {
+    color: $a_black;
+    text-decoration: none;
+  }
+
+  .my_account {
+    color: $a_black;
+    text-decoration: none;
+  }
+
+  .messages_nav1 {
+    color: #339cb3;
+    text-decoration: none;
+  }
+}
+
+.nav2_opm {
+  @include flex(flex, row, none);
+  gap: 8px;
+
+  a {
+    font-family: $a1_font;
+    font-size: 20px;
+    line-height: 27.24px;
+    text-decoration: none;
+    color: $a_black;
+    padding-right: 16px;
+  }
+}
+
+.main_opb {
+  .tabs {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    gap: 24px;
+    flex-wrap: wrap;
+
+    &__item {
+      font-size: 25px;
+      padding: 6px;
+
+      @media (max-width: $tablet_media_point) {
+        font-size: 16px;
+      }
+    }
+
+    &__item-active {
+      border-bottom: 1px solid $h2_color;
+    }
+  }
+
+  margin-bottom: 97px;
+}
+
+.headlines_opbpo {
+  @include flex(flex, row, none);
+  border-bottom: 1px solid $h2_color;
+  max-width: 1315px;
+
+  h3 {
+    font-family: $h3_font;
+    color: $h3_black;
+    font-size: 31px;
+    line-height: 36px;
+
+    @media (max-width: 1355px) {
+      font-size: 20px;
+    }
+
+    @media (max-width: 915px) {
+      font-size: 16px;
+    }
+  }
+
+  .date_opbpo {
+    margin-right: 159px;
+
+    @media (max-width: 1355px) {
+      margin-right: 110px;
+    }
+    @media (max-width: 915px) {
+      margin-right: 90px;
+    }
+  }
+}
+
+.service_opbpo {
+  margin-right: 128px;
+
+  @media (max-width: 1355px) {
+    margin-right: 83px;
+  }
+  @media (max-width: 915px) {
+    margin-right: 60px;
+  }
+}
+
+.nanny_opbpo {
+  margin-right: 100px;
+
+  @media (max-width: 1355px) {
+    margin-right: 37px;
+  }
+  @media (max-width: 915px) {
+    margin-right: 45px;
+  }
+}
+
+.payment_opbpo {
+  margin-right: 181px;
+
+  @media (max-width: 1355px) {
+    margin-right: 140px;
+  }
+  @media (max-width: 915px) {
+    margin-right: 120px;
+  }
+}
+
+.filled_opbpo {
+  @include flex;
+  margin-bottom: 244px;
+
+  p {
+    font-family: $p_font;
+    color: $p_black;
+    font-size: 20px;
+    line-height: 27px;
+
+    @media (max-width: 1355px) {
+      font-size: 16px;
+    }
+    @media (max-width: 915px) {
+      font-size: 12px;
+    }
+  }
+
+  .filled_date {
+    margin-right: 55px;
+    border-right: 1px solid $h2_color;
+    padding: 40px 45px 0 0;
+
+    @media (max-width: 1355px) {
+      padding-right: 20px;
+      margin-right: 30px;
+    }
+  }
+
+  .dog_opbpo {
+    margin-right: 44px;
+    border-right: 1px solid $h2_color;
+    padding: 40px 56px 0 0;
+
+    @media (max-width: 1355px) {
+      padding-right: 20px;
+      margin-right: 30px;
+    }
+    // @media (max-width: 1198px) {
+    //     // margin-right: 78px;
+    //     padding-right: 10px;
+    //   }
+  }
+
+  a {
+    margin-right: 46px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #9b51e0;
+    font-family: $a1_font;
+    border-right: 1px solid $h2_color;
+    padding: 40px 132px 0 0;
+
+    @media (max-width: 1355px) {
+      font-size: 16px;
+      padding-right: 20px;
+      margin-right: 30px;
+    }
+
+    @media (max-width: 915px) {
+      font-size: 12px;
+    }
+  }
+
+  .cash_opbpo {
+    margin-right: 41px;
+    border-right: 1px solid $h2_color;
+    padding: 40px 59px 0 0;
+
+    @media (max-width: 1355px) {
+      padding-right: 20px;
+    }
+  }
+
+  .done_opbpo {
+    @include flex(flex, row, center);
+    gap: 20px;
+    padding-top: 40px;
+
+    @media (max-width: 1355px) {
+      padding-right: 20px;
+    }
+  }
+}
+
+.table {
+  border-collapse: collapse;
+  margin-bottom: 300px;
+  display: block;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-bottom: 20px;
+
+  th {
+    padding-bottom: 8px;
+  }
+
+  td {
+    border: 1px solid rgba(51, 156, 179, 0.25);
+    padding: 30px 50px 0;
+    text-align: center;
+  }
+
+  tr:first-child td {
+    border-top: 0;
+  }
+
+  tr td:first-child {
+    border-left: 0;
+  }
+
+  tr:last-child td {
+    border-bottom: 0;
+  }
+
+  tr td:last-child {
+    border-right: 0;
+  }
+}

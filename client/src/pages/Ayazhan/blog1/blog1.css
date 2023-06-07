@@ -1,85 +1,17 @@
 @charset "UTF-8";
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -90,17 +22,8 @@ video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
@@ -108,20 +31,16 @@ body {
   line-height: 1;
 }
 
-ol,
-ul {
+ol, ul {
   list-style: none;
 }
 
-blockquote,
-q {
+blockquote, q {
   quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote:before, blockquote:after,
+q:before, q:after {
   content: "";
   content: none;
 }
@@ -149,7 +68,7 @@ button {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #339cb3;
+  background: #339CB3;
   border-radius: 100px;
 }
 
@@ -185,7 +104,7 @@ button {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: #339cb3;
+  background-color: #339CB3;
   border-radius: 10px;
   color: #ffffff;
   height: 40px;
@@ -207,8 +126,8 @@ button {
   width: fit-content;
   gap: 6px;
   background-color: #fff;
-  color: #339cb3;
-  border: 1px solid #339cb3;
+  color: #339CB3;
+  border: 1px solid #339CB3;
   font-weight: 600;
 }
 
@@ -370,7 +289,7 @@ header .header-flex .header-flex-reg .log-in {
   padding: 0 10px 0 10px;
 }
 .nav1_blog .main {
-  color: #25282b;
+  color: #25282B;
   text-decoration: none;
 }
 .nav1_blog .blog {
@@ -391,7 +310,7 @@ header .header-flex .header-flex-reg .log-in {
   font-size: 20px;
   line-height: 27.24px;
   text-decoration: none;
-  color: #25282b;
+  color: #25282B;
   padding-right: 16px;
 }
 
@@ -467,18 +386,10 @@ header .header-flex .header-flex-reg .log-in {
   display: flex;
   justify-content: space-between;
 }
-.footer
-  .footer-content
-  .footer-content-item
-  .footer-social-network
-  .social-list {
+.footer .footer-content .footer-content-item .footer-social-network .social-list {
   margin-right: 27px;
 }
-.footer
-  .footer-content
-  .footer-content-item
-  .footer-social-network
-  .social-list:last-child {
+.footer .footer-content .footer-content-item .footer-social-network .social-list:last-child {
   margin-right: 200px; /* last-child - 200px */
 }
 .footer .myfreedom {
@@ -629,28 +540,14 @@ header .header-flex .header-flex-reg .log-in {
     line-height: 27px;
     color: #25282b;
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network {
+  footer .container .footer-content .footer-content-item .footer-social-network {
     display: flex;
     justify-content: space-between;
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network
-    .social-list {
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list {
     margin-right: 27px;
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network
-    .social-list:last-child {
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:last-child {
     margin-right: 200px; /* last-child - 200px */
   }
   footer .myfreedom {
@@ -805,28 +702,14 @@ header .header-flex .header-flex-reg .log-in {
     line-height: 27px;
     color: #25282b;
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network {
+  footer .container .footer-content .footer-content-item .footer-social-network {
     display: flex;
     justify-content: space-between;
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network
-    .social-list {
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list {
     margin-right: 27px;
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network
-    .social-list:last-child {
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:last-child {
     margin-right: 200px; /* last-child - 200px */
   }
   footer .myfreedom {
@@ -985,32 +868,18 @@ header .header-flex .header-flex-reg .log-in {
     line-height: 27px;
     color: #25282b;
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network {
+  footer .container .footer-content .footer-content-item .footer-social-network {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     /* width: 100px; */
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network
-    .social-list {
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list {
     margin-right: 0px;
     padding: 30px 30px; /* changed */
     max-width: 200px;
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network
-    .social-list:last-child {
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:last-child {
     margin-right: 0;
   }
   footer .myfreedom {
@@ -1167,32 +1036,18 @@ header .header-flex .header-flex-reg .log-in {
     line-height: 27px;
     color: #25282b;
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network {
+  footer .container .footer-content .footer-content-item .footer-social-network {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     /* width: 100px; */
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network
-    .social-list {
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list {
     margin-right: 0px;
     padding: 30px 30px; /* changed */
     max-width: 200px;
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network
-    .social-list:last-child {
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:last-child {
     margin-right: 0;
   }
   footer .myfreedom {
@@ -1362,32 +1217,18 @@ header .header-flex .header-flex-reg .log-in {
     line-height: 27px;
     color: #25282b;
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network {
+  footer .container .footer-content .footer-content-item .footer-social-network {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     /* width: 100px; */
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network
-    .social-list {
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list {
     margin-right: 0px;
     padding: 30px 30px; /* changed */
     max-width: 200px;
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network
-    .social-list:last-child {
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:last-child {
     margin-right: 0;
   }
   footer .myfreedom {
@@ -1557,32 +1398,18 @@ header .header-flex .header-flex-reg .log-in {
     line-height: 27px;
     color: #25282b;
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network {
+  footer .container .footer-content .footer-content-item .footer-social-network {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     /* width: 100px; */
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network
-    .social-list {
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list {
     margin-right: 0px;
     padding: 30px 30px; /* changed */
     max-width: 200px;
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network
-    .social-list:last-child {
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:last-child {
     margin-right: 0;
   }
   footer .myfreedom {
@@ -1754,41 +1581,22 @@ header .header-flex .header-flex-reg .log-in {
     line-height: 27px;
     color: #25282b;
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network {
+  footer .container .footer-content .footer-content-item .footer-social-network {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     text-align: left;
     /* width: 100px; */
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network
-    .social-list {
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list {
     margin-right: 0px;
     padding: 10px 10px; /* changed */
     max-width: 350px;
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network
-    .social-list:first-child {
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:first-child {
     padding-left: 0;
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network
-    .social-list:last-child {
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:last-child {
     margin-right: 0;
   }
   footer .myfreedom {
@@ -1960,41 +1768,22 @@ header .header-flex .header-flex-reg .log-in {
     line-height: 27px;
     color: #25282b;
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network {
+  footer .container .footer-content .footer-content-item .footer-social-network {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     text-align: left;
     /* width: 100px; */
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network
-    .social-list {
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list {
     margin-right: 0px;
     padding: 10px 10px; /* changed */
     max-width: 350px;
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network
-    .social-list:first-child {
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:first-child {
     padding-left: 0;
   }
-  footer
-    .container
-    .footer-content
-    .footer-content-item
-    .footer-social-network
-    .social-list:last-child {
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:last-child {
     margin-right: 0;
   }
   footer .myfreedom {
@@ -2022,10 +1811,10 @@ header .header-flex .header-flex-reg .log-in {
   gap: 30px;
 }
 .cards_blog p {
-  font-family: #25282b;
+  font-family: #25282B;
   font-size: 20px;
   line-height: 27px;
-  color: #25282b;
+  color: #25282B;
 }
 .cards_blog h2 {
   font-family: "Raleway", sans-serif;
@@ -2058,7 +1847,7 @@ header .header-flex .header-flex-reg .log-in {
   height: 357px;
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 .card_blog .review_card {
   display: flex;
@@ -2079,4 +1868,4 @@ header .header-flex .header-flex-reg .log-in {
 }
 .card_blog .question_answer .nav_card {
   margin-top: 42.5px;
-} /*# sourceMappingURL=blog1.css.map */
+}/*# sourceMappingURL=blog1.css.map */
