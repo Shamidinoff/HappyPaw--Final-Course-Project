@@ -13,7 +13,7 @@ function Blog1() {
               <a class="main" href="#">
                 Главная
               </a>
-              <img src="public/images-blog/right1.svg" alt="right1" />
+              <img src="../../images-blog/right1.svg" alt="right1" />
               <a class="blog" href="#">
                 Блог
               </a>
@@ -23,25 +23,25 @@ function Blog1() {
 
         <div class="container">
           <div class="nav2_blog">
-            <img src="../../../../images-blog/down.svg" alt="down" />
+            <img src="../../images-blog/down.svg" alt="down" />
             <a href="#">Последние</a>
           </div>
 
           <div class="cards_blog">
             <div class="card_blog">
-              <img src="/public/images-blog/card1.png" alt="img_card1" />
+              <img src="../../images-blog/card1.png" alt="img_card1" />
 
               <div class="review_card">
                 <img
                   class="calendar"
-                  src="/public/images-blog/calendar.svg"
+                  src="../../images-blog/calendar.svg"
                   alt="calendar"
                 />
 
                 <p>25 Августа, 2022</p>
 
                 <div class="eye_on">
-                  <img src="/public/images-blog/eye on.svg" alt="eye on" />
+                  <img src="../../images-blog/eyeon.svg" alt="eye on" />
                   <p>181</p>
                 </div>
               </div>
@@ -56,24 +56,24 @@ function Blog1() {
 
                 <div class="nav_card">
                   <a href="#">Читать</a>
-                  <img src="/public/images-blog/right2.svg" alt="right2" />
+                  <img src="../../images-blog/right2.svg" alt="right2" />
                 </div>
               </div>
             </div>
 
             <div class="card_blog">
-              <img src="/public/images-blog/card2.png" alt="img_card2" />
+              <img src="../../images-blog/card2.png" alt="img_card2" />
 
               <div class="review_card">
                 <img
                   class="calendar"
-                  src="/public/images-blog/calendar.svg"
+                  src="../../images-blog/calendar.svg"
                   alt="calendar"
                 />
                 <p>20 Августа, 2022</p>
 
                 <div class="eye_on">
-                  <img src="/public/images-blog/eye on.svg" alt="eye on" />
+                  <img src="../../images-blog/eyeon.svg" alt="eye on" />
                   <p>98</p>
                 </div>
               </div>
@@ -87,24 +87,24 @@ function Blog1() {
 
                 <div class="nav_card">
                   <a href="#">Читать</a>
-                  <img src="/public/images-blog/right2.svg" alt="right2" />
+                  <img src="../../images-blog/right2.svg" alt="right2" />
                 </div>
               </div>
             </div>
 
             <div class="card_blog">
-              <img src="/public/images-blog/card3.png" alt="img_card3" />
+              <img src="../../images-blog/card3.png" alt="img_card3" />
 
               <div class="review_card">
                 <img
                   class="calendar"
-                  src="/public/images-blog/calendar.svg"
+                  src="../../images-blog/calendar.svg"
                   alt="calendar"
                 />
                 <p>14 Августа, 2022</p>
 
                 <div class="eye_on">
-                  <img src="/public/images-blog/eye on.svg" alt="eye on" />
+                  <img src="../../images-blog/eyeon.svg" alt="eye on" />
                   <p>101</p>
                 </div>
               </div>
@@ -118,24 +118,24 @@ function Blog1() {
 
                 <div class="nav_card">
                   <a href="#">Читать</a>
-                  <img src="/public/images-blog/right2.svg" alt="right2" />
+                  <img src="../../images-blog/right2.svg" alt="right2" />
                 </div>
               </div>
             </div>
 
             <div class="card_blog">
-              <img src="/public/images-blog/card4.png" alt="img_card4" />
+              <img src="../../images-blog/card4.png" alt="img_card4" />
 
               <div class="review_card">
                 <img
                   class="calendar"
-                  src="/public/images-blog/calendar.svg"
+                  src="../../images-blog/calendar.svg"
                   alt="calendar"
                 />
                 <p>09 Августа, 2022</p>
 
                 <div class="eye_on">
-                  <img src="/public/images-blog/eye on.svg" alt="eye on" />
+                  <img src="../../images-blog/eyeon.svg" alt="eye on" />
                   <p>135</p>
                 </div>
               </div>
@@ -149,24 +149,24 @@ function Blog1() {
 
                 <div class="nav_card">
                   <a href="#">Читать</a>
-                  <img src="/public/images-blog/right2.svg" alt="right2" />
+                  <img src="../../images-blog/right2.svg" alt="right2" />
                 </div>
               </div>
             </div>
 
             <div class="card_blog">
-              <img src="/public/images-blog/card5.png" alt="img_card5" />
+              <img src="../../images-blog/card5.png" alt="img_card5" />
 
               <div class="review_card">
                 <img
                   class="calendar"
-                  src="/public/images-blog/calendar.svg"
+                  src="../../images-blog/calendar.svg"
                   alt="calendar"
                 />
                 <p>01 Августа, 2022</p>
 
                 <div class="eye_on">
-                  <img src="/public/images-blog/eye on.svg" alt="eye on" />
+                  <img src="../../images-blog/eyeon.svg" alt="eye on" />
                   <p>250</p>
                 </div>
               </div>
@@ -180,7 +180,7 @@ function Blog1() {
 
                 <div class="nav_card">
                   <a href="#">Читать</a>
-                  <img src="/public/images-blog/right2.svg" alt="right2" />
+                  <img src="../../images-blog/right2.svg" alt="right2" />
                 </div>
               </div>
             </div>
@@ -188,20 +188,20 @@ function Blog1() {
             <div class="card_blog">
               <img
                 class="card_blog_img"
-                src="/public/images-blog/card6.png"
+                src="../../images-blog/card6.png"
                 alt="img_card6"
               />
 
               <div class="review_card">
                 <img
                   class="calendar"
-                  src="/public/images-blog/calendar.svg"
+                  src="../../images-blog/calendar.svg"
                   alt="calendar"
                 />
                 <p>31 Июля, 2022</p>
 
                 <div class="eye_on">
-                  <img src="/public/images-blog/eye on.svg" alt="eye on" />
+                  <img src="../../images-blog/eyeon.svg" alt="eye on" />
                   <p>230</p>
                 </div>
               </div>
@@ -215,24 +215,24 @@ function Blog1() {
 
                 <div class="nav_card">
                   <a href="#">Читать</a>
-                  <img src="/public/images-blog/right2.svg" alt="right2" />
+                  <img src="../../images-blog/right2.svg" alt="right2" />
                 </div>
               </div>
             </div>
 
             <div class="card_blog">
-              <img src="/public/images-blog/card7.png" alt="img_card7" />
+              <img src="../../images-blog/card7.png" alt="img_card7" />
 
               <div class="review_card">
                 <img
                   class="calendar"
-                  src="/public/images-blog/calendar.svg"
+                  src="../../images-blog/calendar.svg"
                   alt="calendar"
                 />
                 <p>28 Июля, 2022</p>
 
                 <div class="eye_on">
-                  <img src="/public/images-blog/eye on.svg" alt="eye on" />
+                  <img src="../../images-blog/eyeon.svg" alt="eye on" />
                   <p>280</p>
                 </div>
               </div>
@@ -246,24 +246,24 @@ function Blog1() {
 
                 <div class="nav_card">
                   <a href="#">Читать</a>
-                  <img src="/public/images-blog/right2.svg" alt="right2" />
+                  <img src="../../images-blog/right2.svg" alt="right2" />
                 </div>
               </div>
             </div>
 
             <div class="card_blog">
-              <img src="/public/images-blog/card8.png" alt="img_card8" />
+              <img src="../../images-blog/card8.png" alt="img_card8" />
 
               <div class="review_card">
                 <img
                   class="calendar"
-                  src="/public/images-blog/calendar.svg"
+                  src="../../images-blog/calendar.svg"
                   alt="calendar"
                 />
                 <p>20 Июля, 2022</p>
 
                 <div class="eye_on">
-                  <img src="/public/images-blog/eye on.svg" alt="eye on" />
+                  <img src="../../images-blog/eyeon.svg" alt="eye on" />
                   <p>190</p>
                 </div>
               </div>
@@ -277,24 +277,24 @@ function Blog1() {
 
                 <div class="nav_card">
                   <a href="#">Читать</a>
-                  <img src="/public/images-blog/right2.svg" alt="right2" />
+                  <img src="../../images-blog/right2.svg" alt="right2" />
                 </div>
               </div>
             </div>
 
             <div class="card_blog">
-              <img src="/public/images-blog/card9.png" alt="img_card9" />
+              <img src="../../images-blog/card9.png" alt="img_card9" />
 
               <div class="review_card">
                 <img
                   class="calendar"
-                  src="/public/images-blog/calendar.svg"
+                  src="../../images-blog/calendar.svg"
                   alt="calendar"
                 />
                 <p>19 Августа, 2022</p>
 
                 <div class="eye_on">
-                  <img src="/public/images-blog/eye on.svg" alt="eye on" />
+                  <img src="../../images-blog/eyeon.svg" alt="eye on" />
                   <p>200</p>
                 </div>
               </div>
@@ -308,14 +308,14 @@ function Blog1() {
 
                 <div class="nav_card">
                   <a href="#">Читать</a>
-                  <img src="/public/images-blog/right2.svg" alt="right2" />
+                  <img src="../../images-blog/right2.svg" alt="right2" />
                 </div>
               </div>
             </div>
           </div>
 
           <div class="pagination_blog">
-            <img src="/public/images-blog/left1.svg" alt="left1" />
+            <img src="../../images-blog/left1.svg" alt="left1" />
 
             <div class="buttons_nav3">
               <button class="button_active_nav3">1</button>
@@ -328,7 +328,7 @@ function Blog1() {
               <a>12</a>
             </div>
 
-            <img src="/public/images-blog/right3.svg" alt="right3" />
+            <img src="../../images-blog/right3.svg" alt="right3" />
           </div>
         </div>
       </main>

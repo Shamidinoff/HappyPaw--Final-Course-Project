@@ -1,0 +1,101 @@
+@import "../common.scss";
+
+.table_contacts {
+  border-radius: 10px;
+  border: 1px solid rgba(51, 156, 179, 0.25);
+  border-collapse: collapse;
+  display: block;
+
+  .main_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 99px 113px 99px 113px;
+
+    @media (max-width: $tablet_media_point) {
+      padding: 40px;
+    }
+
+    .h2_table {
+      font-family: $h2_font;
+      font-size: 48px;
+      line-height: 56px;
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      color: $h2_color;
+      margin-bottom: 92px;
+
+      @media (max-width: $tablet_media_point) {
+        font-size: 24px;
+      }
+    }
+
+    .general_info {
+      @include flex(flex, row, none);
+      justify-content: space-between;
+      max-width: 1454px;
+      flex-wrap: wrap;
+      gap: 30px;
+      align-items: center;
+
+      .ymap {
+        width: 707px;
+        margin: 60px auto 0;
+      }
+
+      .internal_info {
+        max-width: 441px;
+
+        .telephone_contacts {
+          margin-bottom: 40px;
+          @include flex(flex, column, flex-start);
+          gap: 20px;
+        }
+
+        .mail_contacts {
+          margin-bottom: 40px;
+          @include flex(flex, column, flex-start);
+          gap: 20px;
+        }
+
+        .address_contacts {
+          margin-bottom: 50px;
+          @include flex(flex, column, flex-start);
+          gap: 20px;
+        }
+
+        // Не работает flex-start, текст должен стоять слева
+        .caption_contacts {
+          margin-bottom: 27px;
+          @include flex(flex, column, flex-start);
+
+          // Последнее слово не закрашивается в фиолетовый цвет
+          //  .caption_contacts: last-child {
+          //   color: $p_purple;
+          //   }
+        }
+
+        .social_networks {
+          @include flex;
+          gap: 27px;
+        }
+      }
+    }
+
+    h3 {
+      font-family: $h3_font;
+      color: $h3_color;
+      font-size: 31px;
+      line-height: 36px;
+    }
+
+    p {
+      font-family: $p_font;
+      color: $p_black;
+      font-size: 20px;
+      line-height: 27px;
+    }
+  }
+}
