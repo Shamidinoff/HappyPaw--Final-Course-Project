@@ -1,0 +1,50 @@
+
+.card_item {
+    padding: 60px 91px 51px 91px;
+    max-width: 540px;
+    background-color: #fff;
+    box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
+    border-radius: 10px;
+    img {
+      max-width: 100%;
+      margin-bottom: 30px;
+    }
+    h3 {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 31px;
+      line-height: 36px;
+      color: #25282b;
+      text-align: left;
+
+      margin-bottom: 16px;
+    }
+    p {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 23px;
+      color: #25282b;
+      text-align: left;
+
+      margin-bottom: 20px;
+    }
+    button {
+      display: block;
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: left;
+
+      color: #339cb3;
+      background-color: #fff;
+      cursor: pointer;
+
+      border: none;
+      outline: none;
+    }
+}
