@@ -1,0 +1,15 @@
+
+.section3-petsitter {
+  padding-top: 100px;
+  .container {
+    width: 1684px;
+    margin: 0 auto;
+    .petsitter-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 15px;
+      
+    }
+  }
+}

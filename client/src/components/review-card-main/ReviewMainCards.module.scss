@@ -1,0 +1,27 @@
+
+.section7-reviews {
+  padding-top: 75px; /* changed */
+  .container {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    h2 {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 56px;
+      color: #25282b;
+
+      margin-bottom: 60px;
+    }
+
+    .reviews-cards {
+      display: flex;
+      justify-content: center; /* changed */
+      flex-wrap: wrap;
+      
+    }
+    
+  }
+}
