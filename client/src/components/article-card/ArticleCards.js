@@ -1,74 +1,71 @@
-import React, { useEffect, useState } from 'react'
-import cl from './ArticleCards.module.scss'
-import axios from 'axios'
-import ArticleCardsItem from '../article-card-item/ArticleCardsItem'
+import React, { useEffect, useState } from "react";
+import cl from "./ArticleCards.module.scss";
+import axios from "axios";
+import ArticleCardsItem from "../article-card-item/ArticleCardsItem";
 
 const ArticleCards = () => {
-  const [postIds, setPostIds] = useState([])
-  const [posts, setPosts] = useState([])
+  const [postIds, setPostIds] = useState([]);
+  const [posts, setPosts] = useState([]);
 
+  //get all post when js loads
   useEffect(() => {
-      getPostsIds();
-  }, [])
+    getAllPosts();
+  }, []);
 
+  //get every post when all postIds are ready (postIds.length!==0)
   useEffect(() => {
-      console.log(postIds);
-  }, [postIds])
+    if (postIds.length !== 0) {
+      postIds.forEach((postId) => {
+        getPost(postId);
+      });
+    }
+  }, [postIds]);
 
-
-  useEffect(() => {
-      getPost("");
-  }, []) 
-
-  useEffect(() => {
-      console.log(posts);
-  }, [posts])
-
-  async function getPostsIds(){
+  async function getAllPosts() {
+    try {
       const response = await axios.get("http://localhost:5000/api/posts");
+      setPostIds(response.data);
+    } catch (err) {
+      console.error("GET ALL POSTS ERROR: " + err);
+    }
+  }
+
+  async function getPost(postId) {
+    try {
+      const response = await axios.get(
+        `http://localhost:5000/api/posts/${postId}`
+      );
       console.log(response.data);
-      setPostIds(response.data)
+      setPosts((prevPosts) => [...prevPosts, response.data]);
+    } catch (err) {
+      console.error("GET POST ERROR: " + err);
+    }
   }
 
-  async function getPost(postId){
-      const response = await axios.get("http://localhost:5000/api/posts/" + postId);
-      return response.data
-  }
-
-  postIds.forEach(async (postId) => {
-      try {
-          const post = await getPost(postId)
-          setPosts([ ...posts, post ]) 
-      } catch (err){
-          console.error("GetPost error: " + err);
-      }
-  })
-  
-
-  const postItems = posts.map((post) => {
-      return <ArticleCardsItem img={post.postImage} 
-                      title={post.title} 
-                      content={post.content} 
-                      // id={post._id}
-              />
-  })
-
-    
-        
+  const postsItems = posts.map((post) => {
     return (
-      <section class="section6-article">
-          <div class="container">
-            <h2>Наши последние статьи</h2>
-            <div class="article-cards">
-              {postItems}
-            </div>
-
-            <div class="read-more-button">
-              <button class="read-more-btn">Читать больше &#8594;</button>
-            </div>
-          </div>
-        </section>
+      <ArticleCardsItem
+        img={post.postImage}
+        title={post.title}
+        content={post.content[0]}
+      />
     );
-}
+  });
 
-export default ArticleCards
+  return (
+    <section className="section6-article">
+      <div className="container">
+        <h2>Наши последние статьи</h2>
+        <div className="article-cards">
+          {posts.length === 0 ? <p>Здесь пусто</p> : postsItems}
+        </div>
+
+        <div className="read-more-button">
+          <button className="read-more-btn">Читать больше &#8594;</button>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ArticleCards;
