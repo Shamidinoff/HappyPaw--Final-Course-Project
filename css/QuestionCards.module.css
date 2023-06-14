@@ -1,0 +1,64 @@
+.section5-question {
+  padding-top: 75px; /* changed */
+}
+.section5-question .container {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+}
+.section5-question .container h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #25282b;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.section5-question .container .question-cards {
+  display: flex;
+  justify-content: center; /* changed */
+  flex-wrap: wrap;
+}
+.section5-question .container .question-cards .question-item {
+  width: 600px; /* Width for cards */ /* changed */
+  display: inline-block;
+  margin-bottom: 50px;
+}
+.section5-question .container .question-cards .question-item-img {
+  max-width: 540px; /* Width for cards */
+}
+.section5-question .container .question-cards .question-item-img img {
+  display: block;
+  width: 100%;
+  margin-bottom: 60px;
+}
+.section5-question .container .question-cards .question-item-img .contact-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.section5-question .container .question-cards .question-item-img .contact-us p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #25282b;
+  margin-right: 10px;
+}
+.section5-question .container .question-cards .question-item-img .contact-us .contact-btn {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  align-items: center;
+  text-decoration-line: underline;
+  color: #728adf;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  cursor: pointer;
+}/*# sourceMappingURL=QuestionCards.module.css.map */

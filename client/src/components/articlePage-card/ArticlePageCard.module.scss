@@ -1,109 +1,109 @@
-@import '../../common.scss';
+// @import '../../pages/Ayazhan/common.scss';
 
-@mixin flex($display: flex, $direction: row, $align_items: center) {
-  display: $display;
-  flex-direction: $direction;
-  align-items: $align_items;
-}
+// @mixin flex($display: flex, $direction: row, $align_items: center) {
+//   display: $display;
+//   flex-direction: $direction;
+//   align-items: $align_items;
+// }
 
-.main_cat {
-  max-width: 1283px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+// .main_cat {
+//   max-width: 1283px;
+//   margin: 0 auto;
+//   display: flex;
+//   flex-direction: column;
 
-  .cat_blog1 {
-    width: 100%;
-    object-fit: cover;
-    height: 623px;
-    border-radius: 10px;
+//   .cat_blog1 {
+//     width: 100%;
+//     object-fit: cover;
+//     height: 623px;
+//     border-radius: 10px;
 
-    @media (max-width: $tablet_media_point) {
-      height: 400px;
-    }
-  }
+//     @media (max-width: $tablet_media_point) {
+//       height: 400px;
+//     }
+//   }
 
-  .date {
-    @include flex(flex, row, none);
-    margin-top: 70px;
-    gap: 16px;
+//   .date {
+//     @include flex(flex, row, none);
+//     margin-top: 70px;
+//     gap: 16px;
 
-    img {
-      width: 24px;
-      height: 24px;
-    }
-  }
+//     img {
+//       width: 24px;
+//       height: 24px;
+//     }
+//   }
 
-  p {
-    font-family: $p_font;
-    font-size: 20px;
-    line-height: 27px;
-    color: $p_black;
-  }
+//   p {
+//     font-family: $p_font;
+//     font-size: 20px;
+//     line-height: 27px;
+//     color: $p_black;
+//   }
 
-  // .text1_cat {
-  //   margin-bottom: 20px;
-  //   margin-top: 47px;
-  // }
+//   // .text1_cat {
+//   //   margin-bottom: 20px;
+//   //   margin-top: 47px;
+//   // }
 
-  // .text2_cat {
-  //   margin-bottom: 20px;
-  // }
+//   // .text2_cat {
+//   //   margin-bottom: 20px;
+//   // }
 
-  h3 {
-    font-family: $h3_font;
-    font-weight: 700;
-    font-size: 31px;
-    line-height: 36px;
-    color: $h3_black;
-    margin-top: 80px;
-  }
+//   h3 {
+//     font-family: $h3_font;
+//     font-weight: 700;
+//     font-size: 31px;
+//     line-height: 36px;
+//     color: $h3_black;
+//     margin-top: 80px;
+//   }
 
-  // .tick1 {
-  //   @include flex;
-  //   gap: 17px;
-  //   margin: 40px 0 30px 0;
-  // }
+//   // .tick1 {
+//   //   @include flex;
+//   //   gap: 17px;
+//   //   margin: 40px 0 30px 0;
+//   // }
 
-  // .tick2 {
-  //   @include flex(flex, row, none);
-  //   gap: 17px;
-  //   margin-bottom: 30px;
-  // }
+//   // .tick2 {
+//   //   @include flex(flex, row, none);
+//   //   gap: 17px;
+//   //   margin-bottom: 30px;
+//   // }
 
-  // .tick3 {
-  //   @include flex(flex, row, none);
-  //   gap: 17px;
-  //   margin-bottom: 30px;
-  // }
+//   // .tick3 {
+//   //   @include flex(flex, row, none);
+//   //   gap: 17px;
+//   //   margin-bottom: 30px;
+//   // }
 
-  // .tick4 {
-  //   @include flex(flex, row, none);
-  //   gap: 17px;
-  //   margin-bottom: 30px;
-  // }
+//   // .tick4 {
+//   //   @include flex(flex, row, none);
+//   //   gap: 17px;
+//   //   margin-bottom: 30px;
+//   // }
 
-  // .tick5 {
-  //   @include flex(flex, row, none);
-  //   gap: 17px;
-  //   margin-bottom: 84px;
-  // }
+//   // .tick5 {
+//   //   @include flex(flex, row, none);
+//   //   gap: 17px;
+//   //   margin-bottom: 84px;
+//   // }
 
-  button {
-    @include flex;
-    justify-content: center;
-    gap: 10px;
-    width: 314px;
-    height: 64px;
-    border: 1px solid #728ADF;
-    border-radius: 10px;
-    color: #728ADF;
-    background-color: #FFFFFF;
-    margin-bottom: 84px;
-    font-family: $butt_font;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    align-self: center;
-  }
-}
+//   button {
+//     @include flex;
+//     justify-content: center;
+//     gap: 10px;
+//     width: 314px;
+//     height: 64px;
+//     border: 1px solid #728ADF;
+//     border-radius: 10px;
+//     color: #728ADF;
+//     background-color: #FFFFFF;
+//     margin-bottom: 84px;
+//     font-family: $butt_font;
+//     font-weight: 700;
+//     font-size: 20px;
+//     line-height: 24px;
+//     align-self: center;
+//   }
+// }

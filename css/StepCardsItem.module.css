@@ -1,0 +1,44 @@
+.wrapper {
+  max-width: 540px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 6px;
+}
+.wrapper .sitter-card p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 36px;
+  align-items: center;
+  text-align: center;
+  color: #728adf;
+}
+.wrapper .sitter-card-line p {
+  margin-top: 12px;
+}
+.wrapper .sitter-card-text {
+  max-width: 446px;
+  text-align: left;
+}
+.wrapper .sitter-card-text h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 36px;
+  align-items: center;
+  text-align: left;
+  color: #25282b;
+  margin-bottom: 20px;
+}
+.wrapper .sitter-card-text p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #25282b;
+  text-align: left;
+}/*# sourceMappingURL=StepCardsItem.module.css.map */

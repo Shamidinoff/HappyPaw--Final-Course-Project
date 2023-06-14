@@ -1,3 +1,4 @@
+import ArticlePageCard from "../../../components/articlePage-card/ArticlePageCard";
 import Footer from "../../../components/footer/Footer";
 import Header from "../../../components/header/Header";
 import "./blog2.css";
@@ -6,8 +7,9 @@ function Blog2() {
   return (
     <div>
       <Header />
-      <main>
-        <div class="nav1_blog">
+      {/* <main> */}
+      <ArticlePageCard />
+        {/* <div class="nav1_blog">
           <div class="container">
             <div>
               <a class="main" href="#">
@@ -96,8 +98,8 @@ function Blog2() {
 
             <button>Было полезно?</button>
           </div>
-        </div>
-      </main>
+        </div> */}
+      {/* </main> */}
       <Footer />
     </div>
   );

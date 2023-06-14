@@ -1,8 +1,12 @@
 import Footer from "../../../components/footer/Footer";
 import Header from "../../../components/header/Header";
+import PettsitterCards from "../../../components/petsitter-card/PettsitterCards";
 import "./search.css";
 
 function Search() {
+
+
+
   return (
     <div>
       <Header />
@@ -54,6 +58,7 @@ function Search() {
           </div>
           <p class="search-result">Найдено 15 вариантов</p>
 
+          <PettsitterCards />
           <div class="content-container">
             <div class="result-items">
               <div class="result-item">

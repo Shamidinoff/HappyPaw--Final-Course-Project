@@ -1,0 +1,71 @@
+.card-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px; /* changed */
+  padding: 30px 27px;
+  max-width: 540px;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
+  border-radius: 10px;
+}
+.card-item .user-picture img {
+  max-width: 100%;
+  margin-right: 30px;
+}
+.card-item .user-content {
+  max-width: 336px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-item .user-content h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 36px;
+  color: #25282b;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.card-item .user-content p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #25282b;
+  text-align: left;
+}
+.card-item .user-content .user-location {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.card-item .user-content .user-location .map-city {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.card-item .user-content .user-location .map-city img {
+  display: block;
+  max-width: 100%;
+  margin-right: 16px;
+}
+.card-item .user-content .user-location .map-city p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #25282b;
+}
+.card-item .user-content .user-location .review-date p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #25282b;
+}/*# sourceMappingURL=ReviewMainCardsItem.module.css.map */

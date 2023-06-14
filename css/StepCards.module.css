@@ -1,0 +1,13 @@
+.section3-petsitter {
+  padding-top: 100px;
+}
+.section3-petsitter .container {
+  width: 1684px;
+  margin: 0 auto;
+}
+.section3-petsitter .container .petsitter-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}/*# sourceMappingURL=StepCards.module.css.map */

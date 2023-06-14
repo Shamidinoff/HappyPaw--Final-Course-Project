@@ -1,68 +1,56 @@
+@import "../../pages/Ayazhan/common.scss";
 
-.result-item {
-  width: 50%;
-  gap: 20px;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  overflow: auto;
+.result-item__card {
+  @include flex(flex, row, flex-start);
+  gap: 16px;
+  height: 241px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(51, 156, 179, 0.25);
+  margin-right: 54px;
 
-  @media (max-width: 1300px) {
-    width: 100%;
+  @media (max-width: $tablet_media_point) {
+    margin-right: 1rem;
+  }
+}
+
+.result-item__card:last-of-type {
+  border-bottom: none;
+}
+
+.result-item__header {
+  @include flex();
+  width: 100%;
+  justify-content: space-between;
+
+  > span {
+    color: $h3_color;
+    font-weight: 600;
   }
 
-  &__card {
-    @include flex(flex, row, flex-start);
-    gap: 16px;
-    height: 241px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgba(51, 156, 179, 0.25);
-    margin-right: 54px;
+  @media (max-width: $tablet_media_point) {
+    flex-direction: column;
+    align-items: baseline;
+    gap: 10px;
 
-    @media (max-width: $tablet_media_point) {
-      margin-right: 1rem;
+    > img {
+      width: 20px;
+      height: 20px;
     }
-  }
-
-  &__card:last-of-type {
-    border-bottom: none;
-  }
-
-  &__header {
-    @include flex();
-    width: 100%;
-    justify-content: space-between;
 
     > span {
-      color: $h3_color;
-      font-weight: 600;
-    }
-
-    @media (max-width: $tablet_media_point) {
-      flex-direction: column;
-      align-items: baseline;
-      gap: 10px;
-
-      > img {
-        width: 20px;
-        height: 20px;
-      }
-
-      > span {
-        font-size: 12px;
-      }
+      font-size: 12px;
     }
   }
+}
 
-  &__body {
-    @include flex(flex, column, flex-start);
-    gap: 16px;
-    width: 100%;
-    height: 100%;
-  }
+.result-item__body {
+  @include flex(flex, column, flex-start);
+  gap: 16px;
+  width: 100%;
+  height: 100%;
+}
 
-  &__stars {
-    @include flex();
-    gap: 10px;
-  }
+.result-item__stars {
+  @include flex();
+  gap: 10px;
 }

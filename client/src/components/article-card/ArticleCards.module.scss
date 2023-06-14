@@ -1,5 +1,5 @@
 
-.section6-article {
+.section6_article {
   padding-top: 75px; /* changed */
   .container {
     width: 95%;
@@ -16,16 +16,16 @@
       margin-bottom: 60px;
     }
 
-    .article-cards {
+    .article_cards {
       display: flex;
       justify-content: center; /* changed */
       flex-wrap: wrap;
       gap: 30px; /* changed */
       
     }
-    .read-more-button {
+    .read_more_button {
       padding-top: 60px;
-      .read-more-btn {
+      .read_more_btn {
         font-family: "Raleway";
         font-style: normal;
         font-weight: 600;

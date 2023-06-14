@@ -1,5 +1,5 @@
 
-.card-item {
+.card_item {
   padding: 30px 34px;
   max-width: 397px;
   background: #ffffff;
@@ -9,15 +9,17 @@
     margin-bottom: 20px;
   }
 
-  .date-content {
+  .date_content {
     display: flex;
     justify-content: space-between;
-    .date-item {
+    .date_item {
       display: flex;
       justify-content: space-between;
+      align-items: center;
       img {
         max-width: 100%;
         margin-right: 10px;
+        object-fit: cover;
       }
       p {
         font-family: "Open Sans";

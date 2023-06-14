@@ -1,0 +1,36 @@
+@import "../../pages/Ayazhan/common.scss";
+
+.content-container {
+  margin-top: 31px;
+  display: flex;
+}
+
+.result-items {
+  @include flex(flex, row, start);
+  width: 100%;
+  gap: 37px;
+  height: 1332px;
+
+  @media (max-width: 1300px) {
+    flex-direction: column;
+  }
+
+  .result-item {
+    width: 50%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: auto;
+
+    @media (max-width: 1300px) {
+      width: 100%;
+    }
+
+  }
+}
+
+.ymap-container {
+  border-radius: 10px;
+  overflow: hidden;
+}
