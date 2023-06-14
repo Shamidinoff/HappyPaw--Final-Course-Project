@@ -109,7 +109,6 @@ button {
   color: #ffffff;
   height: 40px;
   padding: 0 22px;
-  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   font-weight: 600;
@@ -122,7 +121,6 @@ button {
   border-radius: 10px;
   height: 40px;
   padding: 0 22px;
-  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   background-color: #fff;
@@ -184,7 +182,6 @@ header .header-flex .header-flex-logo {
 }
 header .header-flex .header-flex-logo .close-menu {
   display: none; /* close menu icon */
-  background-image: url(/public/images-main/0-2-close-menu.png);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -423,14 +420,12 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -585,14 +580,12 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -747,14 +740,12 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -917,14 +908,12 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1091,7 +1080,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1100,7 +1088,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1272,7 +1259,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1281,7 +1267,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1454,7 +1439,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1463,7 +1447,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1641,7 +1624,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1650,7 +1632,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -2096,4 +2077,6 @@ header .header-flex-reg .log_out {
 }
 .table tr td:last-child {
   border-right: 0;
-}/*# sourceMappingURL=OPBPO.css.map */
+}
+
+/*# sourceMappingURL=OPBPO.css.map */

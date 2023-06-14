@@ -8,11 +8,12 @@ import ArticlePageTickItem from '../articlePage-tick-item/ArticlePageTickItem'
 const ArticlePageCard = () => {
     const [post, setPost] = useState({})
     const params = useParams()
-    console.log(params);
+    console.log(params.id);
 
     useEffect(()=>{
         getPost()
     }, [])
+
 
     const paragrItems = post.content?.map((paragr) => {
         return <ArticlePageTextItem>{paragr}</ArticlePageTextItem>
@@ -23,7 +24,7 @@ const ArticlePageCard = () => {
     })
 
     async function getPost(){
-        const response = await axios.get(`http://localhost:5000/api/posts/${params.id}`)  
+        const response = await axios.get(`http://localhost:5000/api/posts/${params.id}`)
         setPost(response.data)
         console.log(response);
     }
@@ -60,7 +61,7 @@ const ArticlePageCard = () => {
             {paragrItems}
             <h1></h1>
             <h2></h2>
-            <h3>{post.questions[0]}</h3>
+            <h3>{post.questions && post.questions[0]}</h3>
             {tickItems}
 
             <button>Было полезно?</button>

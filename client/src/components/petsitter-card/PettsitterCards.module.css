@@ -1786,126 +1786,41 @@ header .header-flex .header-flex-reg .log-in {
     color: #25282b;
   }
 }
-.text2 {
-  font-size: 25px;
+.content-container {
+  margin-top: 31px;
+  display: flex;
 }
 
-.head3_blue {
-  font-size: 31px;
-  font-weight: 700;
-  font-family: "Raleway", sans-serif;
-  color: #728ADF;
-}
-
-header .header-flex-reg {
+.result-items {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
+  align-items: start;
+  width: 100%;
+  gap: 37px;
+  height: 1332px;
 }
-header .header-flex-reg .account {
-  text-decoration: none;
-  list-style: none;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 27px;
-  align-items: center;
-  color: #25282b;
-}
-header .header-flex-reg .log_out {
-  text-decoration: none;
-  list-style: none;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 27px;
-  align-items: center;
-  color: #728adf;
-}
-
-.nav1_opm {
-  display: flex;
-  flex-direction: row;
-  align-items: none;
-  background-color: #f8f8f8;
-  font-family: "Open Sans", sans-serif;
-  padding: 46px 0;
-  font-size: 20px;
-  line-height: 27px;
-  text-decoration: none;
-  margin-bottom: 50px;
-}
-.nav1_opm img {
-  padding: 0 10px 0 10px;
-}
-.nav1_opm .main {
-  color: #25282B;
-  text-decoration: none;
-}
-.nav1_opm .my_account {
-  color: #25282B;
-  text-decoration: none;
-}
-.nav1_opm .messages_nav1 {
-  color: #339cb3;
-  text-decoration: none;
-}
-
-.nav2_opm {
-  display: flex;
-  flex-direction: row;
-  align-items: none;
-  gap: 8px;
-}
-.nav2_opm a {
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
-  line-height: 27.24px;
-  text-decoration: none;
-  color: #25282B;
-  padding-right: 16px;
-}
-
-.main_opb {
-  margin-bottom: 97px;
-}
-.main_opb .tabs {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 50px;
-  gap: 24px;
-}
-.main_opb .tabs__item {
-  font-size: 25px;
-  padding: 6px;
-}
-@media (max-width: 998px) {
-  .main_opb .tabs__item {
-    font-size: 16px;
+@media (max-width: 1300px) {
+  .result-items {
+    flex-direction: column;
   }
 }
-.main_opb .tabs__item-active {
-  border-bottom: 1px solid #339CB3;
-}
-.main_opb .content {
+.result-items .result-item {
+  width: 50%;
+  gap: 20px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 262px 0;
-  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  overflow: auto;
 }
-.main_opb .content > h2 {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 56px;
-  /* Ui/Text */
-  color: #25282b;
+@media (max-width: 1300px) {
+  .result-items .result-item {
+    width: 100%;
+  }
 }
 
-/*# sourceMappingURL=OPBC.css.map */
+.ymap-container {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=PettsitterCards.module.css.map */

@@ -1786,126 +1786,66 @@ header .header-flex .header-flex-reg .log-in {
     color: #25282b;
   }
 }
-.text2 {
-  font-size: 25px;
-}
-
-.head3_blue {
-  font-size: 31px;
-  font-weight: 700;
-  font-family: "Raleway", sans-serif;
-  color: #728ADF;
-}
-
-header .header-flex-reg {
+.result-item__card {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-}
-header .header-flex-reg .account {
-  text-decoration: none;
-  list-style: none;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 27px;
-  align-items: center;
-  color: #25282b;
-}
-header .header-flex-reg .log_out {
-  text-decoration: none;
-  list-style: none;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 27px;
-  align-items: center;
-  color: #728adf;
-}
-
-.nav1_opm {
-  display: flex;
-  flex-direction: row;
-  align-items: none;
-  background-color: #f8f8f8;
-  font-family: "Open Sans", sans-serif;
-  padding: 46px 0;
-  font-size: 20px;
-  line-height: 27px;
-  text-decoration: none;
-  margin-bottom: 50px;
-}
-.nav1_opm img {
-  padding: 0 10px 0 10px;
-}
-.nav1_opm .main {
-  color: #25282B;
-  text-decoration: none;
-}
-.nav1_opm .my_account {
-  color: #25282B;
-  text-decoration: none;
-}
-.nav1_opm .messages_nav1 {
-  color: #339cb3;
-  text-decoration: none;
-}
-
-.nav2_opm {
-  display: flex;
-  flex-direction: row;
-  align-items: none;
-  gap: 8px;
-}
-.nav2_opm a {
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
-  line-height: 27.24px;
-  text-decoration: none;
-  color: #25282B;
-  padding-right: 16px;
-}
-
-.main_opb {
-  margin-bottom: 97px;
-}
-.main_opb .tabs {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 50px;
-  gap: 24px;
-}
-.main_opb .tabs__item {
-  font-size: 25px;
-  padding: 6px;
+  align-items: flex-start;
+  gap: 16px;
+  height: 241px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(51, 156, 179, 0.25);
+  margin-right: 54px;
 }
 @media (max-width: 998px) {
-  .main_opb .tabs__item {
-    font-size: 16px;
+  .result-item__card {
+    margin-right: 1rem;
   }
 }
-.main_opb .tabs__item-active {
-  border-bottom: 1px solid #339CB3;
+
+.result-item__card:last-of-type {
+  border-bottom: none;
 }
-.main_opb .content {
+
+.result-item__header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 262px 0;
-  justify-content: center;
+  width: 100%;
+  justify-content: space-between;
 }
-.main_opb .content > h2 {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 56px;
-  /* Ui/Text */
-  color: #25282b;
+.result-item__header > span {
+  color: #728ADF;
+  font-weight: 600;
+}
+@media (max-width: 998px) {
+  .result-item__header {
+    flex-direction: column;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .result-item__header > img {
+    width: 20px;
+    height: 20px;
+  }
+  .result-item__header > span {
+    font-size: 12px;
+  }
 }
 
-/*# sourceMappingURL=OPBC.css.map */
+.result-item__body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  height: 100%;
+}
+
+.result-item__stars {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+/*# sourceMappingURL=PettsitterCardsItem.module.css.map */
