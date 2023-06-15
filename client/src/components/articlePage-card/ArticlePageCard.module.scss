@@ -1,11 +1,14 @@
-@import '../../common.scss';
+@import '../../pages/Ayazhan/common.scss';
 
 @mixin flex($display: flex, $direction: row, $align_items: center) {
   display: $display;
   flex-direction: $direction;
   align-items: $align_items;
 }
-
+.post_topic {
+    color: #339CB3;
+    text-decoration: none;
+}
 .main_cat {
   max-width: 1283px;
   margin: 0 auto;
@@ -41,14 +44,14 @@
     color: $p_black;
   }
 
-  // .text1_cat {
-  //   margin-bottom: 20px;
-  //   margin-top: 47px;
-  // }
+  .text1_cat {
+    margin-bottom: 20px;
+    margin-top: 47px;
+  }
 
-  // .text2_cat {
-  //   margin-bottom: 20px;
-  // }
+  .text2_cat {
+    margin-bottom: 20px;
+  }
 
   h3 {
     font-family: $h3_font;
@@ -59,35 +62,35 @@
     margin-top: 80px;
   }
 
-  // .tick1 {
-  //   @include flex;
-  //   gap: 17px;
-  //   margin: 40px 0 30px 0;
-  // }
+  .tick1 {
+    @include flex;
+    gap: 17px;
+    margin: 40px 0 30px 0;
+  }
 
-  // .tick2 {
-  //   @include flex(flex, row, none);
-  //   gap: 17px;
-  //   margin-bottom: 30px;
-  // }
+  .tick2 {
+    @include flex(flex, row, none);
+    gap: 17px;
+    margin-bottom: 30px;
+  }
 
-  // .tick3 {
-  //   @include flex(flex, row, none);
-  //   gap: 17px;
-  //   margin-bottom: 30px;
-  // }
+  .tick3 {
+    @include flex(flex, row, none);
+    gap: 17px;
+    margin-bottom: 30px;
+  }
 
-  // .tick4 {
-  //   @include flex(flex, row, none);
-  //   gap: 17px;
-  //   margin-bottom: 30px;
-  // }
+  .tick4 {
+    @include flex(flex, row, none);
+    gap: 17px;
+    margin-bottom: 30px;
+  }
 
-  // .tick5 {
-  //   @include flex(flex, row, none);
-  //   gap: 17px;
-  //   margin-bottom: 84px;
-  // }
+  .tick5 {
+    @include flex(flex, row, none);
+    gap: 17px;
+    margin-bottom: 84px;
+  }
 
   button {
     @include flex;

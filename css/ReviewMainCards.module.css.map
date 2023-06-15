@@ -1,0 +1,1 @@
+{"version":3,"sources":["../client/src/components/review-card-main/ReviewMainCards.module.scss","ReviewMainCards.module.css"],"names":[],"mappings":"AACA;EACE,kBAAA;ACAF;ADCE;EACE,aAAA;EACA,cAAA;EACA,kBAAA;ACCJ;ADAI;EACE,sBAAA;EACA,kBAAA;EACA,gBAAA;EACA,eAAA;EACA,iBAAA;EACA,cAAA;EACA,mBAAA;ACEN;ADCI;EACE,aAAA;EACA,8BAAA;ACCN","file":"ReviewMainCards.module.css"}

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.question-btn {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 20px;
+  width: 100%; /* уидз задал чтобы содержимое занял всю ширину */
+  border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.question-btn:last-child {
+  margin-bottom: 0px;
+}
+.question-btn .btn-content p {
+  display: inline-block;
+  width: auto;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #25282b;
+  text-align: left;
+}
+.question-btn .btn-content img {
+  display: inline-block;
+}/*# sourceMappingURL=QuestionCardsItem.module.css.map */

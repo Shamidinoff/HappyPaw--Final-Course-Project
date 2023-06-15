@@ -19,7 +19,7 @@ router.post('/newPetsitter', async (req, res) => {
           walk, 
           rating, 
           price,
-          petAccept,
+          petAccepts,
           livConditions,
           onlineTime,
           replyTime,
@@ -32,7 +32,7 @@ router.post('/newPetsitter', async (req, res) => {
           res.status(400).json({ error: 'Petsitter already exists' });
         }
 
-        createdAt = new Date().toLocaleDateString();
+        createdAt = new Date();
         const petsitter = new Petsitter({ 
           createdAt,
           name,
@@ -47,7 +47,7 @@ router.post('/newPetsitter', async (req, res) => {
           walk,
           rating, 
           price,
-          petAccept,
+          petAccepts,
           livConditions,
           onlineTime,
           replyTime,
@@ -111,7 +111,7 @@ router.put('/:petsitterId', async (req, res) => {
       walk,
       rating, 
       price,
-      petAccept,
+      petAccepts,
       livConditions,
       onlineTime,
       replyTime,
@@ -136,7 +136,7 @@ router.put('/:petsitterId', async (req, res) => {
           walk,
           rating, 
           price,
-          petAccept,
+          petAccepts,
           livConditions,
           onlineTime,
           replyTime,

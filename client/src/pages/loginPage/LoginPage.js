@@ -1,23 +1,56 @@
-import "./login.css";
+import axios from "axios";
+import cl from "../loginPage/Login.module.scss"
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function LoginPage() {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+  const navigate = useNavigate()
+
+  function openHomePage() {
+    navigate("/home");
+  }
+
+  const handleLogin = async (e) => {
+    e.preventDefault();
+
+    if (!email || !password) {
+      setError('Please provide both email and password');
+      return;
+    }
+
+    try {
+      const response = await axios.post('http://localhost:5000/api/users/login', { email, password });
+
+      if (response.status === 200) {
+        openHomePage()
+      } else {
+        setError('Invalid email or password');
+      }
+    } catch (error) {
+      setError('An error occurred. Please try again later.');
+    }
+  };
+
   return (
     <div>
       <header>
-        <div class="container">
-          <div class="header-flex">
-            <div class="header-flex-logo">
-              <div class="burger-menu"></div>
+        <div className={cl.container}>
+          <div className={cl.header_flex}>
+            <div className={cl.header_flex_logo}>
+              <div className={cl.burger_menu}></div>
 
               <a href="#">
                 <img
-                  class="main-logo"
+                  className={cl.main_logo}
                   src="images-main/1.0-happy-paws-logo-1.svg"
                   alt="-happy-paws-logo-1"
                 />
               </a>
             </div>
-            <div class="header-flex-link">
+            <div className={cl.header_flex_link}>
               <ul>
                 <li>
                   <a href="#">Услуги</a>
@@ -30,70 +63,71 @@ function LoginPage() {
                 </li>
               </ul>
             </div>
-            <div class="header-flex-reg">
-              <button class="sign-in">Войти</button>
-              <button class="log-in">Зарегистрироваться</button>
+            <div className={cl.header_flex_reg}>
+              <button className={cl.signin}>Войти</button>
+              <button className={cl.login}>Зарегистрироваться</button>
             </div>
           </div>
         </div>
       </header>
       <main>
-        <section class="section1-login">
-          <div class="container">
-            <div class="wrapper">
-              <div class="close-icon">
+        <section className={cl.section1_login}>
+          <div className={cl.container}>
+            <div className={cl.wrapper}>
+              <div className={cl.close_icon}>
                 <img
-                  class="closebtn"
+                  className={cl.closebtn}
                   src="images-main/p7-1-close1.svg"
                   alt="close"
                 />
               </div>
 
-              <div class="regwrapper">
+              <div className={cl.regwrapper}>
                 <h1>Вход</h1>
 
-                <div class="googlereg">
+                <div className={cl.googlereg}>
                   <img src="images-main/p7-2-google.svg" alt="google" />
                   <p>Войти с помощью Google</p>
                 </div>
 
-                <div class="orline">
-                  <div class="lineleft"></div>
+                <div className={cl.orline}>
+                  <div className={cl.lineleft}></div>
                   <p>или</p>
-                  <div class="lineright"></div>
+                  <div className={cl.lineright}></div>
                 </div>
 
-                <div class="formcontent">
-                  <div class="form1">
+                {error && <p>{error}</p>}
+                <div className={cl.formcontent} >
+                  <div className={cl.form1}>
                     <form action="#">
-                      <input type="email" placeholder="Введите e-mail" />
+                      <input type="email" placeholder="Введите e-mail" value={email} onChange={(e) => setEmail(e.target.value)}/>
                     </form>
                   </div>
 
-                  <div class="form2">
+                  <div className={cl.form2}>
                     <form action="#">
-                      <input type="password" placeholder="Введите пароль" />
+                      <input type="password" placeholder="Введите пароль" value={password} onChange={(e) => setPassword(e.target.value)}/>
                       <img src="images-main/p7-3-eye.svg" alt="eye" />
                     </form>
                   </div>
 
-                  <button class="forgetbtn">Забыли пароль?</button>
+                  <button className={cl.forgetbtn}>Забыли пароль?</button>
                 </div>
 
-                <div class="checkcontent">
+                <div className={cl.checkcontent}>
                   <form action="#">
                     <input type="checkbox" />
                     <label>Запомнить пароль</label>
                   </form>
                 </div>
 
-                <div class="login-button">
-                  <button class="loginbtn">Войти</button>
+                <div className={cl.login_button}>
+                  <button className={cl.loginbtn} onClick={handleLogin}>Войти</button>
                 </div>
               </div>
 
-              <div class="no-account">
-                <button class="signinbtn">
+              <div className={cl.noaccount}>
+                <button className={cl.signinbtn}>
                   Нет аккаунта? Зарегистрируйтесь!
                 </button>
               </div>
@@ -102,8 +136,8 @@ function LoginPage() {
         </section>
       </main>
       <footer>
-        <div class="myfreedom2">
-          <div class="container">
+        <div className={cl.myfreedom2}>
+          <div className={cl.container}>
             <p>Есть вопросы? Свяжитесь с нами! +375 (44) 111-11-11</p>
           </div>
         </div>

@@ -1,0 +1,77 @@
+.view {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: top;
+  width: 731px;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
+  border-radius: 10px;
+  padding: 30px 50px 24px 27px;
+  margin-bottom: 30px;
+}
+.view:last-child {
+  margin-bottom: 0px;
+}
+.view .item1 {
+  margin-right: 30px;
+}
+.view .item1 img {
+  width: auto;
+}
+.view .item2 {
+  text-align: left;
+}
+.view .item2 h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 36px;
+  align-items: center;
+  text-align: center;
+  color: #25282b;
+  margin-bottom: 8px;
+  text-align: left;
+}
+.view .item2 .stars {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.view .item2 .stars img {
+  display: inline-block;
+  margin-right: 3px;
+}
+.view .item2 .stars p {
+  margin-left: 5px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #25282b;
+}
+.view .item2 p {
+  margin-left: 5px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #25282b;
+}
+.view .item2 .view_date {
+  text-align: right;
+  padding-top: 70px;
+}
+.view .item2 .view_date p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.03em;
+  color: #25282b;
+}/*# sourceMappingURL=ReviewCardsItem.module.css.map */

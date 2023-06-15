@@ -1,3 +1,4 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Contacts from "./pages/Ayazhan/Contacts/Contacts";
 import Opb from "./pages/Ayazhan/OPB/Opb";
@@ -14,26 +15,42 @@ import PersonalPage from "./pages/personalPage/PersonalPage";
 import Service from "./pages/servicepage/Service";
 import SitterSearch1 from "./pages/sitterSearch1/SitterSearch1";
 import SitterSearch2 from "./pages/sitterSearch2/SitterSearch2";
+import NotFound from "./pages/NotFound";
+import SignupPage from "./pages/signupPage/SignupPage";
+
 
 function App() {
   return (
-    <div className="App">
-      {/* <Main /> */}
-      {/*  <Service /> */}
-      {/* <SitterSearch1 /> */}
-      <SitterSearch2 />
-      {/* <PersonalPage /> */}
-      {/* <OwnerPage /> */}
-      {/* <LoginPage /> */}
-      {/* <Blog1 /> */}
-      {/* <Blog2 /> */}
-      {/* <Contacts /> */}
-      {/* <Opb /> */}
-      {/* <Opbc /> */}
-      {/* <Opbpo /> */}
-      {/* <Opm /> */}
-      {/* <Search /> */}
-    </div>
+    // <div className="App">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/home" element={<Main />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/signup" element={<SignupPage />} />
+          <Route path="/posts" element={<Blog1 />} />
+          <Route path="/posts/:id" element={<Blog2 />} />
+          <Route path="/petsitters" element={<Search />} />
+          <Route path="/petsitters/:id" element={<PersonalPage />} />
+          
+          <Route path="/error" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
+      // {/* <Main /> */}
+      // {/*  <Service /> */}
+      // {/* <SitterSearch1 /> */}
+      // {/* <SitterSearch2 /> */}
+      // {/* <PersonalPage /> */}
+      // {/* <OwnerPage /> */}
+      // {/* <LoginPage /> */}
+      // {/* <Blog1 /> */}
+      // {/* <Blog2 /> */}
+      // {/* <Contacts /> */}
+      // {/* <Opb /> */}
+      // {/* <Opbc /> */}
+      // {/* <Opbpo /> */}
+      // {/* <Opm /> */}
+      // {/* <Search /> */}
+    // </div>
   );
 }
 

@@ -69,7 +69,7 @@ const petsitterSchema = new mongoose.Schema({
       default: 0,
     }
   },
-  petAccept: [{
+  petAccepts: [{
     petType: {
       type: String,
     },

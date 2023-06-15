@@ -18,7 +18,7 @@ const reviewSchema = new mongoose.Schema({
     required: true,
     unique: true,
   },
-  userId: {
+  avatar: {
     type: String,
   },
 }, { timestamps: true });

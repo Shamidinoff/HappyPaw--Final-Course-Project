@@ -15,9 +15,9 @@ const ArticleCards = () => {
   //get every post when all postIds are ready (postIds.length!==0)
   useEffect(() => {
     if (postIds.length !== 0) {
-      postIds.forEach((postId) => {
-        getPost(postId);
-      });
+      for (let i=0; i < 10; i++){
+        getPost(postIds[i]);
+      }
     }
   }, [postIds]);
 
@@ -42,26 +42,33 @@ const ArticleCards = () => {
     }
   }
 
+  const options = {  day: 'numeric', month: 'long', year: 'numeric'}
   const postsItems = posts.map((post) => {
-    return (
-      <ArticleCardsItem
-        img={post.postImage}
-        title={post.title}
-        content={post.content[0]}
-      />
-    );
+      const dateForm = new Date(post.createdAt).toLocaleString("ru", options).split(" ");
+      const date = dateForm[0] + " " + dateForm[1].charAt(0).toUpperCase() + dateForm[1].slice(1) + ", " + dateForm[2];
+      
+      return (
+        <ArticleCardsItem
+          img={post.postImage}
+          title={post.title}
+          content={post.content[0].substring(0, 101) + "..."}
+          date={date}
+          like={post.like}
+          id={post._id}
+        />
+      );
   });
 
   return (
-    <section className="section6-article">
-      <div className="container">
+    <section className={cl.section6_article}>
+      <div className={cl.container}>
         <h2>Наши последние статьи</h2>
-        <div className="article-cards">
-          {posts.length === 0 ? <p>Здесь пусто</p> : postsItems}
+        <div className={cl.article_cards}>
+          {posts.length === 0 ? <p>Данные загружаются...</p> : postsItems}
         </div>
 
-        <div className="read-more-button">
-          <button className="read-more-btn">Читать больше &#8594;</button>
+        <div className={cl.read_more_button}>
+          <button className={cl.read_more_btn}>Читать больше &#8594;</button>
         </div>
       </div>
     </section>

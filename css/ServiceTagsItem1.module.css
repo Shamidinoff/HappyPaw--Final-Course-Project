@@ -1,0 +1,23 @@
+.card-item-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 33px;
+}
+.card-item-content img {
+  max-width: 100%;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+.card-item-content p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #25282b;
+  text-align: left;
+  vertical-align: middle;
+}/*# sourceMappingURL=ServiceTagsItem1.module.css.map */

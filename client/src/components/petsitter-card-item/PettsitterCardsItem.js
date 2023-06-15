@@ -1,36 +1,35 @@
-import React from 'react'
 import cl from './PettsitterCardsItem.module.scss'
-// import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
-const PettsitterCardsItem = ({ img, title, content }) => {
-      // const navigate = useNavigate()
+const PettsitterCardsItem = ({ img, name, address, overstay, walk, star, reviewsNum, price, id }) => {
+      const navigate = useNavigate()
 
-      // function openPost(){
-      //   navigate("/posts/" + id)
-      // }
+      function openPetsitter(){
+        navigate("/petsitters/" + id)
+      }
     
       return (
-        <article class="result-item__card">
-          <img src="../../images-blog/people-1.jpg" alt="" />
-          <div class="result-item__body">
-            <div class="result-item__header">
-              <h3 class="head3">Маргарита</h3>
-              <span>От 25 BYN </span>
-              <img src="../../images-blog/filled-heart.svg" alt="" />
+        <article className={cl.result_item__card}>
+          <img src={img} alt="photo" />
+          <div className={cl.result_item__body}>
+            <div className={cl.result_item__header}>
+              <h3 className={cl.head3}>{name}</h3>
+              <span>От {price} BYN </span>
+              <img src="../../images-blog/filled-heart.svg" alt="like" />
             </div>
-            <p>Минск, Первомайский р-н</p>
-            <p>12 передержек, 6 выгулов</p>
-            <div class="result-item__stars">
+            <p>{address}</p>
+            <p>{overstay} передержек, {walk} выгулов</p>
+            <div className={cl.result_item__stars}>
               <div>
-                <img src="../../images-blog/filled-start.svg" alt="" />
-                <img src="../../images-blog/filled-start.svg" alt="" />
-                <img src="../../images-blog/filled-start.svg" alt="" />
-                <img src="../../images-blog/filled-start.svg" alt="" />
-                <img src="../../images-blog/filled-start.svg" alt="" />
+                <img src="../../images-blog/filled-start.svg" alt="star" />
+                <img src="../../images-blog/filled-start.svg" alt="star" />
+                <img src="../../images-blog/filled-start.svg" alt="star" />
+                <img src="../../images-blog/filled-start.svg" alt="star" />
+                <img src="../../images-blog/filled-start.svg" alt="star" />
               </div>
-              <span>(8)</span>
+              <span>({reviewsNum})</span>
             </div>
-            <button type="button" class="primary-btn mt-auto">
+            <button onClick={openPetsitter} type="button" class="primary-btn mt-auto">
               Выбрать
               <img src="../../images-blog/white-right.svg" alt="" />
             </button>

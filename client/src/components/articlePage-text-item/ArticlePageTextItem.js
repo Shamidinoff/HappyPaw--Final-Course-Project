@@ -1,14 +1,11 @@
-import React, { useEffect, useState } from 'react'
 import cl from './ArticlePageTextItem.module.scss'
-import axios from 'axios'
 
 
-const ArticlePageTextItem = () => {
+const ArticlePageTextItem = ({ children }) => {
         
     return (
         <div>
-            <p class = "text1_cat" >Кошачьи стрижки бывают двух видов: гигиенические и модельные. Выполняет ее профессиональный зоопарикмахер - грумер.
-                    Он не обязательно должен иметь ветеринарное образование.</p>
+            <p className ={cl.text1_cat} >{children}</p>
         </div>
     );
 }

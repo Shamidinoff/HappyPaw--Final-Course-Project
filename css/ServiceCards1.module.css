@@ -1,0 +1,21 @@
+.section2-services {
+  padding-top: 50px;
+}
+.section2-services .container {
+  width: 1684px;
+  margin: 0 auto;
+  text-align: center;
+}
+.section2-services .container h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #25282b;
+  margin-bottom: 60px;
+}
+.section2-services .container .service-cards {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=ServiceCards1.module.css.map */
