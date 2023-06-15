@@ -21,11 +21,11 @@ function App() {
       {/* <Main /> */}
       {/*  <Service /> */}
       {/* <SitterSearch1 /> */}
-      {/* <SitterSearch2 /> */}
+      <SitterSearch2 />
       {/* <PersonalPage /> */}
       {/* <OwnerPage /> */}
       {/* <LoginPage /> */}
-      <Blog1 />
+      {/* <Blog1 /> */}
       {/* <Blog2 /> */}
       {/* <Contacts /> */}
       {/* <Opb /> */}
