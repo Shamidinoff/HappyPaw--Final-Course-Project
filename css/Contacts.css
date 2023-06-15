@@ -184,7 +184,6 @@ header .header-flex .header-flex-logo {
 }
 header .header-flex .header-flex-logo .close-menu {
   display: none; /* close menu icon */
-  background-image: url(/public/images-main/0-2-close-menu.png);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -423,14 +422,12 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -585,14 +582,12 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -747,14 +742,12 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -917,14 +910,12 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1091,7 +1082,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1100,7 +1090,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1272,7 +1261,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1281,7 +1269,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1454,7 +1441,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1463,7 +1449,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1641,7 +1626,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1650,7 +1634,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1858,6 +1841,48 @@ header .header-flex .header-flex-reg .log-in {
 .table_contacts .main_info .general_info .internal_info .telephone_contacts {
   margin-bottom: 40px;
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.table_contacts .main_info .general_info .internal_info .mail_contacts {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.table_contacts .main_info .general_info .internal_info .address_contacts {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.table_contacts .main_info .general_info .internal_info .caption_contacts {
+  margin-bottom: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.table_contacts .main_info .general_info .internal_info .social_networks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 27px;
+}
+.table_contacts .main_info h3 {
+  font-family: "Raleway", sans-serif;
+  color: #728ADF;
+  font-size: 31px;
+  line-height: 36px;
+}
+.table_contacts .main_info p {
+  font-family: "Open Sans", sans-serif;
+  color: #25282B;
+  font-size: 20px;
+  line-height: 27px;
+}/*# sourceMappingURL=Contacts.css.map */x;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;

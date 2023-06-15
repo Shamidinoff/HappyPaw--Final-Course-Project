@@ -15,37 +15,37 @@ header {
     width: 1684px;
     margin: 0 auto;
 
-    .header-flex {
+    .header_flex {
       display: flex;
       justify-content: space-between;
       text-align: center;
       align-items: center;
 
-      .header-flex-logo {
+      .header_flex_logo {
         margin-right: 114px; // По дизайну расстояние от лого до линков больше
 
-        .burger-menu {
+        .burger_menu {
           display: none; /* display - block when phone version */
-          background-image: url(/public/images-main/0-1-menu-burger.png);
+          // background-image: url(/public/images-main/0-1-menu-burger.png);
           background-size: cover;
           width: 50px;
           height: 50px;
         }
-        .close-menu {
+        .close_menu {
           display: none; /* close menu icon */
-          background-image: url(/public/images-main/0-2-close-menu.png);
+          // background-image: url(/public/images-main/0-2-close-menu.png);
           background-size: cover;
           width: 50px;
           height: 50px;
         }
 
         a {
-          .main-logo {
+          .main_logo {
             display: block;
           }
         }
       }
-      .header-flex-link {
+      .header_flex_link {
         ul {
           display: flex;
           flex-direction: row;
@@ -71,10 +71,10 @@ header {
           }
         }
       }
-      .header-flex-reg {
+      .header_flex_reg {
         display: flex;
         flex-direction: row;
-        .sign-in {
+        .signin {
           padding: 8.5px 22px;
           border-radius: 50px;
           background-color: #728adf;
@@ -92,7 +92,7 @@ header {
           color: #ffffff;
           cursor: pointer;
         }
-        .log-in {
+        .login {
           padding: 8.5px 22px;
           border-radius: 50px;
           background-color: #fff;
@@ -115,7 +115,7 @@ header {
 }
 
 main {
-  .section1-login {
+  .section1_login {
     background-color: #f8f8f8;
     width: auto;
     padding-top: 150px;
@@ -133,7 +133,7 @@ main {
 
         width: 824px; // size login container
         padding: 20px 20px;
-        .close-icon {
+        .close_icon {
           text-align: right;
           .closebtn {
             color: #339cb3;
@@ -329,14 +329,13 @@ main {
             }
           }
 
-          .login-button {
+          .login_button {
             width: 100%;
             margin-bottom: 90px;
 
             .loginbtn {
               width: 100%;
               padding: 12px;
-
               font-family: "Raleway";
               font-style: normal;
               font-weight: 600;
@@ -345,7 +344,6 @@ main {
               align-items: center;
               text-align: center;
               color: #ffffff;
-
               border: 1px solid #339cb3;
               background-color: #339cb3;
               border-radius: 10px;
@@ -354,7 +352,7 @@ main {
           }
         }
 
-        .no-account {
+        .noaccount {
           width: 100%;
           margin-bottom: 30px;
           text-align: right;
@@ -368,7 +366,6 @@ main {
             align-items: center;
             text-decoration-line: underline;
             color: #728adf;
-
             border: none;
             background-color: #ffffff;
             cursor: pointer;
@@ -408,34 +405,34 @@ footer {
       width: 90%;
       margin: 0 auto;
 
-      .header-flex {
+      .header_flex {
         display: flex;
         justify-content: space-between;
         text-align: center;
         align-items: center;
-        .burger-menu {
+        .burger_menu {
           display: none; /* display - block when phone version */
-          background-image: url(/public/images-main/0-1-menu-burger.png);
+          // background-image: url(/public/images-main/0-1-menu-burger.png);
           background-size: cover;
           width: 50px;
           height: 50px;
         }
-        .close-menu {
+        .close_menu {
           display: none; /* close menu icon */
-          background-image: url(/public/images-main/0-2-close-menu.png);
+          // background-image: url(/public/images-main/0-2-close-menu.png);
           background-size: cover;
           width: 50px;
           height: 50px;
         }
-        .header-flex-logo {
+        .header_flex_logo {
           margin-right: 114px; // По дизайну расстояние от лого до линков больше
           a {
-            .main-logo {
+            .main_logo {
               display: block;
             }
           }
         }
-        .header-flex-link {
+        .header_flex_link {
           ul {
             display: flex;
             flex-direction: row;
@@ -461,10 +458,10 @@ footer {
             }
           }
         }
-        .header-flex-reg {
+        .header_flex_reg {
           display: flex;
           flex-direction: row;
-          .sign-in {
+          .signin {
             padding: 8.5px 22px;
             border-radius: 50px;
             background-color: #728adf;
@@ -482,7 +479,7 @@ footer {
             color: #ffffff;
             cursor: pointer;
           }
-          .log-in {
+          .login {
             padding: 8.5px 22px;
             border-radius: 50px;
             background-color: #fff;
@@ -505,7 +502,7 @@ footer {
   }
 
   main {
-    .section1-login {
+    .section1_login {
       background-color: #f8f8f8;
       width: auto;
       padding-top: 150px;
@@ -523,7 +520,7 @@ footer {
 
           width: 824px; // size login container
           padding: 20px 20px;
-          .close-icon {
+          .close_icon {
             text-align: right;
             .closebtn {
               color: #339cb3;
@@ -719,7 +716,7 @@ footer {
               }
             }
 
-            .login-button {
+            .login_button {
               width: 100%;
               margin-bottom: 90px;
 
@@ -744,7 +741,7 @@ footer {
             }
           }
 
-          .no-account {
+          .noaccount {
             width: 100%;
             margin-bottom: 30px;
             text-align: right;
@@ -799,34 +796,34 @@ footer {
       width: 90%;
       margin: 0 auto;
 
-      .header-flex {
+      .header_flex {
         display: flex;
         justify-content: space-between;
         text-align: center;
         align-items: center;
-        .burger-menu {
+        .burger_menu {
           display: none; /* display - block when phone version */
-          background-image: url(/public/images-main/0-1-menu-burger.png);
+          // background-image: url(/public/images-main/0-1-menu-burger.png);
           background-size: cover;
           width: 50px;
           height: 50px;
         }
-        .close-menu {
+        .close_menu {
           display: none; /* close menu icon */
-          background-image: url(/public/images-main/0-2-close-menu.png);
+          // background-image: url(/public/images-main/0-2-close-menu.png);
           background-size: cover;
           width: 50px;
           height: 50px;
         }
-        .header-flex-logo {
+        .header_flex_logo {
           margin-right: 114px; // По дизайну расстояние от лого до линков больше
           a {
-            .main-logo {
+            .main_logo {
               display: block;
             }
           }
         }
-        .header-flex-link {
+        .header_flex_link {
           ul {
             display: flex;
             flex-direction: row;
@@ -852,10 +849,10 @@ footer {
             }
           }
         }
-        .header-flex-reg {
+        .header_flex_reg {
           display: flex;
           flex-direction: row;
-          .sign-in {
+          .signin {
             padding: 8.5px 22px;
             border-radius: 50px;
             background-color: #728adf;
@@ -873,7 +870,7 @@ footer {
             color: #ffffff;
             cursor: pointer;
           }
-          .log-in {
+          .login {
             padding: 8.5px 22px;
             border-radius: 50px;
             background-color: #fff;
@@ -896,7 +893,7 @@ footer {
   }
 
   main {
-    .section1-login {
+    .section1_login {
       background-color: #f8f8f8;
       width: auto;
       padding-top: 150px;
@@ -1110,7 +1107,7 @@ footer {
               }
             }
 
-            .login-button {
+            .login_button {
               width: 100%;
               margin-bottom: 90px;
 
@@ -1135,7 +1132,7 @@ footer {
             }
           }
 
-          .no-account {
+          .noaccount {
             width: 100%;
             margin-bottom: 30px;
             text-align: right;
@@ -1190,34 +1187,34 @@ footer {
       width: 95%; /* changed */
       margin: 0 auto;
 
-      .header-flex {
+      .header_flex {
         display: flex;
         justify-content: space-between;
         text-align: center;
         align-items: center;
-        .burger-menu {
+        .burger_menu {
           display: none; /* display - block when phone version */
-          background-image: url(/public/images-main/0-1-menu-burger.png);
+          // background-image: url(/public/images-main/0-1-menu-burger.png);
           background-size: cover;
           width: 50px;
           height: 50px;
         }
-        .close-menu {
+        .close_menu {
           display: none; /* close menu icon */
-          background-image: url(/public/images-main/0-2-close-menu.png);
+          // background-image: url(/public/images-main/0-2-close-menu.png);
           background-size: cover;
           width: 50px;
           height: 50px;
         }
-        .header-flex-logo {
+        .header_flex_logo {
           margin-right: 0px; /* changed */
           a {
-            .main-logo {
+            .main_logo {
               display: block;
             }
           }
         }
-        .header-flex-link {
+        .header_flex_link {
           ul {
             display: flex;
             flex-direction: row;
@@ -1243,10 +1240,10 @@ footer {
             }
           }
         }
-        .header-flex-reg {
+        .header_flex_reg {
           display: flex;
           flex-direction: row;
-          .sign-in {
+          .signin {
             padding: 8.5px 22px;
             border-radius: 50px;
             background-color: #728adf;
@@ -1264,7 +1261,7 @@ footer {
             color: #ffffff;
             cursor: pointer;
           }
-          .log-in {
+          .login {
             padding: 8.5px 22px;
             border-radius: 50px;
             background-color: #fff;
@@ -1287,7 +1284,7 @@ footer {
   }
 
   main {
-    .section1-login {
+    .section1_login {
       background-color: #f8f8f8;
       width: auto;
       padding-top: 150px;
@@ -1305,7 +1302,7 @@ footer {
 
           width: 824px; // size login container
           padding: 20px 20px;
-          .close-icon {
+          .close_icon {
             text-align: right;
             .closebtn {
               color: #339cb3;
@@ -1501,7 +1498,7 @@ footer {
               }
             }
 
-            .login-button {
+            .login_button {
               width: 100%;
               margin-bottom: 90px;
 
@@ -1526,7 +1523,7 @@ footer {
             }
           }
 
-          .no-account {
+          .noaccount {
             width: 100%;
             margin-bottom: 30px;
             text-align: right;
@@ -1581,34 +1578,34 @@ footer {
       width: 90%;
       margin: 0 auto;
 
-      .header-flex {
+      .header_flex {
         display: flex;
         justify-content: space-between;
         text-align: center;
         align-items: center;
-        .burger-menu {
+        .burger_menu {
           display: none; /* display - block when phone version */
-          background-image: url(/public/images-main/0-1-menu-burger.png);
+          // background-image: url(/public/images-main/0-1-menu-burger.png);
           background-size: cover;
           width: 50px;
           height: 50px;
         }
-        .close-menu {
+        .close_menu {
           display: none; /* close menu icon */
-          background-image: url(/public/images-main/0-2-close-menu.png);
+          // background-image: url(/public/images-main/0-2-close-menu.png);
           background-size: cover;
           width: 50px;
           height: 50px;
         }
-        .header-flex-logo {
+        .header_flex_logo {
           margin-right: 0px; // По дизайну расстояние от лого до линков больше
           a {
-            .main-logo {
+            .main_logo {
               display: block;
             }
           }
         }
-        .header-flex-link {
+        .header_flex_link {
           ul {
             display: flex;
             flex-direction: row;
@@ -1634,10 +1631,10 @@ footer {
             }
           }
         }
-        .header-flex-reg {
+        .header_flex_reg {
           display: flex;
           flex-direction: row;
-          .sign-in {
+          .signin {
             padding: 8.5px 22px;
             border-radius: 50px;
             background-color: #728adf;
@@ -1655,7 +1652,7 @@ footer {
             color: #ffffff;
             cursor: pointer;
           }
-          .log-in {
+          .login {
             padding: 8.5px 22px;
             border-radius: 50px;
             background-color: #fff;
@@ -1678,7 +1675,7 @@ footer {
   }
 
   main {
-    .section1-login {
+    .section1_login {
       background-color: #f8f8f8;
       width: auto;
       padding-top: 150px;
@@ -1696,7 +1693,7 @@ footer {
 
           width: 600px; // size login container
           padding: 20px 20px;
-          .close-icon {
+          .close_icon {
             text-align: right;
             .closebtn {
               color: #339cb3;
@@ -1892,7 +1889,7 @@ footer {
               }
             }
 
-            .login-button {
+            .login_button {
               width: 100%;
               margin-bottom: 90px;
 
@@ -1917,7 +1914,7 @@ footer {
             }
           }
 
-          .no-account {
+          .noaccount {
             width: 100%;
             margin-bottom: 30px;
             text-align: right;
@@ -1973,41 +1970,41 @@ footer {
       width: 95%;
       margin: 0 auto;
 
-      .header-flex {
+      .header_flex {
         display: flex;
         justify-content: space-between;
         text-align: center;
         align-items: center;
 
-        .header-flex-logo {
+        .header_flex_logo {
           display: flex;
           justify-content: space-between;
           margin-right: 0px; // По дизайну расстояние от лого до линков больше
 
-          .burger-menu {
+          .burger_menu {
             display: block; /* display - block when phone version */
-            background-image: url(/public/images-main/0-1-menu-burger.png);
+            // background-image: url(/public/images-main/0-1-menu-burger.png);
             background-size: cover;
             width: 50px;
             height: 50px;
             margin-right: 20px;
             align-items: center;
           }
-          .close-menu {
+          .close_menu {
             display: block; /* close menu icon */
-            background-image: url(/public/images-main/0-2-close-menu.png);
+            // background-image: url(/public/images-main/0-2-close-menu.png);
             background-size: cover;
             width: 50px;
             height: 50px;
           }
 
           a {
-            .main-logo {
+            .main_logo {
               display: block;
             }
           }
         }
-        .header-flex-link {
+        .header_flex_link {
           display: none; /* changed */ /* changed */ /* changed */
           position: absolute;
           margin-top: 400px;
@@ -2039,10 +2036,10 @@ footer {
             }
           }
         }
-        .header-flex-reg {
+        .header_flex_reg {
           display: flex;
           flex-direction: row;
-          .sign-in {
+          .signin {
             padding: 8.5px 22px;
             border-radius: 50px;
             background-color: #728adf;
@@ -2060,7 +2057,7 @@ footer {
             color: #ffffff;
             cursor: pointer;
           }
-          .log-in {
+          .login {
             display: none; // Кнопка зарегистрироваться отключена
 
             padding: 8.5px 22px;
@@ -2085,7 +2082,7 @@ footer {
   }
 
   main {
-    .section1-login {
+    .section1_login {
       background-color: #f8f8f8;
       width: auto;
       padding-top: 150px;
@@ -2103,7 +2100,7 @@ footer {
 
           width: 600px; // size login container
           padding: 20px 20px;
-          .close-icon {
+          .close_icon {
             text-align: right;
             .closebtn {
               color: #339cb3;
@@ -2299,7 +2296,7 @@ footer {
               }
             }
 
-            .login-button {
+            .login_button {
               width: 100%;
               margin-bottom: 90px;
 
@@ -2324,7 +2321,7 @@ footer {
             }
           }
 
-          .no-account {
+          .noaccount {
             width: 100%;
             margin-bottom: 30px;
             text-align: right;
@@ -2380,41 +2377,41 @@ footer {
       width: 90%;
       margin: 0 auto;
 
-      .header-flex {
+      .header_flex {
         display: flex;
         justify-content: space-between;
         text-align: center;
         align-items: center;
 
-        .header-flex-logo {
+        .header_flex_logo {
           display: flex;
           justify-content: space-between;
           margin-right: 0px; // По дизайну расстояние от лого до линков больше
 
-          .burger-menu {
+          .burger_menu {
             display: block; /* display - block when phone version */
-            background-image: url(/public/images-main/0-1-menu-burger.png);
+            // background-image: url(/public/images-main/0-1-menu-burger.png);
             background-size: cover;
             width: 50px;
             height: 50px;
             margin-right: 20px;
             align-items: center;
           }
-          .close-menu {
+          .close_menu {
             display: block; /* close menu icon */
-            background-image: url(/public/images-main/0-2-close-menu.png);
+            // background-image: url(/public/images-main/0-2-close-menu.png);
             background-size: cover;
             width: 50px;
             height: 50px;
           }
 
           a {
-            .main-logo {
+            .main_logo {
               display: block;
             }
           }
         }
-        .header-flex-link {
+        .header_flex_link {
           display: none; /* changed */ /* changed */ /* changed */
           position: absolute;
           margin-top: 400px;
@@ -2446,10 +2443,10 @@ footer {
             }
           }
         }
-        .header-flex-reg {
+        .header_flex_reg {
           display: flex;
           flex-direction: row;
-          .sign-in {
+          .signin {
             padding: 8.5px 22px;
             border-radius: 50px;
             background-color: #728adf;
@@ -2467,7 +2464,7 @@ footer {
             color: #ffffff;
             cursor: pointer;
           }
-          .log-in {
+          .login {
             display: none; // Кнопка зарегистрироваться отключена
 
             padding: 8.5px 22px;
@@ -2492,7 +2489,7 @@ footer {
   }
 
   main {
-    .section1-login {
+    .section1_login {
       background-color: #f8f8f8;
       width: auto;
       padding-top: 150px;
@@ -2510,7 +2507,7 @@ footer {
 
           width: 500px; // size login container
           padding: 20px 20px;
-          .close-icon {
+          .close_icon {
             text-align: right;
             .closebtn {
               color: #339cb3;
@@ -2706,7 +2703,7 @@ footer {
               }
             }
 
-            .login-button {
+            .login_button {
               width: 100%;
               margin-bottom: 90px;
 
@@ -2731,7 +2728,7 @@ footer {
             }
           }
 
-          .no-account {
+          .noaccount {
             width: 100%;
             margin-bottom: 30px;
             text-align: right;
@@ -2745,7 +2742,6 @@ footer {
               align-items: center;
               text-decoration-line: underline;
               color: #728adf;
-
               border: none;
               background-color: #ffffff;
               cursor: pointer;
@@ -2787,7 +2783,7 @@ footer {
       width: 95%;
       margin: 0 auto;
 
-      .header-flex {
+      .header_flex {
         display: flex;
         justify-content: space-between; /* changed - space between */
         // flex-wrap: wrap-reverse;
@@ -2796,35 +2792,35 @@ footer {
 
         gap: 20px;
 
-        .header-flex-logo {
+        .header_flex_logo {
           display: flex;
           justify-content: space-between;
           margin-right: 0px; // По дизайну расстояние от лого до линков больше
 
-          .burger-menu {
+          .burger_menu {
             display: block; /* display - block when phone version */
-            background-image: url(/public/images-main/0-1-menu-burger.png);
+            // background-image: url(/public/images-main/0-1-menu-burger.png);
             background-size: cover;
             width: 50px;
             height: 50px;
             margin-right: 15px;
             align-items: center;
           }
-          .close-menu {
+          .close_menu {
             display: block; /* close menu icon */
-            background-image: url(/public/images-main/0-2-close-menu.png);
+            // background-image: url(/public/images-main/0-2-close-menu.png);
             background-size: cover;
             width: 50px;
             height: 50px;
           }
 
           a {
-            .main-logo {
+            .main_logo {
               display: block;
             }
           }
         }
-        .header-flex-link {
+        .header_flex_link {
           display: none; /* changed */ /* changed */ /* changed */
           position: absolute;
           margin-top: 400px;
@@ -2856,10 +2852,10 @@ footer {
             }
           }
         }
-        .header-flex-reg {
+        .header_flex_reg {
           display: flex;
           flex-direction: row;
-          .sign-in {
+          .signin {
             padding: 8px 15px;
             border-radius: 50px;
             background-color: #728adf;
@@ -2877,7 +2873,7 @@ footer {
             color: #ffffff;
             cursor: pointer;
           }
-          .log-in {
+          .login {
             display: none; // Кнопка зарегистрироваться отключена
 
             padding: 8px 15px;
@@ -2902,7 +2898,7 @@ footer {
   }
 
   main {
-    .section1-login {
+    .section1_login {
       background-color: #f8f8f8;
       width: auto;
       padding-top: 150px;
@@ -2920,7 +2916,7 @@ footer {
 
           width: 400px; // size login container
           padding: 20px 20px;
-          .close-icon {
+          .close_icon {
             text-align: right;
             .closebtn {
               color: #339cb3;
@@ -3116,7 +3112,7 @@ footer {
               }
             }
 
-            .login-button {
+            .login_button {
               width: 100%;
               margin-bottom: 90px;
 
@@ -3141,7 +3137,7 @@ footer {
             }
           }
 
-          .no-account {
+          .noaccount {
             width: 100%;
             margin-bottom: 30px;
             text-align: right;
@@ -3197,7 +3193,7 @@ footer {
       width: 95%;
       margin: 0 auto;
 
-      .header-flex {
+      .header_flex {
         display: flex;
         justify-content: space-between; /* changed - space between */
         // flex-wrap: wrap;
@@ -3206,35 +3202,35 @@ footer {
 
         gap: 20px;
 
-        .header-flex-logo {
+        .header_flex_logo {
           display: flex;
           justify-content: space-between;
           margin-right: 0px; // По дизайну расстояние от лого до линков больше
 
-          .burger-menu {
+          .burger_menu {
             display: block; /* display - block when phone version */
-            background-image: url(/public/images-main/0-1-menu-burger.png);
+            // background-image: url(/public/images-main/0-1-menu-burger.png);
             background-size: cover;
             width: 50px;
             height: 50px;
             margin-right: 15px;
             align-items: center;
           }
-          .close-menu {
+          .close_menu {
             display: block; /* close menu icon */
-            background-image: url(/public/images-main/0-2-close-menu.png);
+            // background-image: url(/public/images-main/0-2-close-menu.png);
             background-size: cover;
             width: 50px;
             height: 50px;
           }
 
           a {
-            .main-logo {
+            .main_logo {
               display: block;
             }
           }
         }
-        .header-flex-link {
+        .header_flex_link {
           display: none; /* changed */ /* changed */ /* changed */
           position: absolute;
           margin-top: 400px;
@@ -3266,10 +3262,10 @@ footer {
             }
           }
         }
-        .header-flex-reg {
+        .header_flex_reg {
           display: flex;
           flex-direction: row;
-          .sign-in {
+          .signin {
             padding: 8px 15px;
             border-radius: 50px;
             background-color: #728adf;
@@ -3287,7 +3283,7 @@ footer {
             color: #ffffff;
             cursor: pointer;
           }
-          .log-in {
+          .login {
             display: none; // Кнопка зарегистрироваться отключена
 
             padding: 8px 15px;
@@ -3312,7 +3308,7 @@ footer {
   }
 
   main {
-    .section1-login {
+    .section1_login {
       background-color: #f8f8f8;
       width: auto;
       padding-top: 150px;
@@ -3330,7 +3326,7 @@ footer {
 
           width: 400px; // size login container
           padding: 20px 20px;
-          .close-icon {
+          .close_icon {
             text-align: right;
             .closebtn {
               color: #339cb3;
@@ -3526,7 +3522,7 @@ footer {
               }
             }
 
-            .login-button {
+            .login_button {
               width: 100%;
               margin-bottom: 90px;
 
@@ -3551,7 +3547,7 @@ footer {
             }
           }
 
-          .no-account {
+          .noaccount {
             width: 100%;
             margin-bottom: 30px;
             text-align: right;
@@ -3579,7 +3575,6 @@ footer {
   footer {
     .myfreedom2 {
       // margin-top: 50px;
-
       background-color: rgba(51, 156, 179, 0.25);
       padding: 17px 0;
       .container {

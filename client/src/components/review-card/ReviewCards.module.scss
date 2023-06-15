@@ -1,38 +1,11 @@
 
-.section4-views {
-    .container {
-      width: 1684px;
-      margin: 0 auto;
-      text-align: center;
-
-      .wrapper-all {
-        width: 789px; // max-width: 789px;
-        margin: 0 auto;
-        .views-sum {
-          text-align: left;
-          h1 {
-            font-family: "Raleway";
-            font-style: normal;
-            font-weight: 700;
-            font-size: 48px;
-            line-height: 56px;
-            align-items: center;
-            color: #25282b;
-            margin-bottom: 60px;
-            text-align: left;
-          }
-        }
-        .views-wrapper {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          text-align: center;
-
-          padding-right: 50px;
-          border-right: 8px solid #339cb3;
-
-        }
-      }
-    }
+.views_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 50px;
+    border-right: 8px solid #339cb3;
   }
+      

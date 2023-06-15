@@ -111,7 +111,7 @@ main .section1-page {
   background-repeat: no-repeat;
 }
 main .section1-page .container {
-  width: 1684px;
+  width: 1420px;
   margin: 0 auto;
 }
 main .section1-page .container .s1-description {
@@ -265,7 +265,7 @@ main .section2-services {
   padding-top: 150px;
 }
 main .section2-services .container {
-  width: 1684px;
+  width: 1420px;
   margin: 0 auto;
   text-align: center;
 }
@@ -576,214 +576,6 @@ main .section5-question .container .question-cards .question-item-img .contact-u
   outline: none;
   background-color: #fff;
   cursor: pointer;
-}
-main .section6-article {
-  padding-top: 150px;
-}
-main .section6-article .container {
-  width: 1684px;
-  margin: 0 auto;
-  text-align: center;
-}
-main .section6-article .container h2 {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 56px;
-  color: #25282b;
-  margin-bottom: 60px;
-}
-main .section6-article .container .article-cards {
-  display: flex;
-  justify-content: space-between;
-}
-main .section6-article .container .article-cards .card-item {
-  padding: 30px 34px;
-  max-width: 397px;
-  background: #ffffff;
-  box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
-}
-main .section6-article .container .article-cards .card-item img {
-  max-width: 100%;
-  margin-bottom: 20px;
-}
-main .section6-article .container .article-cards .card-item .date-content {
-  display: flex;
-  justify-content: space-between;
-}
-main .section6-article .container .article-cards .card-item .date-content .date-item {
-  display: flex;
-  justify-content: space-between;
-}
-main .section6-article .container .article-cards .card-item .date-content .date-item img {
-  max-width: 100%;
-  margin-right: 10px;
-}
-main .section6-article .container .article-cards .card-item .date-content .date-item p {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 27px;
-  color: #25282b;
-}
-main .section6-article .container .article-cards .card-item h3 {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 31px;
-  line-height: 36px;
-  color: #25282b;
-  text-align: left;
-  margin-bottom: 20px;
-}
-main .section6-article .container .article-cards .card-item p {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 27px;
-  color: #25282b;
-  text-align: left;
-  margin-bottom: 20px;
-}
-main .section6-article .container .article-cards .card-item button {
-  display: block;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: left;
-  color: #339cb3;
-  background-color: #fff;
-  cursor: pointer;
-  border: none;
-  outline: none;
-}
-main .section6-article .container .read-more-button {
-  padding-top: 60px;
-}
-main .section6-article .container .read-more-button .read-more-btn {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 19px;
-  color: #ffffff;
-  padding: 18px 158px;
-  cursor: pointer;
-  border: none;
-  background-color: #339cb3;
-  border-radius: 10px;
-}
-main .section7-reviews {
-  padding-top: 150px;
-}
-main .section7-reviews .container {
-  width: 1684px;
-  margin: 0 auto;
-  text-align: center;
-}
-main .section7-reviews .container h2 {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 56px;
-  color: #25282b;
-  margin-bottom: 60px;
-}
-main .section7-reviews .container .reviews-cards {
-  display: flex;
-  justify-content: space-between;
-}
-main .section7-reviews .container .reviews-cards .card-item {
-  display: flex;
-  justify-content: space-between;
-  padding: 30px 27px;
-  max-width: 540px;
-  background-color: #ffffff;
-  box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
-  border-radius: 10px;
-}
-main .section7-reviews .container .reviews-cards .card-item .user-picture img {
-  max-width: 100%;
-  margin-right: 30px;
-}
-main .section7-reviews .container .reviews-cards .card-item .user-content {
-  max-width: 336px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-main .section7-reviews .container .reviews-cards .card-item .user-content h3 {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 31px;
-  line-height: 36px;
-  color: #25282b;
-  text-align: left;
-  margin-bottom: 20px;
-}
-main .section7-reviews .container .reviews-cards .card-item .user-content p {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 27px;
-  color: #25282b;
-  text-align: left;
-}
-main .section7-reviews .container .reviews-cards .card-item .user-content .user-location {
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-between;
-}
-main .section7-reviews .container .reviews-cards .card-item .user-content .user-location .map-city {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-}
-main .section7-reviews .container .reviews-cards .card-item .user-content .user-location .map-city img {
-  display: block;
-  max-width: 100%;
-  margin-right: 16px;
-}
-main .section7-reviews .container .reviews-cards .card-item .user-content .user-location .map-city p {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  color: #25282b;
-}
-main .section7-reviews .container .reviews-cards .card-item .user-content .user-location .review-date p {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  color: #25282b;
-}
-main .section7-reviews .container .read-more-button {
-  padding-top: 60px;
-}
-main .section7-reviews .container .read-more-button .read-more-btn {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 19px;
-  color: #ffffff;
-  padding: 18px 158px;
-  cursor: pointer;
-  border: none;
-  background-color: #339cb3;
-  border-radius: 10px;
 }
 main .section8-underline {
   margin-top: 180px;
@@ -1142,7 +934,7 @@ footer .myfreedom .container p {
     justify-content: space-between;
   }
   main .section2-services .container .service-cards .card-item {
-    padding: 60px 91px 51px 91px;
+    padding: 40px 30px;
     max-width: 540px;
     background-color: #fff;
     box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);

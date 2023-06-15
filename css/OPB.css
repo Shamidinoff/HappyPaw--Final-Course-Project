@@ -184,7 +184,6 @@ header .header-flex .header-flex-logo {
 }
 header .header-flex .header-flex-logo .close-menu {
   display: none; /* close menu icon */
-  background-image: url(/public/images-main/0-2-close-menu.png);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -423,14 +422,12 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -585,14 +582,12 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -747,14 +742,12 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -917,14 +910,12 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1091,7 +1082,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1100,7 +1090,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1272,7 +1261,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1281,7 +1269,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1454,7 +1441,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1463,7 +1449,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1641,7 +1626,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1650,7 +1634,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1932,6 +1915,65 @@ header .header-flex-reg .log_out {
 .opb_content__right .info {
   display: flex;
   flex-direction: column;
+  gap: 35px;
+  margin-top: 90px;
+  padding-bottom: 71px;
+  border-bottom: 1px solid rgba(51, 156, 179, 0.25);
+}
+.opb_content__right .info__item {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+@media (max-width: 998px) {
+  .opb_content__right .info__item {
+    flex-direction: column;
+  }
+}
+.opb_content__right .info__item-button {
+  display: flex;
+  align-items: center;
+  color: #339CB3;
+  gap: 8px;
+}
+.opb_content__right-date {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+.opb_content__button {
+  width: 300px;
+  justify-content: center;
+  margin: 16px auto 0;
+  height: 56px;
+}
+.opb_content__button:first-of-type {
+  margin-top: 50px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+  gap: 24px;
+}
+@media (max-width: 998px) {
+  .tabs {
+    flex-wrap: wrap;
+  }
+}
+.tabs__item {
+  font-size: 25px;
+  padding: 6px;
+}
+@media (max-width: 998px) {
+  .tabs__item {
+    font-size: 16px;
+  }
+}
+.tabs__item:first-of-type {
+  border-bottom: 1px solid #339CB3;
+}/*# sourceMappingURL=OPB.css.map */: column;
   gap: 35px;
   margin-top: 90px;
   padding-bottom: 71px;

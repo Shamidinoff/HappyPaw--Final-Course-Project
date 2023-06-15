@@ -1,27 +1,4 @@
-.section4-views .container {
-  width: 1684px;
-  margin: 0 auto;
-  text-align: center;
-}
-.section4-views .container .wrapper-all {
-  width: 789px;
-  margin: 0 auto;
-}
-.section4-views .container .wrapper-all .views-sum {
-  text-align: left;
-}
-.section4-views .container .wrapper-all .views-sum h1 {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 56px;
-  align-items: center;
-  color: #25282b;
-  margin-bottom: 60px;
-  text-align: left;
-}
-.section4-views .container .wrapper-all .views-wrapper {
+.views_wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;

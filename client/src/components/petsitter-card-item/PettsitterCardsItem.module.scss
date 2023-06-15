@@ -1,6 +1,6 @@
 @import "../../pages/Ayazhan/common.scss";
 
-.result-item__card {
+.result_item__card {
   @include flex(flex, row, flex-start);
   gap: 16px;
   height: 241px;
@@ -13,11 +13,11 @@
   }
 }
 
-.result-item__card:last-of-type {
+.result_item__card:last-of-type {
   border-bottom: none;
 }
 
-.result-item__header {
+.result_item__header {
   @include flex();
   width: 100%;
   justify-content: space-between;
@@ -43,14 +43,14 @@
   }
 }
 
-.result-item__body {
+.result_item__body {
   @include flex(flex, column, flex-start);
   gap: 16px;
   width: 100%;
   height: 100%;
 }
 
-.result-item__stars {
+.result_item__stars {
   @include flex();
   gap: 10px;
 }

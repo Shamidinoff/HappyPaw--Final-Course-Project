@@ -2,6 +2,10 @@ import React, { useEffect, useState } from 'react'
 import cl from './PetsitterPageCard.module.scss'
 import axios from 'axios'
 import { useNavigate, useParams } from 'react-router-dom'
+import ReviewCards from "../review-card/ReviewCards"
+import PetsitPagePetAcceptItem from '../petsitterPage-petAccept-item/PetsitPagePetAcceptItem'
+import PetsitPageLivConsItem from '../petsitterPage-livCons-item/PetsitPageLivConsItem'
+import PetsitPagePetImgItem from '../petsitterPage-petImgs-item/PetsitPagePetImgItem'
 
 const PetsitterPageCard = () => {
     const [petsitter, setPetsitter] = useState({})
@@ -18,39 +22,51 @@ const PetsitterPageCard = () => {
         console.log(response);
     }
 
+    const petAcceptItems = petsitter.petAccepts?.map((petAccept) => {
+      return <PetsitPagePetAcceptItem>{petAccept.petType + " " + petAccept.petWeight}</PetsitPagePetAcceptItem>
+    })
+
+    const livConditionItems = petsitter.livConditions?.map((livCondition) => {
+      return <PetsitPageLivConsItem>{livCondition}</PetsitPageLivConsItem>
+    })
+
+    const petImgs = petsitter.petImgs?.map((petImg) => {
+      return <PetsitPagePetImgItem petImg={petImg} />
+    })
+
     if(petsitter && petsitter.avatars){
       return (
           <main>
-            <section class="section1-link">
-              <div class="container">
-                <div class="section1-link-content">
-                  <div class="link-item">
-                    <p>Главная</p>
+            <section className={cl.section1_link}>
+              <div className={cl.container}>
+                <div className={cl.section1_link_content}>
+                  <div className={cl.link_item}>
+                    <a className={cl.link} href="http://localhost:3000/home">Главная</a>
                     <p>&#8250;</p>
-                    <p>Анкеты пэтситтеров</p>
+                    <a className={cl.link} href="http://localhost:3000/petsitters">Анкеты пэтситтеров</a>
                     <p>&#8250;</p>
-                    <p class="service-link">Ситтер {petsitter.name}</p>
+                    <a className={cl.service_link} href="#">Ситтер {petsitter.name}</a>
                   </div>
                 </div>
               </div>
             </section>
 
-            <section class="section2-personal">
-              <div class="container">
-                <div class="back-btn">
+            <section className={cl.section2_personal}>
+              <div className={cl.container}>
+                <div className={cl.back_btn}>
                   <p>&#8249;</p>
                   <p>Назад</p>
                 </div>
 
-                <div class="online-info">
+                <div className={cl.online_info}>
                   <p>Была в сети 2 часа назад</p>
                   <p>Время ответа: {petsitter.replyTime} час</p>
                 </div>
 
-                <div class="personal-info">
-                  <div class="card">
+                <div className={cl.personal_info}>
+                  <div className={cl.card}>
                     <img src={petsitter.avatars[0]} alt={petsitter.name} />
-                    <div class="dot">
+                    <div className={cl.dot}>
                       <img src="images-main/p5-dot1.svg" alt="dot1" />
                       <img src="images-main/p5-dot2.svg" alt="dot2" />
                       <img src="images-main/p5-dot2.svg" alt="dot2" />
@@ -58,47 +74,47 @@ const PetsitterPageCard = () => {
                     </div>
                   </div>
 
-                  <div class="card-descr">
-                    <div class="margarita">
+                  <div className={cl.card_descr}>
+                    <div className={cl.margarita}>
                       <h2>{petsitter.name}</h2>
                       <img src="images-main/p5-like.svg" alt="like" />
                     </div>
                     <p>{petsitter.address}</p>
                     <p>Опыт работы: {petsitter.experience} года</p>
-                    <div class="stars">
-                      <img src="images-main/p5-star.svg" alt="star" />
-                      <img src="images-main/p5-star.svg" alt="star" />
-                      <img src="images-main/p5-star.svg" alt="star" />
-                      <img src="images-main/p5-star.svg" alt="star" />
-                      <img src="images-main/p5-star.svg" alt="star" />
-                      <p>(8)</p>
+                    <div className={cl.stars}>
+                      <img src="../../../public/images-main/p5-star.svg" alt="star" />
+                      <img src="../../../public/images-main/p5-star.svg" alt="star" />
+                      <img src="../../../public/images-main/p5-star.svg" alt="star" />
+                      <img src="../../../public/images-main/p5-star.svg" alt="star" />
+                      <img src="../../../public/images-main/p5-star.svg" alt="star" />
+                      <p className={cl.stars_review_count}>({petsitter.rating.reviewCount})</p>
                     </div>
                     <button>Связаться с ситтером &#8594</button>
-                    <div class="verification">
-                      <div class="checkmark">
-                        <img src="images-main/p5-checkmark.svg" alt="checkmark" />
+                    <div className={cl.verification}>
+                      <div className={cl.checkmark}>
+                        <img src="../../../public/images-main/p5-checkmark.svg" alt="checkmark" />
                       </div>
-                      <div class="verif-descr">
-                        <p>Успешно прошла подготовку</p> {/**/}
+                      <div className={cl.verif_descr}>
+                        <p>Успешно прошла подготовку</p> 
                         <p>Прошла верификацию</p>
                       </div>
                     </div>
                   </div>
 
-                  <div class="card-reg">
-                    <div class="reg-item">
+                  <div className={cl.card_reg}>
+                    <div className={cl.reg_item}>
                       <select name="sitter">
                         <option value="sitterdog">Няня для собаки</option>
                       </select>
                     </div>
 
-                    <div class="reg-item">
+                    <div className={cl.reg_item}>
                       <select name="pet">
                         <option value="pet">1 питомец</option>
                       </select>
                     </div>
 
-                    <div class="reg-item-data">
+                    <div className={cl.reg_item_data}>
                       <form action="#">
                         <input type="date" />
                       </form>
@@ -108,155 +124,73 @@ const PetsitterPageCard = () => {
                       </form>
                     </div>
 
-                    <div class="reg-price">
+                    <div className={cl.reg_price}>
                       <p>Всего:</p>
-                      <h3>250 BYN</h3>
+                      <h3>{petsitter.price.petSitting} BYN</h3>
                     </div>
 
-                    <button class="booking">Забронировать</button>
+                    <button className={cl.booking}>Забронировать</button>
                   </div>
                 </div>
               </div>
             </section>
 
-            <section class="section3-description">
-              <div class="container">
-                <div class="desc-wrapper">
-                  <div class="item">
+            <section className={cl.section3_description}>
+              <div className={cl.container}>
+                <div className={cl.desc_wrapper}>
+                  <div className={cl.item}>
                     <h3>Цены</h3>
                     <p>
-                      Няня для животных <span class="span1">{petsitter.price.petSitting} BYN/сутки</span>
+                      Няня для животных <span className={cl.span1}>{petsitter.price.petSitting} BYN/сутки</span>
                     </p>
                     <p>
-                      Дневная няня <span class="span2">{petsitter.price.daytimePet} BYN/час</span>
+                      Дневная няня <span className={cl.span2}>{petsitter.price.daytimePet} BYN/час</span>
                     </p>
                     <p>
-                      Выгул собак <span class="span3">{petsitter.price.dogWalk} BYN/час</span>
+                      Выгул собак <span className={cl.span3}>{petsitter.price.dogWalk} BYN/час</span>
                     </p>
                   </div>
 
-                  <div class="item">
+                  <div className={cl.item}>
                     <h3>Кого принимаю</h3>
-                    <p>Коты</p>{/**/ }
-                    <p>Собаки 0-40кг</p>
+                    {petAcceptItems}
                   </div>
 
-                  <div class="item">
+                  <div className={cl.item}>
                     <h3>Условия проживания</h3>
-                    <p>2-х комнатная квартира</p>{/*array*/}
-                    <p>Большой балкон</p>
-                    <p>Без детей</p>
-                    <p>Кошка и собака</p>
+                    {livConditionItems}
                   </div>
                 </div>
-                <div class="desc-wrapper2">
-                  <div class="item2">
+                <div className={cl.desc_wrapper2}>
+                  <div className={cl.item2}>
                     <h2>О себе</h2>
                     <p>
                       {petsitter.desc}
                     </p>
                   </div>
 
-                  <div class="item2-img">
+                  <div className={cl.item2_img}>
                     <h2>Фото моих питомцев</h2>
-                    <img src={petsitter.petImgs[0]} alt="dog" />{/*arr*/}
-                    <img src={petsitter.petImgs[1]} alt="cat" />
+                    {petImgs}
                   </div>
                 </div>
               </div>
             </section>
 
-            <section class="section4-views">
-              <div class="container">
-                <div class="wrapper-all">
-                  <div class="views-sum">
-                    <h1>Отзывы (8)</h1>
+            <section className={cl.section4_views}>
+              <div className={cl.container}>
+                <div className={cl.wrapper_all}>
+                  <div className={cl.views_sum}>
+                    <h1>Отзывы ({petsitter.rating.reviewCount})</h1>
                   </div>
-                  <div class="views-wrapper">
-                    <div class="view">
-                      <div class="item1">
-                        <img src="images-main/p5-view-inga.png" alt="inga" />
-                      </div>
-                      <div class="item2">
-                        <h3>Инга</h3>
-                        <div class="stars">
-                          <img src="images-main/p5-star.svg" alt="star" />
-                          <img src="images-main/p5-star.svg" alt="star" />
-                          <img src="images-main/p5-star.svg" alt="star" />
-                          <img src="images-main/p5-star.svg" alt="star" />
-                          <img src="images-main/p5-star.svg" alt="star" />
-                          <p>5/5</p>
-                        </div>
-                        <p>
-                          Маргарита - профессионал своего дела, с ней не страшно
-                          оставить животных. Я уезжала на неделю в коммандировку и
-                          Маргарита прекрасно справилась с моим псом Матильдой и
-                          даже покормила рыбок
-                        </p>
-                        <div class="view-date">
-                          <p>5 Августа, 2022</p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="view">
-                      <div class="item1">
-                        <img src="images-main/p5-view-marina.png" alt="marina" />
-                      </div>
-                      <div class="item2">
-                        <h3>Марина</h3>
-                        <div class="stars">
-                          <img src="images-main/p5-star.svg" alt="star" />
-                          <img src="images-main/p5-star.svg" alt="star" />
-                          <img src="images-main/p5-star.svg" alt="star" />
-                          <img src="images-main/p5-star.svg" alt="star" />
-                          <img src="images-main/p5-star.svg" alt="star" />
-                          <p>5/5</p>
-                        </div>
-                        <p>
-                          Несколько раз пользовались услугами Маргариты и всегда
-                          оставались очень довольны. У моей семьи два лабрадора и к
-                          выгулу мы всегда относимся серьезно. Маргарита справилась
-                          со всеми нюансами на отлично!
-                        </p>
-                        <div class="view-date">
-                          <p>21 Июня, 2022</p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="view">
-                      <div class="item1">
-                        <img src="images-main/p5-view-ludmila.png" alt="ludmila" />
-                      </div>
-                      <div class="item2">
-                        <h3>Людмила</h3>
-                        <div class="stars">
-                          <img src="images-main/p5-star.svg" alt="star" />
-                          <img src="images-main/p5-star.svg" alt="star" />
-                          <img src="images-main/p5-star.svg" alt="star" />
-                          <img src="images-main/p5-star.svg" alt="star" />
-                          <img src="images-main/p5-star.svg" alt="star" />
-                          <p>5/5</p>
-                        </div>
-                        <p>
-                          Я обожаю Маргариту и ее питомцев! Столько раз она выручала
-                          меня и мою кошку-Анфису! Всегда очень пунктуальна и
-                          заботлива, я считаю - она лучшая няня для животных! ))
-                        </p>
-                        <div class="view-date">
-                          <p>31 Мая, 2022</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <ReviewCards id={petsitter._id}/>
                 </div>
               </div>
             </section>
 
-            <section class="section8-underline">
-              <div class="container">
-                <span class="hr-line"></span>
+            <section className={cl.section8_underline}>
+              <div className={cl.container}>
+                <span className={cl.hr_line}></span>
               </div>
             </section>
           </main>
@@ -264,7 +198,7 @@ const PetsitterPageCard = () => {
       );
     }
     else{
-      return <h2>Loading</h2>
+      return <h2 style={{ textAlign: "center" }}>Идет загрузка данных...</h2>
     }
 
 }

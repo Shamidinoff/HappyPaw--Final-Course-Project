@@ -11,7 +11,7 @@ router.post('/newPost', async (req, res) => {
           res.status(400).json({ error: 'Post already exists' });
         }
 
-        createdAt = new Date().toLocaleDateString();     
+        createdAt = new Date();    
 
         const post = await Post.create({
           postImage,

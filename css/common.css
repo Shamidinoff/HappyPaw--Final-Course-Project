@@ -184,7 +184,6 @@ header .header-flex .header-flex-logo {
 }
 header .header-flex .header-flex-logo .close-menu {
   display: none; /* close menu icon */
-  background-image: url(/public/images-main/0-2-close-menu.png);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -423,14 +422,12 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -585,14 +582,12 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -747,14 +742,12 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -917,14 +910,12 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1091,7 +1082,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1100,7 +1090,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1272,7 +1261,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1281,7 +1269,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1454,7 +1441,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1463,7 +1449,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1641,7 +1626,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1650,7 +1634,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1769,6 +1752,42 @@ header .header-flex .header-flex-reg .log-in {
     color: #25282b;
   }
   footer .container .footer-content .footer-content-item .footer-social-network {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: left;
+    /* width: 100px; */
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list {
+    margin-right: 0px;
+    padding: 10px 10px; /* changed */
+    max-width: 350px;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:first-child {
+    padding-left: 0;
+  }
+  footer .container .footer-content .footer-content-item .footer-social-network .social-list:last-child {
+    margin-right: 0;
+  }
+  footer .myfreedom {
+    margin-top: 50px;
+    background-color: rgba(51, 156, 179, 0.25);
+    padding: 17px 0;
+  }
+  footer .myfreedom .container {
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: right;
+  }
+  footer .myfreedom .container p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #25282b;
+  }
+}/*# sourceMappingURL=common.css.map */ent .footer-content-item .footer-social-network {
     display: flex;
     justify-content: space-between;
     flex-direction: row;

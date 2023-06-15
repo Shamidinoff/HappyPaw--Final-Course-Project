@@ -1,30 +1,28 @@
 import React from 'react'
 import cl from './ReviewCardsItem.module.scss'
 
-const ReviewCardsItem = () => {
+const ReviewCardsItem = ({ userName, createdAt, star, comment, avatar}) => {
     
       return (
-        <div class="view">
-          <div class="item1">
-            <img src="images-main/p5-view-inga.png" alt="inga" />
+        <div className={cl.view}>
+          <div className={cl.item1}>
+            <img src={avatar} alt="avatar" />
           </div>
-          <div class="item2">
-            <h3>Инга</h3>
-            <div class="stars">
+          <div className={cl.item2}>
+            <h3>{userName}</h3>
+            <div className={cl.stars}>
               <img src="images-main/p5-star.svg" alt="star" />
               <img src="images-main/p5-star.svg" alt="star" />
               <img src="images-main/p5-star.svg" alt="star" />
               <img src="images-main/p5-star.svg" alt="star" />
               <img src="images-main/p5-star.svg" alt="star" />
-              <p>5/5</p>
+              <p>{star}/5</p>
             </div>
             <p>
-              Маргарита - профессионал своего дела, с ней не страшно оставить
-              животных. Я уезжала на неделю в коммандировку и Маргарита
-              прекрасно справилась с моим псом Матильдой и даже покормила рыбок)
+              {comment}
             </p>
-            <div class="view-date">
-              <p>5 Августа, 2022</p>
+            <div className={cl.view_date}>
+              <p>{createdAt}</p>
             </div>
           </div>
         </div>

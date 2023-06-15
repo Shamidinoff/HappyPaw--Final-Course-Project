@@ -40,10 +40,8 @@ const PettsitterCards = () => {
       console.error("GET POST ERROR: " + err);
     }
   }
-
   
   const petsitterItems = petsitters.map((petsitter) => {
-      
       return (
         <PettsitterCardsItem
           img={petsitter.avatars[0]}
@@ -59,15 +57,14 @@ const PettsitterCards = () => {
       );
   });
 
-    
       return (
-        <div class="content-container">
-          <div class="result-items">
-            <div class="result-item">
-              {petsitterItems}
+        <div className={cl.content_container}>
+          <div className={cl.result_items}>
+            <div className={cl.result_item}>
+              {petsitters.length === 0 ? <p style={{ textAlign:"center", margin:"20px" }}>Данные загружаются...</p> : petsitterItems}
             </div>
 
-            <div class="result-item ymap-container">
+            <div className={cl.result_item+" "+cl.ymap_container}>
               <img src="../../images-blog/mapmap2for.png" alt="" />
             </div>
           </div>

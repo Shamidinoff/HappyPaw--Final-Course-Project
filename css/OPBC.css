@@ -184,7 +184,6 @@ header .header-flex .header-flex-logo {
 }
 header .header-flex .header-flex-logo .close-menu {
   display: none; /* close menu icon */
-  background-image: url(/public/images-main/0-2-close-menu.png);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -423,14 +422,12 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -585,14 +582,12 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -747,14 +742,12 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -917,14 +910,12 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1091,7 +1082,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1100,7 +1090,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1272,7 +1261,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1281,7 +1269,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1454,7 +1441,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1463,7 +1449,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1641,7 +1626,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1650,7 +1634,6 @@ header .header-flex .header-flex-reg .log-in {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1925,4 +1908,60 @@ header .header-flex-reg .log_out {
   line-height: 56px;
   /* Ui/Text */
   color: #25282b;
+}/*# sourceMappingURL=OPBC.css.map */t {
+  color: #25282B;
+  text-decoration: none;
+}
+.nav1_opm .messages_nav1 {
+  color: #339CB3;
+  text-decoration: none;
+}
+
+.nav2_opm {
+  display: flex;
+  flex-direction: row;
+  align-items: none;
+  gap: 8px;
+}
+.nav2_opm a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 27.24px;
+  text-decoration: none;
+  color: #25282B;
+  padding-right: 16px;
+}
+
+.main_opb {
+  margin-bottom: 97px;
+}
+.main_opb .tabs {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+  gap: 24px;
+}
+.main_opb .tabs__item {
+  font-size: 25px;
+  padding: 6px;
+}
+@media (max-width: 998px) {
+  .main_opb .tabs__item {
+    font-size: 16px;
+  }
+}
+.main_opb .tabs__item-active {
+  border-bottom: 1px solid #339CB3;
+}
+.main_opb .content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 700px;
+  justify-content: center;
+}
+.main_opb .content > h2 {
+  font-size: 48px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }/*# sourceMappingURL=OPBC.css.map */

@@ -1,0 +1,101 @@
+.section6_article {
+  padding-top: 150px;
+}
+.section6_article .container {
+  max-width: 1420px;
+  margin: 0 auto;
+  text-align: center;
+}
+.section6_article .container h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #25282b;
+  margin-bottom: 60px;
+}
+.section6_article .container .article_cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.section6_article .container .article_cards .card_item {
+  padding: 30px 24px;
+  background: #ffffff;
+  box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
+}
+.section6_article .container .article_cards .card_item img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.section6_article .container .article_cards .card_item .date_content {
+  display: flex;
+  justify-content: space-between;
+}
+.section6_article .container .article_cards .card_item .date_content .date_item {
+  display: flex;
+  justify-content: space-between;
+}
+.section6_article .container .article_cards .card_item .date_content .date_item img {
+  max-width: 100%;
+  margin-right: 10px;
+}
+.section6_article .container .article_cards .card_item .date_content .date_item p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #25282b;
+}
+.section6_article .container .article_cards .card_item h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 36px;
+  color: #25282b;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.section6_article .container .article_cards .card_item p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #25282b;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.section6_article .container .article_cards .card_item button {
+  display: block;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
+  color: #339cb3;
+  background-color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.section6_article .container .read_more_button {
+  padding-top: 60px;
+}
+.section6_article .container .read_more_button .read_more_btn {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 18px 158px;
+  cursor: pointer;
+  border: none;
+  background-color: #339cb3;
+  border-radius: 10px;
+}/*# sourceMappingURL=ArticleMainCards.module.css.map */

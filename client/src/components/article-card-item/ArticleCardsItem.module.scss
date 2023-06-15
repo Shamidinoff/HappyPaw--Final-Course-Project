@@ -4,9 +4,11 @@
   max-width: 397px;
   background: #ffffff;
   box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
+  position: relative;
   img {
     max-width: 100%;
     margin-bottom: 20px;
+    object-fit: cover;
   }
 
   .date_content {
@@ -51,7 +53,6 @@
     line-height: 27px;
     color: #25282b;
     text-align: left;
-
     margin-bottom: 20px;
   }
   button {
@@ -62,12 +63,12 @@
     font-size: 16px;
     line-height: 19px;
     text-align: left;
-
     color: #339cb3;
     background-color: #fff;
     cursor: pointer;
-
     border: none;
     outline: none;
+    position: absolute;
+    bottom: 25px;
   }
 }

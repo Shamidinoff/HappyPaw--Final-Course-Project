@@ -5,20 +5,20 @@ const router = express.Router();
 //Add a new review
 router.post('/newReview', async (req, res) => {
     try {
-        let { createdAt, userName, star, comment, userId } = req.body;
+        let { createdAt, userName, star, comment, avatar } = req.body;
         const reviewUnique = await Review.findOne({comment});
         if (reviewUnique) {
           res.status(400).json({ error: 'Review already exists' });
         }
       
-        createdAt = new Date().toLocaleDateString();     
+        createdAt = new Date();  
 
         const review = await Review.create({
           createdAt, 
           userName, 
           star, 
           comment, 
-          userId 
+          avatar 
         });
         res.status(201).json({message: 'Review created successfully', review});
     } catch (error) {
@@ -31,10 +31,10 @@ router.post('/newReview', async (req, res) => {
 router.get('/', async (req, res) => {
     try {
       const reviews = await Review.find();
-      const allreviewId = reviews.map(review => {
+      const allReviewId = reviews.map(review => {
         return review._id
       })
-      res.status(200).json(allreviewId)
+      res.status(200).json(allReviewId)
     } catch (error) {
       console.error('Error retrieving reviews:', error);
       res.status(500).json({ error: 'Server error' });
@@ -62,12 +62,12 @@ router.get('/:reviewId', async (req, res) => {
 // Update route
 router.put('/:reviewId', async (req, res) => {
     const { reviewId } = req.params;
-    const { createdAt, userName, star, comment, userId } = req.body;
+    const { createdAt, userName, star, comment, avatar } = req.body;
 
     try {
       const review = await Review.findByIdAndUpdate(
         reviewId,
-        { createdAt, userName, star, comment, userId },
+        { createdAt, userName, star, comment, avatar },
         { new: true}
       )
 

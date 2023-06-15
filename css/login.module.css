@@ -17,44 +17,42 @@ header .container {
   width: 1684px;
   margin: 0 auto;
 }
-header .container .header-flex {
+header .container .header_flex {
   display: flex;
   justify-content: space-between;
   text-align: center;
   align-items: center;
 }
-header .container .header-flex .header-flex-logo {
+header .container .header_flex .header_flex_logo {
   margin-right: 114px;
 }
-header .container .header-flex .header-flex-logo .burger-menu {
+header .container .header_flex .header_flex_logo .burger_menu {
   display: none; /* display - block when phone version */
-  background-image: url(/public/images-main/0-1-menu-burger.png);
   background-size: cover;
   width: 50px;
   height: 50px;
 }
-header .container .header-flex .header-flex-logo .close-menu {
+header .container .header_flex .header_flex_logo .close_menu {
   display: none; /* close menu icon */
-  background-image: url(/public/images-main/0-2-close-menu.png);
   background-size: cover;
   width: 50px;
   height: 50px;
 }
-header .container .header-flex .header-flex-logo a .main-logo {
+header .container .header_flex .header_flex_logo a .main_logo {
   display: block;
 }
-header .container .header-flex .header-flex-link ul {
+header .container .header_flex .header_flex_link ul {
   display: flex;
   flex-direction: row;
 }
-header .container .header-flex .header-flex-link ul li {
+header .container .header_flex .header_flex_link ul li {
   list-style: none;
   margin-right: 74px;
 }
-header .container .header-flex .header-flex-link ul li:last-child {
+header .container .header_flex .header_flex_link ul li:last-child {
   margin-right: 0;
 }
-header .container .header-flex .header-flex-link ul li a {
+header .container .header_flex .header_flex_link ul li a {
   text-decoration: none;
   list-style: none;
   font-family: "Open Sans";
@@ -65,11 +63,11 @@ header .container .header-flex .header-flex-link ul li a {
   align-items: center;
   color: #25282b;
 }
-header .container .header-flex .header-flex-reg {
+header .container .header_flex .header_flex_reg {
   display: flex;
   flex-direction: row;
 }
-header .container .header-flex .header-flex-reg .sign-in {
+header .container .header_flex .header_flex_reg .signin {
   padding: 8.5px 22px;
   border-radius: 50px;
   background-color: #728adf;
@@ -86,7 +84,7 @@ header .container .header-flex .header-flex-reg .sign-in {
   color: #ffffff;
   cursor: pointer;
 }
-header .container .header-flex .header-flex-reg .log-in {
+header .container .header_flex .header_flex_reg .login {
   padding: 8.5px 22px;
   border-radius: 50px;
   background-color: #fff;
@@ -103,17 +101,17 @@ header .container .header-flex .header-flex-reg .log-in {
   cursor: pointer;
 }
 
-main .section1-login {
+main .section1_login {
   background-color: #f8f8f8;
   width: auto;
   padding-top: 150px;
   padding-bottom: 329px;
 }
-main .section1-login .container {
+main .section1_login .container {
   width: 1684px;
   margin: 0 auto;
 }
-main .section1-login .container .wrapper {
+main .section1_login .container .wrapper {
   background-color: #ffffff;
   box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
   border-radius: 10px;
@@ -121,16 +119,16 @@ main .section1-login .container .wrapper {
   width: 824px;
   padding: 20px 20px;
 }
-main .section1-login .container .wrapper .close-icon {
+main .section1_login .container .wrapper .close_icon {
   text-align: right;
 }
-main .section1-login .container .wrapper .close-icon .closebtn {
+main .section1_login .container .wrapper .close_icon .closebtn {
   color: #339cb3;
   border: none;
   background-color: #ffffff;
   cursor: pointer;
 }
-main .section1-login .container .wrapper .regwrapper {
+main .section1_login .container .wrapper .regwrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -139,7 +137,7 @@ main .section1-login .container .wrapper .regwrapper {
   width: 400px;
   margin: 0 auto;
 }
-main .section1-login .container .wrapper .regwrapper h1 {
+main .section1_login .container .wrapper .regwrapper h1 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -150,7 +148,7 @@ main .section1-login .container .wrapper .regwrapper h1 {
   text-align: center;
   margin-bottom: 50px;
 }
-main .section1-login .container .wrapper .regwrapper .googlereg {
+main .section1_login .container .wrapper .regwrapper .googlereg {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -165,11 +163,11 @@ main .section1-login .container .wrapper .regwrapper .googlereg {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
 }
-main .section1-login .container .wrapper .regwrapper .googlereg img {
+main .section1_login .container .wrapper .regwrapper .googlereg img {
   width: auto;
   margin-right: 18px;
 }
-main .section1-login .container .wrapper .regwrapper .googlereg p {
+main .section1_login .container .wrapper .regwrapper .googlereg p {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -177,7 +175,7 @@ main .section1-login .container .wrapper .regwrapper .googlereg p {
   line-height: 18px;
   color: #25282b;
 }
-main .section1-login .container .wrapper .regwrapper .orline {
+main .section1_login .container .wrapper .regwrapper .orline {
   width: 400px;
   display: flex;
   justify-content: space-between;
@@ -185,11 +183,11 @@ main .section1-login .container .wrapper .regwrapper .orline {
   flex-direction: row;
   margin-bottom: 30px;
 }
-main .section1-login .container .wrapper .regwrapper .orline .lineleft {
+main .section1_login .container .wrapper .regwrapper .orline .lineleft {
   border-top: 1px solid rgba(51, 156, 179, 0.25);
   width: 100%;
 }
-main .section1-login .container .wrapper .regwrapper .orline p {
+main .section1_login .container .wrapper .regwrapper .orline p {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -199,19 +197,19 @@ main .section1-login .container .wrapper .regwrapper .orline p {
   color: #25282b;
   padding: 0 10px;
 }
-main .section1-login .container .wrapper .regwrapper .orline .lineright {
+main .section1_login .container .wrapper .regwrapper .orline .lineright {
   border-top: 1px solid rgba(51, 156, 179, 0.25);
   width: 100%;
 }
-main .section1-login .container .wrapper .regwrapper .formcontent {
+main .section1_login .container .wrapper .regwrapper .formcontent {
   width: 400px;
   margin-bottom: 16px;
   text-align: left;
 }
-main .section1-login .container .wrapper .regwrapper .formcontent .form1 {
+main .section1_login .container .wrapper .regwrapper .formcontent .form1 {
   margin-bottom: 16px;
 }
-main .section1-login .container .wrapper .regwrapper .formcontent .form1 form {
+main .section1_login .container .wrapper .regwrapper .formcontent .form1 form {
   padding: 12px 12px;
   background-color: #ffffff;
   border: 1px solid rgba(51, 156, 179, 0.25);
@@ -219,7 +217,7 @@ main .section1-login .container .wrapper .regwrapper .formcontent .form1 form {
   border-radius: 10px;
   outline: none;
 }
-main .section1-login .container .wrapper .regwrapper .formcontent .form1 form input {
+main .section1_login .container .wrapper .regwrapper .formcontent .form1 form input {
   width: 100%;
   border: none;
   outline: none;
@@ -231,10 +229,10 @@ main .section1-login .container .wrapper .regwrapper .formcontent .form1 form in
   align-items: center;
   color: #b3aeae;
 }
-main .section1-login .container .wrapper .regwrapper .formcontent .form2 {
+main .section1_login .container .wrapper .regwrapper .formcontent .form2 {
   margin-bottom: 6px;
 }
-main .section1-login .container .wrapper .regwrapper .formcontent .form2 form {
+main .section1_login .container .wrapper .regwrapper .formcontent .form2 form {
   padding: 12px 12px;
   display: flex;
   justify-content: center;
@@ -246,7 +244,7 @@ main .section1-login .container .wrapper .regwrapper .formcontent .form2 form {
   border-radius: 10px;
   outline: none;
 }
-main .section1-login .container .wrapper .regwrapper .formcontent .form2 form input {
+main .section1_login .container .wrapper .regwrapper .formcontent .form2 form input {
   width: 100%;
   border: none;
   outline: none;
@@ -258,12 +256,12 @@ main .section1-login .container .wrapper .regwrapper .formcontent .form2 form in
   align-items: center;
   color: #b3aeae;
 }
-main .section1-login .container .wrapper .regwrapper .formcontent .form2 form img {
+main .section1_login .container .wrapper .regwrapper .formcontent .form2 form img {
   display: block;
   width: auto;
   cursor: pointer;
 }
-main .section1-login .container .wrapper .regwrapper .formcontent .forgetbtn {
+main .section1_login .container .wrapper .regwrapper .formcontent .forgetbtn {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -275,24 +273,24 @@ main .section1-login .container .wrapper .regwrapper .formcontent .forgetbtn {
   border: none;
   cursor: pointer;
 }
-main .section1-login .container .wrapper .regwrapper .checkcontent {
+main .section1_login .container .wrapper .regwrapper .checkcontent {
   width: 100%;
   margin-bottom: 50px;
 }
-main .section1-login .container .wrapper .regwrapper .checkcontent form {
+main .section1_login .container .wrapper .regwrapper .checkcontent form {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
 }
-main .section1-login .container .wrapper .regwrapper .checkcontent form input {
+main .section1_login .container .wrapper .regwrapper .checkcontent form input {
   width: 24px;
   height: 24px;
   background-color: #339cb3;
   color: #339cb3;
   margin-right: 10px;
 }
-main .section1-login .container .wrapper .regwrapper .checkcontent form label {
+main .section1_login .container .wrapper .regwrapper .checkcontent form label {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -301,11 +299,11 @@ main .section1-login .container .wrapper .regwrapper .checkcontent form label {
   align-items: center;
   color: #25282b;
 }
-main .section1-login .container .wrapper .regwrapper .login-button {
+main .section1_login .container .wrapper .regwrapper .login_button {
   width: 100%;
   margin-bottom: 90px;
 }
-main .section1-login .container .wrapper .regwrapper .login-button .loginbtn {
+main .section1_login .container .wrapper .regwrapper .login_button .loginbtn {
   width: 100%;
   padding: 12px;
   font-family: "Raleway";
@@ -321,13 +319,13 @@ main .section1-login .container .wrapper .regwrapper .login-button .loginbtn {
   border-radius: 10px;
   cursor: pointer;
 }
-main .section1-login .container .wrapper .no-account {
+main .section1_login .container .wrapper .noaccount {
   width: 100%;
   margin-bottom: 30px;
   text-align: right;
   padding-right: 20px;
 }
-main .section1-login .container .wrapper .no-account .signinbtn {
+main .section1_login .container .wrapper .noaccount .signinbtn {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -367,44 +365,42 @@ footer .myfreedom2 .container p {
     width: 90%;
     margin: 0 auto;
   }
-  header .container .header-flex {
+  header .container .header_flex {
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
   }
-  header .container .header-flex .burger-menu {
+  header .container .header_flex .burger_menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
-  header .container .header-flex .close-menu {
+  header .container .header_flex .close_menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
-  header .container .header-flex .header-flex-logo {
+  header .container .header_flex .header_flex_logo {
     margin-right: 114px;
   }
-  header .container .header-flex .header-flex-logo a .main-logo {
+  header .container .header_flex .header_flex_logo a .main_logo {
     display: block;
   }
-  header .container .header-flex .header-flex-link ul {
+  header .container .header_flex .header_flex_link ul {
     display: flex;
     flex-direction: row;
   }
-  header .container .header-flex .header-flex-link ul li {
+  header .container .header_flex .header_flex_link ul li {
     list-style: none;
     margin-right: 74px;
   }
-  header .container .header-flex .header-flex-link ul li:last-child {
+  header .container .header_flex .header_flex_link ul li:last-child {
     margin-right: 0;
   }
-  header .container .header-flex .header-flex-link ul li a {
+  header .container .header_flex .header_flex_link ul li a {
     text-decoration: none;
     list-style: none;
     font-family: "Open Sans";
@@ -415,11 +411,11 @@ footer .myfreedom2 .container p {
     align-items: center;
     color: #25282b;
   }
-  header .container .header-flex .header-flex-reg {
+  header .container .header_flex .header_flex_reg {
     display: flex;
     flex-direction: row;
   }
-  header .container .header-flex .header-flex-reg .sign-in {
+  header .container .header_flex .header_flex_reg .signin {
     padding: 8.5px 22px;
     border-radius: 50px;
     background-color: #728adf;
@@ -436,7 +432,7 @@ footer .myfreedom2 .container p {
     color: #ffffff;
     cursor: pointer;
   }
-  header .container .header-flex .header-flex-reg .log-in {
+  header .container .header_flex .header_flex_reg .login {
     padding: 8.5px 22px;
     border-radius: 50px;
     background-color: #fff;
@@ -452,17 +448,17 @@ footer .myfreedom2 .container p {
     color: #728adf;
     cursor: pointer;
   }
-  main .section1-login {
+  main .section1_login {
     background-color: #f8f8f8;
     width: auto;
     padding-top: 150px;
     padding-bottom: 329px;
   }
-  main .section1-login .container {
+  main .section1_login .container {
     width: 1684px;
     margin: 0 auto;
   }
-  main .section1-login .container .wrapper {
+  main .section1_login .container .wrapper {
     background-color: #ffffff;
     box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
     border-radius: 10px;
@@ -470,16 +466,16 @@ footer .myfreedom2 .container p {
     width: 824px;
     padding: 20px 20px;
   }
-  main .section1-login .container .wrapper .close-icon {
+  main .section1_login .container .wrapper .close_icon {
     text-align: right;
   }
-  main .section1-login .container .wrapper .close-icon .closebtn {
+  main .section1_login .container .wrapper .close_icon .closebtn {
     color: #339cb3;
     border: none;
     background-color: #ffffff;
     cursor: pointer;
   }
-  main .section1-login .container .wrapper .regwrapper {
+  main .section1_login .container .wrapper .regwrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -488,7 +484,7 @@ footer .myfreedom2 .container p {
     width: 400px;
     margin: 0 auto;
   }
-  main .section1-login .container .wrapper .regwrapper h1 {
+  main .section1_login .container .wrapper .regwrapper h1 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -499,7 +495,7 @@ footer .myfreedom2 .container p {
     text-align: center;
     margin-bottom: 50px;
   }
-  main .section1-login .container .wrapper .regwrapper .googlereg {
+  main .section1_login .container .wrapper .regwrapper .googlereg {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -514,11 +510,11 @@ footer .myfreedom2 .container p {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
   }
-  main .section1-login .container .wrapper .regwrapper .googlereg img {
+  main .section1_login .container .wrapper .regwrapper .googlereg img {
     width: auto;
     margin-right: 18px;
   }
-  main .section1-login .container .wrapper .regwrapper .googlereg p {
+  main .section1_login .container .wrapper .regwrapper .googlereg p {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -526,7 +522,7 @@ footer .myfreedom2 .container p {
     line-height: 18px;
     color: #25282b;
   }
-  main .section1-login .container .wrapper .regwrapper .orline {
+  main .section1_login .container .wrapper .regwrapper .orline {
     width: 400px;
     display: flex;
     justify-content: space-between;
@@ -534,11 +530,11 @@ footer .myfreedom2 .container p {
     flex-direction: row;
     margin-bottom: 30px;
   }
-  main .section1-login .container .wrapper .regwrapper .orline .lineleft {
+  main .section1_login .container .wrapper .regwrapper .orline .lineleft {
     border-top: 1px solid rgba(51, 156, 179, 0.25);
     width: 100%;
   }
-  main .section1-login .container .wrapper .regwrapper .orline p {
+  main .section1_login .container .wrapper .regwrapper .orline p {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -548,19 +544,19 @@ footer .myfreedom2 .container p {
     color: #25282b;
     padding: 0 10px;
   }
-  main .section1-login .container .wrapper .regwrapper .orline .lineright {
+  main .section1_login .container .wrapper .regwrapper .orline .lineright {
     border-top: 1px solid rgba(51, 156, 179, 0.25);
     width: 100%;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent {
+  main .section1_login .container .wrapper .regwrapper .formcontent {
     width: 400px;
     margin-bottom: 16px;
     text-align: left;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form1 {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form1 {
     margin-bottom: 16px;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form1 form {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form1 form {
     padding: 12px 12px;
     background-color: #ffffff;
     border: 1px solid rgba(51, 156, 179, 0.25);
@@ -568,7 +564,7 @@ footer .myfreedom2 .container p {
     border-radius: 10px;
     outline: none;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form1 form input {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form1 form input {
     width: 100%;
     border: none;
     outline: none;
@@ -580,10 +576,10 @@ footer .myfreedom2 .container p {
     align-items: center;
     color: #b3aeae;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form2 {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form2 {
     margin-bottom: 6px;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form2 form {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form2 form {
     padding: 12px 12px;
     display: flex;
     justify-content: center;
@@ -595,7 +591,7 @@ footer .myfreedom2 .container p {
     border-radius: 10px;
     outline: none;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form2 form input {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form2 form input {
     width: 100%;
     border: none;
     outline: none;
@@ -607,12 +603,12 @@ footer .myfreedom2 .container p {
     align-items: center;
     color: #b3aeae;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form2 form img {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form2 form img {
     display: block;
     width: auto;
     cursor: pointer;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .forgetbtn {
+  main .section1_login .container .wrapper .regwrapper .formcontent .forgetbtn {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -624,24 +620,24 @@ footer .myfreedom2 .container p {
     border: none;
     cursor: pointer;
   }
-  main .section1-login .container .wrapper .regwrapper .checkcontent {
+  main .section1_login .container .wrapper .regwrapper .checkcontent {
     width: 100%;
     margin-bottom: 50px;
   }
-  main .section1-login .container .wrapper .regwrapper .checkcontent form {
+  main .section1_login .container .wrapper .regwrapper .checkcontent form {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
   }
-  main .section1-login .container .wrapper .regwrapper .checkcontent form input {
+  main .section1_login .container .wrapper .regwrapper .checkcontent form input {
     width: 24px;
     height: 24px;
     background-color: #339cb3;
     color: #339cb3;
     margin-right: 10px;
   }
-  main .section1-login .container .wrapper .regwrapper .checkcontent form label {
+  main .section1_login .container .wrapper .regwrapper .checkcontent form label {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -650,11 +646,11 @@ footer .myfreedom2 .container p {
     align-items: center;
     color: #25282b;
   }
-  main .section1-login .container .wrapper .regwrapper .login-button {
+  main .section1_login .container .wrapper .regwrapper .login_button {
     width: 100%;
     margin-bottom: 90px;
   }
-  main .section1-login .container .wrapper .regwrapper .login-button .loginbtn {
+  main .section1_login .container .wrapper .regwrapper .login_button .loginbtn {
     width: 100%;
     padding: 12px;
     font-family: "Raleway";
@@ -670,13 +666,13 @@ footer .myfreedom2 .container p {
     border-radius: 10px;
     cursor: pointer;
   }
-  main .section1-login .container .wrapper .no-account {
+  main .section1_login .container .wrapper .noaccount {
     width: 100%;
     margin-bottom: 30px;
     text-align: right;
     padding-right: 20px;
   }
-  main .section1-login .container .wrapper .no-account .signinbtn {
+  main .section1_login .container .wrapper .noaccount .signinbtn {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -715,44 +711,42 @@ footer .myfreedom2 .container p {
     width: 90%;
     margin: 0 auto;
   }
-  header .container .header-flex {
+  header .container .header_flex {
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
   }
-  header .container .header-flex .burger-menu {
+  header .container .header_flex .burger_menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
-  header .container .header-flex .close-menu {
+  header .container .header_flex .close_menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
-  header .container .header-flex .header-flex-logo {
+  header .container .header_flex .header_flex_logo {
     margin-right: 114px;
   }
-  header .container .header-flex .header-flex-logo a .main-logo {
+  header .container .header_flex .header_flex_logo a .main_logo {
     display: block;
   }
-  header .container .header-flex .header-flex-link ul {
+  header .container .header_flex .header_flex_link ul {
     display: flex;
     flex-direction: row;
   }
-  header .container .header-flex .header-flex-link ul li {
+  header .container .header_flex .header_flex_link ul li {
     list-style: none;
     margin-right: 74px;
   }
-  header .container .header-flex .header-flex-link ul li:last-child {
+  header .container .header_flex .header_flex_link ul li:last-child {
     margin-right: 0;
   }
-  header .container .header-flex .header-flex-link ul li a {
+  header .container .header_flex .header_flex_link ul li a {
     text-decoration: none;
     list-style: none;
     font-family: "Open Sans";
@@ -763,11 +757,11 @@ footer .myfreedom2 .container p {
     align-items: center;
     color: #25282b;
   }
-  header .container .header-flex .header-flex-reg {
+  header .container .header_flex .header_flex_reg {
     display: flex;
     flex-direction: row;
   }
-  header .container .header-flex .header-flex-reg .sign-in {
+  header .container .header_flex .header_flex_reg .signin {
     padding: 8.5px 22px;
     border-radius: 50px;
     background-color: #728adf;
@@ -784,7 +778,7 @@ footer .myfreedom2 .container p {
     color: #ffffff;
     cursor: pointer;
   }
-  header .container .header-flex .header-flex-reg .log-in {
+  header .container .header_flex .header_flex_reg .login {
     padding: 8.5px 22px;
     border-radius: 50px;
     background-color: #fff;
@@ -800,17 +794,17 @@ footer .myfreedom2 .container p {
     color: #728adf;
     cursor: pointer;
   }
-  main .section1-login {
+  main .section1_login {
     background-color: #f8f8f8;
     width: auto;
     padding-top: 150px;
     padding-bottom: 329px;
   }
-  main .section1-login .container {
+  main .section1_login .container {
     width: 90%;
     margin: 0 auto;
   }
-  main .section1-login .container .wrapper {
+  main .section1_login .container .wrapper {
     background-color: #ffffff;
     box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
     border-radius: 10px;
@@ -818,16 +812,16 @@ footer .myfreedom2 .container p {
     width: 824px;
     padding: 20px 20px;
   }
-  main .section1-login .container .wrapper .close-icon {
+  main .section1_login .container .wrapper .close-icon {
     text-align: right;
   }
-  main .section1-login .container .wrapper .close-icon .closebtn {
+  main .section1_login .container .wrapper .close-icon .closebtn {
     color: #339cb3;
     border: none;
     background-color: #ffffff;
     cursor: pointer;
   }
-  main .section1-login .container .wrapper .regwrapper {
+  main .section1_login .container .wrapper .regwrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -836,7 +830,7 @@ footer .myfreedom2 .container p {
     width: 400px;
     margin: 0 auto;
   }
-  main .section1-login .container .wrapper .regwrapper h1 {
+  main .section1_login .container .wrapper .regwrapper h1 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -847,7 +841,7 @@ footer .myfreedom2 .container p {
     text-align: center;
     margin-bottom: 50px;
   }
-  main .section1-login .container .wrapper .regwrapper .googlereg {
+  main .section1_login .container .wrapper .regwrapper .googlereg {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -862,11 +856,11 @@ footer .myfreedom2 .container p {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
   }
-  main .section1-login .container .wrapper .regwrapper .googlereg img {
+  main .section1_login .container .wrapper .regwrapper .googlereg img {
     width: auto;
     margin-right: 18px;
   }
-  main .section1-login .container .wrapper .regwrapper .googlereg p {
+  main .section1_login .container .wrapper .regwrapper .googlereg p {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -874,7 +868,7 @@ footer .myfreedom2 .container p {
     line-height: 18px;
     color: #25282b;
   }
-  main .section1-login .container .wrapper .regwrapper .orline {
+  main .section1_login .container .wrapper .regwrapper .orline {
     width: 400px;
     display: flex;
     justify-content: space-between;
@@ -882,11 +876,11 @@ footer .myfreedom2 .container p {
     flex-direction: row;
     margin-bottom: 30px;
   }
-  main .section1-login .container .wrapper .regwrapper .orline .lineleft {
+  main .section1_login .container .wrapper .regwrapper .orline .lineleft {
     border-top: 1px solid rgba(51, 156, 179, 0.25);
     width: 100%;
   }
-  main .section1-login .container .wrapper .regwrapper .orline p {
+  main .section1_login .container .wrapper .regwrapper .orline p {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -896,19 +890,19 @@ footer .myfreedom2 .container p {
     color: #25282b;
     padding: 0 10px;
   }
-  main .section1-login .container .wrapper .regwrapper .orline .lineright {
+  main .section1_login .container .wrapper .regwrapper .orline .lineright {
     border-top: 1px solid rgba(51, 156, 179, 0.25);
     width: 100%;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent {
+  main .section1_login .container .wrapper .regwrapper .formcontent {
     width: 400px;
     margin-bottom: 16px;
     text-align: left;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form1 {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form1 {
     margin-bottom: 16px;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form1 form {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form1 form {
     padding: 12px 12px;
     background-color: #ffffff;
     border: 1px solid rgba(51, 156, 179, 0.25);
@@ -916,7 +910,7 @@ footer .myfreedom2 .container p {
     border-radius: 10px;
     outline: none;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form1 form input {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form1 form input {
     width: 100%;
     border: none;
     outline: none;
@@ -928,10 +922,10 @@ footer .myfreedom2 .container p {
     align-items: center;
     color: #b3aeae;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form2 {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form2 {
     margin-bottom: 6px;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form2 form {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form2 form {
     padding: 12px 12px;
     display: flex;
     justify-content: center;
@@ -943,7 +937,7 @@ footer .myfreedom2 .container p {
     border-radius: 10px;
     outline: none;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form2 form input {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form2 form input {
     width: 100%;
     border: none;
     outline: none;
@@ -955,12 +949,12 @@ footer .myfreedom2 .container p {
     align-items: center;
     color: #b3aeae;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form2 form img {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form2 form img {
     display: block;
     width: auto;
     cursor: pointer;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .forgetbtn {
+  main .section1_login .container .wrapper .regwrapper .formcontent .forgetbtn {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -972,24 +966,24 @@ footer .myfreedom2 .container p {
     border: none;
     cursor: pointer;
   }
-  main .section1-login .container .wrapper .regwrapper .checkcontent {
+  main .section1_login .container .wrapper .regwrapper .checkcontent {
     width: 100%;
     margin-bottom: 50px;
   }
-  main .section1-login .container .wrapper .regwrapper .checkcontent form {
+  main .section1_login .container .wrapper .regwrapper .checkcontent form {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
   }
-  main .section1-login .container .wrapper .regwrapper .checkcontent form input {
+  main .section1_login .container .wrapper .regwrapper .checkcontent form input {
     width: 24px;
     height: 24px;
     background-color: #339cb3;
     color: #339cb3;
     margin-right: 10px;
   }
-  main .section1-login .container .wrapper .regwrapper .checkcontent form label {
+  main .section1_login .container .wrapper .regwrapper .checkcontent form label {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -998,11 +992,11 @@ footer .myfreedom2 .container p {
     align-items: center;
     color: #25282b;
   }
-  main .section1-login .container .wrapper .regwrapper .login-button {
+  main .section1_login .container .wrapper .regwrapper .login_button {
     width: 100%;
     margin-bottom: 90px;
   }
-  main .section1-login .container .wrapper .regwrapper .login-button .loginbtn {
+  main .section1_login .container .wrapper .regwrapper .login_button .loginbtn {
     width: 100%;
     padding: 12px;
     font-family: "Raleway";
@@ -1018,13 +1012,13 @@ footer .myfreedom2 .container p {
     border-radius: 10px;
     cursor: pointer;
   }
-  main .section1-login .container .wrapper .no-account {
+  main .section1_login .container .wrapper .noaccount {
     width: 100%;
     margin-bottom: 30px;
     text-align: right;
     padding-right: 20px;
   }
-  main .section1-login .container .wrapper .no-account .signinbtn {
+  main .section1_login .container .wrapper .noaccount .signinbtn {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -1063,44 +1057,42 @@ footer .myfreedom2 .container p {
     width: 95%; /* changed */
     margin: 0 auto;
   }
-  header .container .header-flex {
+  header .container .header_flex {
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
   }
-  header .container .header-flex .burger-menu {
+  header .container .header_flex .burger_menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
-  header .container .header-flex .close-menu {
+  header .container .header_flex .close_menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
-  header .container .header-flex .header-flex-logo {
+  header .container .header_flex .header_flex_logo {
     margin-right: 0px; /* changed */
   }
-  header .container .header-flex .header-flex-logo a .main-logo {
+  header .container .header_flex .header_flex_logo a .main_logo {
     display: block;
   }
-  header .container .header-flex .header-flex-link ul {
+  header .container .header_flex .header_flex_link ul {
     display: flex;
     flex-direction: row;
   }
-  header .container .header-flex .header-flex-link ul li {
+  header .container .header_flex .header_flex_link ul li {
     list-style: none;
     margin-right: 74px;
   }
-  header .container .header-flex .header-flex-link ul li:last-child {
+  header .container .header_flex .header_flex_link ul li:last-child {
     margin-right: 0;
   }
-  header .container .header-flex .header-flex-link ul li a {
+  header .container .header_flex .header_flex_link ul li a {
     text-decoration: none;
     list-style: none;
     font-family: "Open Sans";
@@ -1111,11 +1103,11 @@ footer .myfreedom2 .container p {
     align-items: center;
     color: #25282b;
   }
-  header .container .header-flex .header-flex-reg {
+  header .container .header_flex .header_flex_reg {
     display: flex;
     flex-direction: row;
   }
-  header .container .header-flex .header-flex-reg .sign-in {
+  header .container .header_flex .header_flex_reg .signin {
     padding: 8.5px 22px;
     border-radius: 50px;
     background-color: #728adf;
@@ -1132,7 +1124,7 @@ footer .myfreedom2 .container p {
     color: #ffffff;
     cursor: pointer;
   }
-  header .container .header-flex .header-flex-reg .log-in {
+  header .container .header_flex .header_flex_reg .login {
     padding: 8.5px 22px;
     border-radius: 50px;
     background-color: #fff;
@@ -1148,17 +1140,17 @@ footer .myfreedom2 .container p {
     color: #728adf;
     cursor: pointer;
   }
-  main .section1-login {
+  main .section1_login {
     background-color: #f8f8f8;
     width: auto;
     padding-top: 150px;
     padding-bottom: 329px;
   }
-  main .section1-login .container {
+  main .section1_login .container {
     width: 90%;
     margin: 0 auto;
   }
-  main .section1-login .container .wrapper {
+  main .section1_login .container .wrapper {
     background-color: #ffffff;
     box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
     border-radius: 10px;
@@ -1166,16 +1158,16 @@ footer .myfreedom2 .container p {
     width: 824px;
     padding: 20px 20px;
   }
-  main .section1-login .container .wrapper .close-icon {
+  main .section1_login .container .wrapper .close_icon {
     text-align: right;
   }
-  main .section1-login .container .wrapper .close-icon .closebtn {
+  main .section1_login .container .wrapper .close_icon .closebtn {
     color: #339cb3;
     border: none;
     background-color: #ffffff;
     cursor: pointer;
   }
-  main .section1-login .container .wrapper .regwrapper {
+  main .section1_login .container .wrapper .regwrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1184,7 +1176,7 @@ footer .myfreedom2 .container p {
     width: 400px;
     margin: 0 auto;
   }
-  main .section1-login .container .wrapper .regwrapper h1 {
+  main .section1_login .container .wrapper .regwrapper h1 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -1195,7 +1187,7 @@ footer .myfreedom2 .container p {
     text-align: center;
     margin-bottom: 50px;
   }
-  main .section1-login .container .wrapper .regwrapper .googlereg {
+  main .section1_login .container .wrapper .regwrapper .googlereg {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1210,11 +1202,11 @@ footer .myfreedom2 .container p {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
   }
-  main .section1-login .container .wrapper .regwrapper .googlereg img {
+  main .section1_login .container .wrapper .regwrapper .googlereg img {
     width: auto;
     margin-right: 18px;
   }
-  main .section1-login .container .wrapper .regwrapper .googlereg p {
+  main .section1_login .container .wrapper .regwrapper .googlereg p {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -1222,7 +1214,7 @@ footer .myfreedom2 .container p {
     line-height: 18px;
     color: #25282b;
   }
-  main .section1-login .container .wrapper .regwrapper .orline {
+  main .section1_login .container .wrapper .regwrapper .orline {
     width: 400px;
     display: flex;
     justify-content: space-between;
@@ -1230,11 +1222,11 @@ footer .myfreedom2 .container p {
     flex-direction: row;
     margin-bottom: 30px;
   }
-  main .section1-login .container .wrapper .regwrapper .orline .lineleft {
+  main .section1_login .container .wrapper .regwrapper .orline .lineleft {
     border-top: 1px solid rgba(51, 156, 179, 0.25);
     width: 100%;
   }
-  main .section1-login .container .wrapper .regwrapper .orline p {
+  main .section1_login .container .wrapper .regwrapper .orline p {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -1244,19 +1236,19 @@ footer .myfreedom2 .container p {
     color: #25282b;
     padding: 0 10px;
   }
-  main .section1-login .container .wrapper .regwrapper .orline .lineright {
+  main .section1_login .container .wrapper .regwrapper .orline .lineright {
     border-top: 1px solid rgba(51, 156, 179, 0.25);
     width: 100%;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent {
+  main .section1_login .container .wrapper .regwrapper .formcontent {
     width: 400px;
     margin-bottom: 16px;
     text-align: left;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form1 {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form1 {
     margin-bottom: 16px;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form1 form {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form1 form {
     padding: 12px 12px;
     background-color: #ffffff;
     border: 1px solid rgba(51, 156, 179, 0.25);
@@ -1264,7 +1256,7 @@ footer .myfreedom2 .container p {
     border-radius: 10px;
     outline: none;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form1 form input {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form1 form input {
     width: 100%;
     border: none;
     outline: none;
@@ -1276,10 +1268,10 @@ footer .myfreedom2 .container p {
     align-items: center;
     color: #b3aeae;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form2 {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form2 {
     margin-bottom: 6px;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form2 form {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form2 form {
     padding: 12px 12px;
     display: flex;
     justify-content: center;
@@ -1291,7 +1283,7 @@ footer .myfreedom2 .container p {
     border-radius: 10px;
     outline: none;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form2 form input {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form2 form input {
     width: 100%;
     border: none;
     outline: none;
@@ -1303,12 +1295,12 @@ footer .myfreedom2 .container p {
     align-items: center;
     color: #b3aeae;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form2 form img {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form2 form img {
     display: block;
     width: auto;
     cursor: pointer;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .forgetbtn {
+  main .section1_login .container .wrapper .regwrapper .formcontent .forgetbtn {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -1320,24 +1312,24 @@ footer .myfreedom2 .container p {
     border: none;
     cursor: pointer;
   }
-  main .section1-login .container .wrapper .regwrapper .checkcontent {
+  main .section1_login .container .wrapper .regwrapper .checkcontent {
     width: 100%;
     margin-bottom: 50px;
   }
-  main .section1-login .container .wrapper .regwrapper .checkcontent form {
+  main .section1_login .container .wrapper .regwrapper .checkcontent form {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
   }
-  main .section1-login .container .wrapper .regwrapper .checkcontent form input {
+  main .section1_login .container .wrapper .regwrapper .checkcontent form input {
     width: 24px;
     height: 24px;
     background-color: #339cb3;
     color: #339cb3;
     margin-right: 10px;
   }
-  main .section1-login .container .wrapper .regwrapper .checkcontent form label {
+  main .section1_login .container .wrapper .regwrapper .checkcontent form label {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -1346,11 +1338,11 @@ footer .myfreedom2 .container p {
     align-items: center;
     color: #25282b;
   }
-  main .section1-login .container .wrapper .regwrapper .login-button {
+  main .section1_login .container .wrapper .regwrapper .login_button {
     width: 100%;
     margin-bottom: 90px;
   }
-  main .section1-login .container .wrapper .regwrapper .login-button .loginbtn {
+  main .section1_login .container .wrapper .regwrapper .login_button .loginbtn {
     width: 100%;
     padding: 12px;
     font-family: "Raleway";
@@ -1366,13 +1358,13 @@ footer .myfreedom2 .container p {
     border-radius: 10px;
     cursor: pointer;
   }
-  main .section1-login .container .wrapper .no-account {
+  main .section1_login .container .wrapper .noaccount {
     width: 100%;
     margin-bottom: 30px;
     text-align: right;
     padding-right: 20px;
   }
-  main .section1-login .container .wrapper .no-account .signinbtn {
+  main .section1_login .container .wrapper .noaccount .signinbtn {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -1411,44 +1403,42 @@ footer .myfreedom2 .container p {
     width: 90%;
     margin: 0 auto;
   }
-  header .container .header-flex {
+  header .container .header_flex {
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
   }
-  header .container .header-flex .burger-menu {
+  header .container .header_flex .burger_menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
-  header .container .header-flex .close-menu {
+  header .container .header_flex .close_menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
-  header .container .header-flex .header-flex-logo {
+  header .container .header_flex .header_flex_logo {
     margin-right: 0px;
   }
-  header .container .header-flex .header-flex-logo a .main-logo {
+  header .container .header_flex .header_flex_logo a .main_logo {
     display: block;
   }
-  header .container .header-flex .header-flex-link ul {
+  header .container .header_flex .header_flex_link ul {
     display: flex;
     flex-direction: row;
   }
-  header .container .header-flex .header-flex-link ul li {
+  header .container .header_flex .header_flex_link ul li {
     list-style: none;
     margin-right: 30px; /* уменьшить */
   }
-  header .container .header-flex .header-flex-link ul li:last-child {
+  header .container .header_flex .header_flex_link ul li:last-child {
     margin-right: 0;
   }
-  header .container .header-flex .header-flex-link ul li a {
+  header .container .header_flex .header_flex_link ul li a {
     text-decoration: none;
     list-style: none;
     font-family: "Open Sans";
@@ -1459,11 +1449,11 @@ footer .myfreedom2 .container p {
     align-items: center;
     color: #25282b;
   }
-  header .container .header-flex .header-flex-reg {
+  header .container .header_flex .header_flex_reg {
     display: flex;
     flex-direction: row;
   }
-  header .container .header-flex .header-flex-reg .sign-in {
+  header .container .header_flex .header_flex_reg .signin {
     padding: 8.5px 22px;
     border-radius: 50px;
     background-color: #728adf;
@@ -1479,7 +1469,7 @@ footer .myfreedom2 .container p {
     color: #ffffff;
     cursor: pointer;
   }
-  header .container .header-flex .header-flex-reg .log-in {
+  header .container .header_flex .header_flex_reg .login {
     padding: 8.5px 22px;
     border-radius: 50px;
     background-color: #fff;
@@ -1494,17 +1484,17 @@ footer .myfreedom2 .container p {
     color: #728adf;
     cursor: pointer;
   }
-  main .section1-login {
+  main .section1_login {
     background-color: #f8f8f8;
     width: auto;
     padding-top: 150px;
     padding-bottom: 329px;
   }
-  main .section1-login .container {
+  main .section1_login .container {
     width: 90%;
     margin: 0 auto;
   }
-  main .section1-login .container .wrapper {
+  main .section1_login .container .wrapper {
     background-color: #ffffff;
     box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
     border-radius: 10px;
@@ -1512,16 +1502,16 @@ footer .myfreedom2 .container p {
     width: 600px;
     padding: 20px 20px;
   }
-  main .section1-login .container .wrapper .close-icon {
+  main .section1_login .container .wrapper .close_icon {
     text-align: right;
   }
-  main .section1-login .container .wrapper .close-icon .closebtn {
+  main .section1_login .container .wrapper .close_icon .closebtn {
     color: #339cb3;
     border: none;
     background-color: #ffffff;
     cursor: pointer;
   }
-  main .section1-login .container .wrapper .regwrapper {
+  main .section1_login .container .wrapper .regwrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1530,7 +1520,7 @@ footer .myfreedom2 .container p {
     width: 400px;
     margin: 0 auto;
   }
-  main .section1-login .container .wrapper .regwrapper h1 {
+  main .section1_login .container .wrapper .regwrapper h1 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -1541,7 +1531,7 @@ footer .myfreedom2 .container p {
     text-align: center;
     margin-bottom: 50px;
   }
-  main .section1-login .container .wrapper .regwrapper .googlereg {
+  main .section1_login .container .wrapper .regwrapper .googlereg {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1556,11 +1546,11 @@ footer .myfreedom2 .container p {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
   }
-  main .section1-login .container .wrapper .regwrapper .googlereg img {
+  main .section1_login .container .wrapper .regwrapper .googlereg img {
     width: auto;
     margin-right: 18px;
   }
-  main .section1-login .container .wrapper .regwrapper .googlereg p {
+  main .section1_login .container .wrapper .regwrapper .googlereg p {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -1568,7 +1558,7 @@ footer .myfreedom2 .container p {
     line-height: 18px;
     color: #25282b;
   }
-  main .section1-login .container .wrapper .regwrapper .orline {
+  main .section1_login .container .wrapper .regwrapper .orline {
     width: 400px;
     display: flex;
     justify-content: space-between;
@@ -1576,11 +1566,11 @@ footer .myfreedom2 .container p {
     flex-direction: row;
     margin-bottom: 30px;
   }
-  main .section1-login .container .wrapper .regwrapper .orline .lineleft {
+  main .section1_login .container .wrapper .regwrapper .orline .lineleft {
     border-top: 1px solid rgba(51, 156, 179, 0.25);
     width: 100%;
   }
-  main .section1-login .container .wrapper .regwrapper .orline p {
+  main .section1_login .container .wrapper .regwrapper .orline p {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -1590,19 +1580,19 @@ footer .myfreedom2 .container p {
     color: #25282b;
     padding: 0 10px;
   }
-  main .section1-login .container .wrapper .regwrapper .orline .lineright {
+  main .section1_login .container .wrapper .regwrapper .orline .lineright {
     border-top: 1px solid rgba(51, 156, 179, 0.25);
     width: 100%;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent {
+  main .section1_login .container .wrapper .regwrapper .formcontent {
     width: 400px;
     margin-bottom: 16px;
     text-align: left;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form1 {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form1 {
     margin-bottom: 16px;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form1 form {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form1 form {
     padding: 12px 12px;
     background-color: #ffffff;
     border: 1px solid rgba(51, 156, 179, 0.25);
@@ -1610,7 +1600,7 @@ footer .myfreedom2 .container p {
     border-radius: 10px;
     outline: none;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form1 form input {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form1 form input {
     width: 100%;
     border: none;
     outline: none;
@@ -1622,10 +1612,10 @@ footer .myfreedom2 .container p {
     align-items: center;
     color: #b3aeae;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form2 {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form2 {
     margin-bottom: 6px;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form2 form {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form2 form {
     padding: 12px 12px;
     display: flex;
     justify-content: center;
@@ -1637,7 +1627,7 @@ footer .myfreedom2 .container p {
     border-radius: 10px;
     outline: none;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form2 form input {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form2 form input {
     width: 100%;
     border: none;
     outline: none;
@@ -1649,12 +1639,12 @@ footer .myfreedom2 .container p {
     align-items: center;
     color: #b3aeae;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form2 form img {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form2 form img {
     display: block;
     width: auto;
     cursor: pointer;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .forgetbtn {
+  main .section1_login .container .wrapper .regwrapper .formcontent .forgetbtn {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -1666,24 +1656,24 @@ footer .myfreedom2 .container p {
     border: none;
     cursor: pointer;
   }
-  main .section1-login .container .wrapper .regwrapper .checkcontent {
+  main .section1_login .container .wrapper .regwrapper .checkcontent {
     width: 100%;
     margin-bottom: 50px;
   }
-  main .section1-login .container .wrapper .regwrapper .checkcontent form {
+  main .section1_login .container .wrapper .regwrapper .checkcontent form {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
   }
-  main .section1-login .container .wrapper .regwrapper .checkcontent form input {
+  main .section1_login .container .wrapper .regwrapper .checkcontent form input {
     width: 24px;
     height: 24px;
     background-color: #339cb3;
     color: #339cb3;
     margin-right: 10px;
   }
-  main .section1-login .container .wrapper .regwrapper .checkcontent form label {
+  main .section1_login .container .wrapper .regwrapper .checkcontent form label {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -1692,11 +1682,11 @@ footer .myfreedom2 .container p {
     align-items: center;
     color: #25282b;
   }
-  main .section1-login .container .wrapper .regwrapper .login-button {
+  main .section1_login .container .wrapper .regwrapper .login_button {
     width: 100%;
     margin-bottom: 90px;
   }
-  main .section1-login .container .wrapper .regwrapper .login-button .loginbtn {
+  main .section1_login .container .wrapper .regwrapper .login_button .loginbtn {
     width: 100%;
     padding: 12px;
     font-family: "Raleway";
@@ -1712,13 +1702,13 @@ footer .myfreedom2 .container p {
     border-radius: 10px;
     cursor: pointer;
   }
-  main .section1-login .container .wrapper .no-account {
+  main .section1_login .container .wrapper .noaccount {
     width: 100%;
     margin-bottom: 30px;
     text-align: right;
     padding-right: 20px;
   }
-  main .section1-login .container .wrapper .no-account .signinbtn {
+  main .section1_login .container .wrapper .noaccount .signinbtn {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -1758,55 +1748,53 @@ footer .myfreedom2 .container p {
     width: 95%;
     margin: 0 auto;
   }
-  header .container .header-flex {
+  header .container .header_flex {
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
   }
-  header .container .header-flex .header-flex-logo {
+  header .container .header_flex .header_flex_logo {
     display: flex;
     justify-content: space-between;
     margin-right: 0px;
   }
-  header .container .header-flex .header-flex-logo .burger-menu {
+  header .container .header_flex .header_flex_logo .burger_menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
     margin-right: 20px;
     align-items: center;
   }
-  header .container .header-flex .header-flex-logo .close-menu {
+  header .container .header_flex .header_flex_logo .close_menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
-  header .container .header-flex .header-flex-logo a .main-logo {
+  header .container .header_flex .header_flex_logo a .main_logo {
     display: block;
   }
-  header .container .header-flex .header-flex-link {
+  header .container .header_flex .header_flex_link {
     display: none; /* changed */ /* changed */ /* changed */
     position: absolute;
     margin-top: 400px;
     background-color: #ffffff;
     padding: 30px 50px;
   }
-  header .container .header-flex .header-flex-link ul {
+  header .container .header_flex .header_flex_link ul {
     display: flex;
     flex-direction: column;
   }
-  header .container .header-flex .header-flex-link ul li {
+  header .container .header_flex .header_flex_link ul li {
     list-style: none;
     margin-bottom: 40px; /* changed */
   }
-  header .container .header-flex .header-flex-link ul li:last-child {
+  header .container .header_flex .header_flex_link ul li:last-child {
     margin-right: 0;
   }
-  header .container .header-flex .header-flex-link ul li a {
+  header .container .header_flex .header_flex_link ul li a {
     text-decoration: none;
     list-style: none;
     font-family: "Open Sans";
@@ -1817,11 +1805,11 @@ footer .myfreedom2 .container p {
     align-items: center;
     color: #25282b;
   }
-  header .container .header-flex .header-flex-reg {
+  header .container .header_flex .header_flex_reg {
     display: flex;
     flex-direction: row;
   }
-  header .container .header-flex .header-flex-reg .sign-in {
+  header .container .header_flex .header_flex_reg .signin {
     padding: 8.5px 22px;
     border-radius: 50px;
     background-color: #728adf;
@@ -1837,7 +1825,7 @@ footer .myfreedom2 .container p {
     color: #ffffff;
     cursor: pointer;
   }
-  header .container .header-flex .header-flex-reg .log-in {
+  header .container .header_flex .header_flex_reg .login {
     display: none;
     padding: 8.5px 22px;
     border-radius: 50px;
@@ -1853,17 +1841,17 @@ footer .myfreedom2 .container p {
     color: #728adf;
     cursor: pointer;
   }
-  main .section1-login {
+  main .section1_login {
     background-color: #f8f8f8;
     width: auto;
     padding-top: 150px;
     padding-bottom: 329px;
   }
-  main .section1-login .container {
+  main .section1_login .container {
     width: 90%;
     margin: 0 auto;
   }
-  main .section1-login .container .wrapper {
+  main .section1_login .container .wrapper {
     background-color: #ffffff;
     box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
     border-radius: 10px;
@@ -1871,16 +1859,16 @@ footer .myfreedom2 .container p {
     width: 600px;
     padding: 20px 20px;
   }
-  main .section1-login .container .wrapper .close-icon {
+  main .section1_login .container .wrapper .close_icon {
     text-align: right;
   }
-  main .section1-login .container .wrapper .close-icon .closebtn {
+  main .section1_login .container .wrapper .close_icon .closebtn {
     color: #339cb3;
     border: none;
     background-color: #ffffff;
     cursor: pointer;
   }
-  main .section1-login .container .wrapper .regwrapper {
+  main .section1_login .container .wrapper .regwrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1889,7 +1877,7 @@ footer .myfreedom2 .container p {
     width: 400px;
     margin: 0 auto;
   }
-  main .section1-login .container .wrapper .regwrapper h1 {
+  main .section1_login .container .wrapper .regwrapper h1 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -1900,7 +1888,7 @@ footer .myfreedom2 .container p {
     text-align: center;
     margin-bottom: 50px;
   }
-  main .section1-login .container .wrapper .regwrapper .googlereg {
+  main .section1_login .container .wrapper .regwrapper .googlereg {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1915,11 +1903,11 @@ footer .myfreedom2 .container p {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
   }
-  main .section1-login .container .wrapper .regwrapper .googlereg img {
+  main .section1_login .container .wrapper .regwrapper .googlereg img {
     width: auto;
     margin-right: 18px;
   }
-  main .section1-login .container .wrapper .regwrapper .googlereg p {
+  main .section1_login .container .wrapper .regwrapper .googlereg p {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -1927,7 +1915,7 @@ footer .myfreedom2 .container p {
     line-height: 18px;
     color: #25282b;
   }
-  main .section1-login .container .wrapper .regwrapper .orline {
+  main .section1_login .container .wrapper .regwrapper .orline {
     width: 400px;
     display: flex;
     justify-content: space-between;
@@ -1935,11 +1923,11 @@ footer .myfreedom2 .container p {
     flex-direction: row;
     margin-bottom: 30px;
   }
-  main .section1-login .container .wrapper .regwrapper .orline .lineleft {
+  main .section1_login .container .wrapper .regwrapper .orline .lineleft {
     border-top: 1px solid rgba(51, 156, 179, 0.25);
     width: 100%;
   }
-  main .section1-login .container .wrapper .regwrapper .orline p {
+  main .section1_login .container .wrapper .regwrapper .orline p {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -1949,19 +1937,19 @@ footer .myfreedom2 .container p {
     color: #25282b;
     padding: 0 10px;
   }
-  main .section1-login .container .wrapper .regwrapper .orline .lineright {
+  main .section1_login .container .wrapper .regwrapper .orline .lineright {
     border-top: 1px solid rgba(51, 156, 179, 0.25);
     width: 100%;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent {
+  main .section1_login .container .wrapper .regwrapper .formcontent {
     width: 400px;
     margin-bottom: 16px;
     text-align: left;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form1 {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form1 {
     margin-bottom: 16px;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form1 form {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form1 form {
     padding: 12px 12px;
     background-color: #ffffff;
     border: 1px solid rgba(51, 156, 179, 0.25);
@@ -1969,7 +1957,7 @@ footer .myfreedom2 .container p {
     border-radius: 10px;
     outline: none;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form1 form input {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form1 form input {
     width: 100%;
     border: none;
     outline: none;
@@ -1981,10 +1969,10 @@ footer .myfreedom2 .container p {
     align-items: center;
     color: #b3aeae;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form2 {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form2 {
     margin-bottom: 6px;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form2 form {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form2 form {
     padding: 12px 12px;
     display: flex;
     justify-content: center;
@@ -1996,7 +1984,7 @@ footer .myfreedom2 .container p {
     border-radius: 10px;
     outline: none;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form2 form input {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form2 form input {
     width: 100%;
     border: none;
     outline: none;
@@ -2008,12 +1996,12 @@ footer .myfreedom2 .container p {
     align-items: center;
     color: #b3aeae;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .form2 form img {
+  main .section1_login .container .wrapper .regwrapper .formcontent .form2 form img {
     display: block;
     width: auto;
     cursor: pointer;
   }
-  main .section1-login .container .wrapper .regwrapper .formcontent .forgetbtn {
+  main .section1_login .container .wrapper .regwrapper .formcontent .forgetbtn {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -2025,24 +2013,24 @@ footer .myfreedom2 .container p {
     border: none;
     cursor: pointer;
   }
-  main .section1-login .container .wrapper .regwrapper .checkcontent {
+  main .section1_login .container .wrapper .regwrapper .checkcontent {
     width: 100%;
     margin-bottom: 50px;
   }
-  main .section1-login .container .wrapper .regwrapper .checkcontent form {
+  main .section1_login .container .wrapper .regwrapper .checkcontent form {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
   }
-  main .section1-login .container .wrapper .regwrapper .checkcontent form input {
+  main .section1_login .container .wrapper .regwrapper .checkcontent form input {
     width: 24px;
     height: 24px;
     background-color: #339cb3;
     color: #339cb3;
     margin-right: 10px;
   }
-  main .section1-login .container .wrapper .regwrapper .checkcontent form label {
+  main .section1_login .container .wrapper .regwrapper .checkcontent form label {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -2051,11 +2039,11 @@ footer .myfreedom2 .container p {
     align-items: center;
     color: #25282b;
   }
-  main .section1-login .container .wrapper .regwrapper .login-button {
+  main .section1_login .container .wrapper .regwrapper .login_button {
     width: 100%;
     margin-bottom: 90px;
   }
-  main .section1-login .container .wrapper .regwrapper .login-button .loginbtn {
+  main .section1_login .container .wrapper .regwrapper .login_button .loginbtn {
     width: 100%;
     padding: 12px;
     font-family: "Raleway";
@@ -2071,13 +2059,13 @@ footer .myfreedom2 .container p {
     border-radius: 10px;
     cursor: pointer;
   }
-  main .section1-login .container .wrapper .no-account {
+  main .section1_login .container .wrapper .noaccount {
     width: 100%;
     margin-bottom: 30px;
     text-align: right;
     padding-right: 20px;
   }
-  main .section1-login .container .wrapper .no-account .signinbtn {
+  main .section1_login .container .wrapper .noaccount .signinbtn {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -2130,7 +2118,6 @@ footer .myfreedom2 .container p {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -2139,7 +2126,6 @@ footer .myfreedom2 .container p {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -2490,7 +2476,6 @@ footer .myfreedom2 .container p {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -2499,7 +2484,6 @@ footer .myfreedom2 .container p {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -2850,7 +2834,6 @@ footer .myfreedom2 .container p {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-main/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -2859,7 +2842,6 @@ footer .myfreedom2 .container p {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-main/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -3186,4 +3168,4 @@ footer .myfreedom2 .container p {
     line-height: 22px;
     color: #25282b;
   }
-}/*# sourceMappingURL=login.css.map */
+}/*# sourceMappingURL=login.module.css.map */

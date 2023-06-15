@@ -1,11 +1,11 @@
 @import "../../pages/Ayazhan/common.scss";
 
-.content-container {
+.content_container {
   margin-top: 31px;
   display: flex;
 }
 
-.result-items {
+.result_items {
   @include flex(flex, row, start);
   width: 100%;
   gap: 37px;
@@ -15,7 +15,7 @@
     flex-direction: column;
   }
 
-  .result-item {
+  .result_item {
     width: 50%;
     gap: 20px;
     display: flex;
@@ -30,7 +30,7 @@
   }
 }
 
-.ymap-container {
+.ymap_container {
   border-radius: 10px;
   overflow: hidden;
 }

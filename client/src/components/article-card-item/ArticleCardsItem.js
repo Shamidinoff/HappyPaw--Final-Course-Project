@@ -6,31 +6,23 @@ import axios from "axios";
 function ArticleCardsItem({ img, title, content, date, like, id }) {
   const navigate = useNavigate()
 
-  function openPost(){
-    navigate("/posts/" + id)
+  function openPost() {
+    navigate("/posts/" + id);
+    updateLike(id)
   }
 
-  const [postLike, setPostLike] = useState([]);
-
-  useEffect(() => {
-    updateLike(id);
-  }, [postLike]);
-
-
+  const [postLike, setPostLike] = useState(like);
+  
   async function updateLike(postId) {
     try {
       const response = await axios.put(
         `http://localhost:5000/api/posts/${postId}`,
-        JSON.stringify({
-          like: postLike + 1,
-        }),
         {
-          "Content-Type": "application/json",
-           Accept: "application/json",
+          like: postLike + 1,
         }
       );
       console.log(response.data);
-      setPostLike(response.data.post.like);
+      setPostLike(response.data.like);
     } catch (err) {
       console.error("UPDATE POST LIKE ERROR: " + err);
     }

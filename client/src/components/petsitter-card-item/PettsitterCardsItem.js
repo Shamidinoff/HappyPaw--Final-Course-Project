@@ -9,17 +9,17 @@ const PettsitterCardsItem = ({ img, name, address, overstay, walk, star, reviews
       }
     
       return (
-        <article class="result-item__card">
+        <article className={cl.result_item__card}>
           <img src={img} alt="photo" />
-          <div class="result-item__body">
-            <div class="result-item__header">
-              <h3 class="head3">{name}</h3>
+          <div className={cl.result_item__body}>
+            <div className={cl.result_item__header}>
+              <h3 className={cl.head3}>{name}</h3>
               <span>От {price} BYN </span>
               <img src="../../images-blog/filled-heart.svg" alt="like" />
             </div>
             <p>{address}</p>
             <p>{overstay} передержек, {walk} выгулов</p>
-            <div class="result-item__stars">
+            <div className={cl.result_item__stars}>
               <div>
                 <img src="../../images-blog/filled-start.svg" alt="star" />
                 <img src="../../images-blog/filled-start.svg" alt="star" />

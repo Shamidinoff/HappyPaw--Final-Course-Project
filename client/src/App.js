@@ -16,13 +16,17 @@ import Service from "./pages/servicepage/Service";
 import SitterSearch1 from "./pages/sitterSearch1/SitterSearch1";
 import SitterSearch2 from "./pages/sitterSearch2/SitterSearch2";
 import NotFound from "./pages/NotFound";
+import SignupPage from "./pages/signupPage/SignupPage";
+
 
 function App() {
   return (
     // <div className="App">
       <BrowserRouter>
         <Routes>
+          <Route path="/home" element={<Main />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/signup" element={<SignupPage />} />
           <Route path="/posts" element={<Blog1 />} />
           <Route path="/posts/:id" element={<Blog2 />} />
           <Route path="/petsitters" element={<Search />} />

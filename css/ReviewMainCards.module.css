@@ -1,12 +1,12 @@
-.section7-reviews {
-  padding-top: 75px; /* changed */
+.section7_reviews {
+  padding-top: 150px;
 }
-.section7-reviews .container {
-  width: 95%;
+.section7_reviews .container {
+  width: 1420px;
   margin: 0 auto;
   text-align: center;
 }
-.section7-reviews .container h2 {
+.section7_reviews .container h2 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -15,8 +15,7 @@
   color: #25282b;
   margin-bottom: 60px;
 }
-.section7-reviews .container .reviews-cards {
+.section7_reviews .container .reviews_cards {
   display: flex;
-  justify-content: center; /* changed */
-  flex-wrap: wrap;
+  justify-content: space-between;
 }/*# sourceMappingURL=ReviewMainCards.module.css.map */

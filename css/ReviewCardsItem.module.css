@@ -62,11 +62,11 @@
   line-height: 27px;
   color: #25282b;
 }
-.view .item2 .view-date {
+.view .item2 .view_date {
   text-align: right;
   padding-top: 70px;
 }
-.view .item2 .view-date p {
+.view .item2 .view_date p {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
