@@ -2791,14 +2791,14 @@ footer {
         text-align: center;
         align-items: center;
         .burger-menu {
-          display: none; /* display - block when phone version */
+          display: block; /* display - block when phone version */
           background-image: url(/public/images-main/0-1-menu-burger.png);
           background-size: cover;
           width: 50px;
           height: 50px;
         }
         .close-menu {
-          display: none; /* close menu icon */
+          display: block; /* close menu icon */
           background-image: url(/public/images-main/0-2-close-menu.png);
           background-size: cover;
           width: 50px;
@@ -3845,11 +3845,11 @@ footer {
           }
         }
         .header-flex-link {
-          display: none; /* changed */ /* changed */ /* changed */
-          position: absolute;
+          display: block; /* changed */ /* changed */ /* changed */
+          /* position: absolute;
           margin-top: 400px;
           background-color: #ffffff;
-          padding: 30px 50px;
+          padding: 30px 50px; */
 
           ul {
             display: flex;
