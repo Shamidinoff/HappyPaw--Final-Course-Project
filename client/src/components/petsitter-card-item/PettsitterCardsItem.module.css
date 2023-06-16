@@ -109,6 +109,7 @@ button {
   color: #ffffff;
   height: 40px;
   padding: 0 22px;
+  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   font-weight: 600;
@@ -121,6 +122,7 @@ button {
   border-radius: 10px;
   height: 40px;
   padding: 0 22px;
+  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   background-color: #fff;
@@ -1786,7 +1788,7 @@ header .header-flex .header-flex-reg .log-in {
     color: #25282b;
   }
 }
-.result-item__card {
+.result_item__card {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1797,42 +1799,42 @@ header .header-flex .header-flex-reg .log-in {
   margin-right: 54px;
 }
 @media (max-width: 998px) {
-  .result-item__card {
+  .result_item__card {
     margin-right: 1rem;
   }
 }
 
-.result-item__card:last-of-type {
+.result_item__card:last-of-type {
   border-bottom: none;
 }
 
-.result-item__header {
+.result_item__header {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 100%;
   justify-content: space-between;
 }
-.result-item__header > span {
+.result_item__header > span {
   color: #728ADF;
   font-weight: 600;
 }
 @media (max-width: 998px) {
-  .result-item__header {
+  .result_item__header {
     flex-direction: column;
     align-items: baseline;
     gap: 10px;
   }
-  .result-item__header > img {
+  .result_item__header > img {
     width: 20px;
     height: 20px;
   }
-  .result-item__header > span {
+  .result_item__header > span {
     font-size: 12px;
   }
 }
 
-.result-item__body {
+.result_item__body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1841,11 +1843,9 @@ header .header-flex .header-flex-reg .log-in {
   height: 100%;
 }
 
-.result-item__stars {
+.result_item__stars {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
-}
-
-/*# sourceMappingURL=PettsitterCardsItem.module.css.map */
+}/*# sourceMappingURL=PettsitterCardsItem.module.css.map */

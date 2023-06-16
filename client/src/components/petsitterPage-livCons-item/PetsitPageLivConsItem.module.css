@@ -1,0 +1,15 @@
+.accept {
+  margin-bottom: 20px;
+}
+.accept:last-child {
+  margin-bottom: 0px;
+}
+.accept p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  color: #25282b;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=PetsitPageLivConsItem.module.css.map */

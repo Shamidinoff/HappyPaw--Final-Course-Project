@@ -109,6 +109,7 @@ button {
   color: #ffffff;
   height: 40px;
   padding: 0 22px;
+  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   font-weight: 600;
@@ -121,6 +122,7 @@ button {
   border-radius: 10px;
   height: 40px;
   padding: 0 22px;
+  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   background-color: #fff;
@@ -1827,7 +1829,8 @@ header .header-flex .header-flex-reg .log-in {
   max-width: 100%;
   height: 357px;
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .card_blog .review_card {
   display: flex;
@@ -1848,6 +1851,4 @@ header .header-flex .header-flex-reg .log-in {
 }
 .card_blog .question_answer .nav_card {
   margin-top: 42.5px;
-}
-
-/*# sourceMappingURL=blog1.css.map */
+}/*# sourceMappingURL=blog1.css.map */

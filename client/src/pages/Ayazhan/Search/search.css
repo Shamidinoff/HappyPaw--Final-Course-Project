@@ -109,6 +109,7 @@ button {
   color: #ffffff;
   height: 40px;
   padding: 0 22px;
+  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   font-weight: 600;
@@ -121,6 +122,7 @@ button {
   border-radius: 10px;
   height: 40px;
   padding: 0 22px;
+  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   background-color: #fff;
@@ -1925,6 +1927,4 @@ header .header-flex .header-flex-reg .log-in {
 .ymap-container {
   border-radius: 10px;
   overflow: hidden;
-}
-
-/*# sourceMappingURL=search.css.map */
+}/*# sourceMappingURL=search.css.map */
