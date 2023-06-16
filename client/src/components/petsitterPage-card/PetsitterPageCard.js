@@ -82,17 +82,17 @@ const PetsitterPageCard = () => {
                     <p>{petsitter.address}</p>
                     <p>Опыт работы: {petsitter.experience} года</p>
                     <div className={cl.stars}>
-                      <img src="../../../public/images-main/p5-star.svg" alt="star" />
-                      <img src="../../../public/images-main/p5-star.svg" alt="star" />
-                      <img src="../../../public/images-main/p5-star.svg" alt="star" />
-                      <img src="../../../public/images-main/p5-star.svg" alt="star" />
-                      <img src="../../../public/images-main/p5-star.svg" alt="star" />
+                      <img src="images-main/p5-star.svg" alt="star" />
+                      <img src="images-main/p5-star.svg" alt="star" />
+                      <img src="images-main/p5-star.svg" alt="star" />
+                      <img src="images-main/p5-star.svg" alt="star" />
+                      <img src="images-main/p5-star.svg" alt="star" />
                       <p className={cl.stars_review_count}>({petsitter.rating.reviewCount})</p>
                     </div>
                     <button>Связаться с ситтером &#8594</button>
                     <div className={cl.verification}>
                       <div className={cl.checkmark}>
-                        <img src="../../../public/images-main/p5-checkmark.svg" alt="checkmark" />
+                        <img src="images-main/p5-checkmark.svg" alt="checkmark" />
                       </div>
                       <div className={cl.verif_descr}>
                         <p>Успешно прошла подготовку</p> 

@@ -1,17 +1,16 @@
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import cl from "./ArticleCardsItem.module.scss"
 import { useNavigate } from 'react-router-dom'
 import axios from "axios";
 
 function ArticleCardsItem({ img, title, content, date, like, id }) {
   const navigate = useNavigate()
+  const [postLike, setPostLike] = useState(like);
 
   function openPost() {
     navigate("/posts/" + id);
     updateLike(id)
   }
-
-  const [postLike, setPostLike] = useState(like);
   
   async function updateLike(postId) {
     try {

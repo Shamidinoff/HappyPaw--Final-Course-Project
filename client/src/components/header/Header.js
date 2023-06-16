@@ -55,13 +55,13 @@ function Header() {
           >
             <ul>
               <li>
-                <a href="#">Услуги</a>
+                <a href="http://localhost:3000/services">Услуги</a>
               </li>
               <li>
-                <a href="#">Блог</a>
+                <a href="http://localhost:3000/posts">Блог</a>
               </li>
               <li>
-                <a href="#">Контакты</a>
+                <a href="http://localhost:3000/contacts">Контакты</a>
               </li>
             </ul>
           </div>
@@ -72,7 +72,7 @@ function Header() {
                   :
                  <>
                    <button className="sign-in" onClick={() => navigate("/login")}>Войти</button>
-                   <button className="log-in">Зарегистрироваться</button>
+                   <button className="log-in" onClick={() => navigate("/signup")}>Зарегистрироваться</button>
                  </>
             }
 
