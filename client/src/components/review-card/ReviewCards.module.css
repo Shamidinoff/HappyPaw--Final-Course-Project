@@ -1,0 +1,9 @@
+.views_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 50px;
+  border-right: 8px solid #339cb3;
+}/*# sourceMappingURL=ReviewCards.module.css.map */

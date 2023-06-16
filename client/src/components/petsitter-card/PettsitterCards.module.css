@@ -109,6 +109,7 @@ button {
   color: #ffffff;
   height: 40px;
   padding: 0 22px;
+  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   font-weight: 600;
@@ -121,6 +122,7 @@ button {
   border-radius: 10px;
   height: 40px;
   padding: 0 22px;
+  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   background-color: #fff;
@@ -1786,12 +1788,12 @@ header .header-flex .header-flex-reg .log-in {
     color: #25282b;
   }
 }
-.content-container {
+.content_container {
   margin-top: 31px;
   display: flex;
 }
 
-.result-items {
+.result_items {
   display: flex;
   flex-direction: row;
   align-items: start;
@@ -1800,11 +1802,11 @@ header .header-flex .header-flex-reg .log-in {
   height: 1332px;
 }
 @media (max-width: 1300px) {
-  .result-items {
+  .result_items {
     flex-direction: column;
   }
 }
-.result-items .result-item {
+.result_items .result_item {
   width: 50%;
   gap: 20px;
   display: flex;
@@ -1813,14 +1815,12 @@ header .header-flex .header-flex-reg .log-in {
   overflow: auto;
 }
 @media (max-width: 1300px) {
-  .result-items .result-item {
+  .result_items .result_item {
     width: 100%;
   }
 }
 
-.ymap-container {
+.ymap_container {
   border-radius: 10px;
   overflow: hidden;
-}
-
-/*# sourceMappingURL=PettsitterCards.module.css.map */
+}/*# sourceMappingURL=PettsitterCards.module.css.map */

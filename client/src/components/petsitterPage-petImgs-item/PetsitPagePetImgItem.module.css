@@ -1,0 +1,11 @@
+.accept {
+  margin-right: 30px;
+}
+.accept:last-child {
+  margin-right: 0px;
+}
+.accept img {
+  display: inline-block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=PetsitPagePetImgItem.module.css.map */

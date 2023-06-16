@@ -18,41 +18,40 @@ import SitterSearch2 from "./pages/sitterSearch2/SitterSearch2";
 import NotFound from "./pages/notFound/NotFound";
 import SignupPage from "./pages/signupPage/SignupPage";
 
-
 function App() {
   return (
     // <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/home" element={<Main />} />
-          <Route path="/login" element={<LoginPage />} />
-          <Route path="/signup" element={<SignupPage />} />
-          <Route path="/posts" element={<Blog1 />} />
-          <Route path="/posts/:id" element={<Blog2 />} />
-          <Route path="/petsitters" element={<Search />} />
-          <Route path="/petsitters/:id" element={<PersonalPage />}/>
-          <Route path="/contacts" element={<Contacts />}/>
-          <Route path="/services" element={<Service />}/>
-          <Route path="/owner" element={<OwnerPage />}/>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/home" element={<Main />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/signup" element={<SignupPage />} />
+        <Route path="/posts" element={<Blog1 />} />
+        <Route path="/posts/:id" element={<Blog2 />} />
+        <Route path="/petsitters" element={<Search />} />
+        <Route path="/petsitters/:id" element={<PersonalPage />} />
+        <Route path="/contacts" element={<Contacts />} />
+        <Route path="/services" element={<Service />} />
+        <Route path="/owner" element={<OwnerPage />} />
 
-          <Route path="*" element={<NotFound />}/>
-        </Routes>
-      </BrowserRouter>
-      // {/* <Main /> */}
-      // {/*  <Service /> */}
-      // {/* <SitterSearch1 /> */}
-      // {/* <SitterSearch2 /> */}
-      // {/* <PersonalPage /> */}
-      // {/* <OwnerPage /> */}
-      // {/* <LoginPage /> */}
-      // {/* <Blog1 /> */}
-      // {/* <Blog2 /> */}
-      // {/* <Contacts /> */}
-      // {/* <Opb /> */}
-      // {/* <Opbc /> */}
-      // {/* <Opbpo /> */}
-      // {/* <Opm /> */}
-      // {/* <Search /> */}
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
+    // {/* <Main /> */}
+    // {/*  <Service /> */}
+    // {/* <SitterSearch1 /> */}
+    // {/* <SitterSearch2 /> */}
+    // {/* <PersonalPage /> */}
+    // {/* <OwnerPage /> */}
+    // {/* <LoginPage /> */}
+    // {/* <Blog1 /> */}
+    // {/* <Blog2 /> */}
+    // {/* <Contacts /> */}
+    // {/* <Opb /> */}
+    // {/* <Opbc /> */}
+    // {/* <Opbpo /> */}
+    // {/* <Opm /> */}
+    // {/* <Search /> */}
     // </div>
   );
 }

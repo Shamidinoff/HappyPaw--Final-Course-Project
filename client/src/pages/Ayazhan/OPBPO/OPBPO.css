@@ -109,6 +109,7 @@ button {
   color: #ffffff;
   height: 40px;
   padding: 0 22px;
+  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   font-weight: 600;
@@ -121,6 +122,7 @@ button {
   border-radius: 10px;
   height: 40px;
   padding: 0 22px;
+  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   background-color: #fff;
@@ -2077,6 +2079,4 @@ header .header-flex-reg .log_out {
 }
 .table tr td:last-child {
   border-right: 0;
-}
-
-/*# sourceMappingURL=OPBPO.css.map */
+}/*# sourceMappingURL=OPBPO.css.map */

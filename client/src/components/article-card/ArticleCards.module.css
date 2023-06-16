@@ -1,0 +1,39 @@
+.section6_article {
+  padding-top: 75px; /* changed */
+}
+.section6_article .container {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+}
+.section6_article .container h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #25282b;
+  margin-bottom: 60px;
+}
+.section6_article .container .article_cards {
+  display: flex;
+  justify-content: center; /* changed */
+  flex-wrap: wrap;
+  gap: 30px; /* changed */
+}
+.section6_article .container .read_more_button {
+  padding-top: 60px;
+}
+.section6_article .container .read_more_button .read_more_btn {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 18px 158px;
+  cursor: pointer;
+  border: none;
+  background-color: #339cb3;
+  border-radius: 10px;
+}/*# sourceMappingURL=ArticleCards.module.css.map */

@@ -109,6 +109,7 @@ button {
   color: #ffffff;
   height: 40px;
   padding: 0 22px;
+  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   font-weight: 600;
@@ -121,6 +122,7 @@ button {
   border-radius: 10px;
   height: 40px;
   padding: 0 22px;
+  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   background-color: #fff;
@@ -1794,7 +1796,8 @@ header .header-flex .header-flex-reg .log-in {
 }
 .main_cat .cat_blog1 {
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 623px;
   border-radius: 10px;
 }
@@ -1888,6 +1891,4 @@ header .header-flex .header-flex-reg .log-in {
   font-size: 20px;
   line-height: 24px;
   align-self: center;
-}
-
-/*# sourceMappingURL=blog2.css.map */
+}/*# sourceMappingURL=blog2.css.map */
