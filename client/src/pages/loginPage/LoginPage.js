@@ -8,13 +8,17 @@ function LoginPage() {
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState('');
 
   const user = sessionStorage.getItem("user")
 
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
+
   useEffect(() => {
     if(user){
-      console.log("Hi")
       navigate("/home")
     }
   }, [])
@@ -27,7 +31,7 @@ function LoginPage() {
     e.preventDefault();
 
     if (!email || !password) {
-      setError('Please provide both email and password');
+      setError('Пожалуйста заполните обязательные поля');
       return;
     }
 
@@ -47,7 +51,7 @@ function LoginPage() {
         setError('Неправильный пароль');
       }
       else{
-        setError('Какая то ошибка');
+        setError('Произошла ошибка входа');
       }
     }
   };
@@ -114,7 +118,7 @@ function LoginPage() {
                   <div className={cl.lineright}></div>
                 </div>
 
-                {error && <p>{error}</p>}
+                {error && <p className={cl.error}>{error}</p>}
                 <div className={cl.formcontent} >
                   <div className={cl.form1}>
                     <form action="#">
@@ -124,8 +128,10 @@ function LoginPage() {
 
                   <div className={cl.form2}>
                     <form action="#">
-                      <input type="password" placeholder="Введите пароль" value={password} onChange={(e) => setPassword(e.target.value)}/>
-                      <img src="images-main/p7-3-eye.svg" alt="eye" />
+                      <input type={showPassword ? 'text' : 'password'} placeholder="Введите пароль" value={password} onChange={(e) => setPassword(e.target.value)}/>
+                      <span onClick={togglePasswordVisibility}>
+                        {showPassword ? <img src="images-main/open-eye-icon.png" alt="open-eye" /> : <img src="images-main/p7-3-eye.svg" alt="closed-eye" /> }
+                      </span>
                     </form>
                   </div>
 

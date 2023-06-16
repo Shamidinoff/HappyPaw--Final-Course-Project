@@ -4,11 +4,17 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 function SignupPage() {
+  const navigate = useNavigate()
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [error, setError] = useState('');
-  const navigate = useNavigate()
+  const [showPassword, setShowPassword] = useState(false);
+
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
 
   function openHomePage() {
     navigate("/home");
@@ -18,12 +24,12 @@ function SignupPage() {
     e.preventDefault();
 
     if (!email || !password || !confirmPassword) {
-      setError('Please provide all required fields');
+      setError('Пожалуйста заполните обязательные поля');
       return;
     }
 
     if (password !== confirmPassword) {
-      setError('Passwords do not match');
+      setError('Пароли не совпадают');
       return;
     }
 
@@ -33,10 +39,10 @@ function SignupPage() {
       if (response.status === 201) {
         openHomePage()
       } else {
-        setError('Error creating account');
+        setError('Ошибка создания аккаунта');
       }
     } catch (error) {
-      setError('An error occurred. Please try again later.');
+      setError('Произошла ошибка регистрации. Пожалуйста повторите позднее');
     }
   };
 
@@ -90,7 +96,7 @@ function SignupPage() {
 
               <div className={cl.regwrapper}>
                 <h1>Регистрация</h1>
-                {error && <p>{error}</p>}
+                {error && <p className={cl.error}>{error}</p>}
                 <div className={cl.formcontent}  >
                   <div className={cl.form1}>
                     <form action="#">
@@ -100,15 +106,19 @@ function SignupPage() {
 
                   <div className={cl.form2}>
                     <form action="#">
-                      <input type="password" placeholder="Введите пароль" value={password} onChange={(e) => setPassword(e.target.value)}/>
-                      <img src="images-main/p7-3-eye.svg" alt="eye" />
+                      <input type={showPassword ? 'text' : 'password'} placeholder="Введите пароль" value={password} onChange={(e) => setPassword(e.target.value)}/>
+                      <span onClick={togglePasswordVisibility}>
+                        {showPassword ? <img src="images-main/open-eye-icon.png" alt="open-eye" /> : <img src="images-main/p7-3-eye.svg" alt="closed-eye" /> }
+                      </span>
                     </form>
                   </div>
 
                   <div className={cl.form2}>
                     <form action="#">
-                      <input type="password" placeholder="Подтвердите пароль" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)}/>
-                      <img src="images-main/p7-3-eye.svg" alt="eye" />
+                      <input type={showPassword ? 'text' : 'password'} placeholder="Подтвердите пароль" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)}/>
+                      <span onClick={togglePasswordVisibility}>
+                        {showPassword ? <img src="images-main/open-eye-icon.png" alt="open-eye" /> : <img src="images-main/p7-3-eye.svg" alt="closed-eye" /> }
+                      </span>
                     </form>
                   </div>
                 </div>
