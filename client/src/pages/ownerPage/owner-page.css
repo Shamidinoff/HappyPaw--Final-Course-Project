@@ -189,6 +189,7 @@ main .section2-personal .container .wrapper {
   justify-content: space-between;
   flex-direction: row;
   align-items: top;
+  gap: 40px;
 }
 main .section2-personal .container .wrapper .left-content .personal-info {
   display: flex;
@@ -4977,4 +4978,6 @@ footer .myfreedom .container p {
     line-height: 27px;
     color: #25282b;
   }
-}/*# sourceMappingURL=owner-page.css.map */
+}
+
+/*# sourceMappingURL=owner-page.css.map */

@@ -1,13 +1,23 @@
 import axios from "axios";
 import cl from "../loginPage/Login.module.scss"
-import { useState } from "react";
+import {useEffect, useState} from "react";
 import { useNavigate } from "react-router-dom";
 
 function LoginPage() {
+  const navigate = useNavigate()
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
-  const navigate = useNavigate()
+
+  const user = sessionStorage.getItem("user")
+
+  useEffect(() => {
+    if(user){
+      console.log("Hi")
+      navigate("/home")
+    }
+  }, [])
 
   function openHomePage() {
     navigate("/home");
@@ -23,14 +33,22 @@ function LoginPage() {
 
     try {
       const response = await axios.post('http://localhost:5000/api/users/login', { email, password });
-
+      console.log(response.data)
       if (response.status === 200) {
+        sessionStorage.setItem("user", JSON.stringify(response.data.user))
         openHomePage()
-      } else {
-        setError('Invalid email or password');
       }
+
     } catch (error) {
-      setError('An error occurred. Please try again later.');
+      console.log(error)
+      if(error.response.status===404) {
+        setError('Почты не существует');
+      }else if(error.response.status === 401) {
+        setError('Неправильный пароль');
+      }
+      else{
+        setError('Какая то ошибка');
+      }
     }
   };
 

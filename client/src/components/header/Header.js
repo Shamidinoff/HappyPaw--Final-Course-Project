@@ -1,13 +1,20 @@
 /* import "../../pages/main/main.css"; */
 import React, { useState } from "react";
 import "./header.css";
+import {useNavigate} from "react-router-dom";
 
 function Header() {
+  const navigate = useNavigate()
   const [isOpen, setIsOpen] = useState(false);
-
+  const user = sessionStorage.getItem("user")
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  function logout(){
+    sessionStorage.clear()
+    navigate("/login")
+  }
 
   return (
     <header>
@@ -29,13 +36,13 @@ function Header() {
           <div className="header-flex-link">
             <ul>
               <li>
-                <a href="#">Услуги</a>
+                <a href="" onClick={() => navigate("/")}>Услуги</a>
               </li>
               <li>
-                <a href="#">Блог</a>
+                <a href="">Блог</a>
               </li>
               <li>
-                <a href="#">Контакты</a>
+                <a href="">Контакты</a>
               </li>
             </ul>
           </div>
@@ -59,8 +66,16 @@ function Header() {
             </ul>
           </div>
           <div className="header-flex-reg">
-            <button className="sign-in">Войти</button>
-            <button className="log-in">Зарегистрироваться</button>
+            {
+              user ?
+                  <button className="sign-in" onClick={logout}>Выйти</button>
+                  :
+                 <>
+                   <button className="sign-in" onClick={() => navigate("/login")}>Войти</button>
+                   <button className="log-in">Зарегистрироваться</button>
+                 </>
+            }
+
           </div>
         </div>
       </div>

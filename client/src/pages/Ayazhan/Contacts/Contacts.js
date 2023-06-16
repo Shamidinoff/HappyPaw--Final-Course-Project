@@ -1,8 +1,11 @@
+import { Wrapper, Status } from "@googlemaps/react-wrapper";
 import Footer from "../../../components/footer/Footer";
 import Header from "../../../components/header/Header";
 import "./Contacts.css";
+import {useEffect, useRef, useState} from "react";
 
 function Contacts() {
+  const mapRef = useRef(null)
   return (
     <div>
       <Header />
@@ -93,9 +96,9 @@ function Contacts() {
                     </div>
                   </div>
                 </div>
-                <div class="ymap">
-                  <img src="../../images-blog/mapmap.png" alt="mapmap" />
-                </div>
+                <Wrapper apiKey={"AIzaSyAWqwiODfTL2GFly_Y3Yf9BKHSjVIMaSOI"}>
+                  <MyMapComponent zoom={12}/>
+                </Wrapper>
               </div>
             </div>
           </div>
@@ -104,6 +107,32 @@ function Contacts() {
       <Footer />
     </div>
   );
+}
+
+export function MyMapComponent({
+
+                          zoom,
+                        }) {
+  const ref = useRef();
+  const [latitude, setLatitude] = useState(0)
+  const [longitude, setLongitude] = useState(0)
+
+  useEffect(() => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(function (position) {
+        setLatitude(position.coords.latitude)
+        setLongitude(position.coords.longitude)
+      })
+    }
+    console.log(latitude)
+    console.log(longitude)
+    new window.google.maps.Map(ref.current, {
+      center: {lat: latitude, lng: longitude},
+      zoom,
+    });
+  });
+
+  return <div ref={ref} id="map" className="ymap" />;
 }
 
 export default Contacts;

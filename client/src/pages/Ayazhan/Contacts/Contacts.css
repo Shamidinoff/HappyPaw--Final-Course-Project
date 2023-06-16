@@ -1831,6 +1831,7 @@ header .header-flex .header-flex-reg .log-in {
 }
 .table_contacts .main_info .general_info .ymap {
   width: 707px;
+  min-height: 600px;
   margin: 60px auto 0;
 }
 .table_contacts .main_info .general_info .internal_info {

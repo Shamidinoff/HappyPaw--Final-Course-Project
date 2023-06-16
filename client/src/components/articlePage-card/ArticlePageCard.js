@@ -41,14 +41,14 @@ const ArticlePageCard = () => {
                   Главная
                 </a>
                 <img
-                  src="../../../public/images-blog/right1.svg"
+                  src="/images-blog/left1.svg"
                   alt="right1"
                 />
                 <a className={cl.blog} href="http://localhost:3000/posts">
                   Блог
                 </a>
                 <img
-                  src="../../../public/images-blog/right1.svg"
+                  src="/images-blog/right1.svg"
                   alt="right1"
                 />
                 <a className={cl.post_topic} href="">
@@ -67,7 +67,7 @@ const ArticlePageCard = () => {
               />
               <div className={cl.date}>
                 <img
-                  src="../../../public/images-blog/1.1-calendar-icon.svg"
+                  src="/images-blog/1.1-calendar-icon.svg"
                   alt="calendar"
                 />
                 <p>{date}</p>

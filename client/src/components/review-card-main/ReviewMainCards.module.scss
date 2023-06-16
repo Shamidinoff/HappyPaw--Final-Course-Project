@@ -2,7 +2,7 @@
 .section7_reviews {
   padding-top: 150px;
   .container {
-    width: 1420px;
+    max-width: 1380px;
     margin: 0 auto;
     text-align: center;
     h2 {
@@ -17,10 +17,11 @@
 
     .reviews_cards {
       display: flex;
-      justify-content: space-between;
-      
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
     }
-    
-    
+
+
   }
 }

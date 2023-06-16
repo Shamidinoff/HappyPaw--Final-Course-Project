@@ -15,7 +15,7 @@ import PersonalPage from "./pages/personalPage/PersonalPage";
 import Service from "./pages/servicepage/Service";
 import SitterSearch1 from "./pages/sitterSearch1/SitterSearch1";
 import SitterSearch2 from "./pages/sitterSearch2/SitterSearch2";
-import NotFound from "./pages/NotFound";
+import NotFound from "./pages/notFound/NotFound";
 import SignupPage from "./pages/signupPage/SignupPage";
 
 
@@ -30,9 +30,12 @@ function App() {
           <Route path="/posts" element={<Blog1 />} />
           <Route path="/posts/:id" element={<Blog2 />} />
           <Route path="/petsitters" element={<Search />} />
-          <Route path="/petsitters/:id" element={<PersonalPage />} />
-          
-          <Route path="/error" element={<NotFound />} />
+          <Route path="/petsitters/:id" element={<PersonalPage />}/>
+          <Route path="/contacts" element={<Contacts />}/>
+          <Route path="/services" element={<Service />}/>
+          <Route path="/owner" element={<OwnerPage />}/>
+
+          <Route path="*" element={<NotFound />}/>
         </Routes>
       </BrowserRouter>
       // {/* <Main /> */}

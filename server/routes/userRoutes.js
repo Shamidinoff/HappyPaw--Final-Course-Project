@@ -8,15 +8,15 @@ router.post('/register', async (req, res) => {
         const {email, password} = req.body;
         const userUnique = await User.findOne({ email });
         if (userUnique) {
-          res.status(400).json({ error: 'User already exists' });
+            return res.status(400).json({ error: 'User already exists' });
         }
 
         const user = new User({email, password});
         await user.save();
-        res.status(201).json({message: 'User created successfully', user});
+        return res.status(201).json({message: 'User created successfully', user});
     } catch (error) {
-        console.error('Error creating user:', error);     
-        res.status(500).json({error: 'Server error'});
+        console.error('Error creating user:', error);
+        return res.status(500).json({error: 'Server error'});
     }
 });
 
@@ -24,10 +24,10 @@ router.post('/register', async (req, res) => {
 router.get('/', async (req, res) => {
     try {
       const users = await User.find();
-      res.status(200).json(users);
+        return res.status(200).json(users);
     } catch (error) {
       console.error('Error retrieving users:', error);
-      res.status(500).json({ error: 'Server error' });
+        return res.status(500).json({ error: 'Server error' });
     }
 });
 
@@ -38,12 +38,12 @@ router.get('/:userId', async (req, res) => {
       const user = await User.findById(userId);
 
       if (!user) {
-        res.status(404).json({ error: 'User not found' });
+          return res.status(404).json({ error: 'User not found' });
       }
-      res.json(user);
+        return res.json(user);
     } catch (error) {
       console.error('Error retrieving user:', error);
-      res.status(500).json({ error: 'Server error' });
+        return res.status(500).json({ error: 'Server error' });
     }
 });
 
@@ -54,17 +54,22 @@ router.post('/login', async (req, res) => {
       const user = await User.findOne({ email });
 
       if (!user) {
-        res.status(404).json({ error: 'User not found' });
+          return  res.status(404).json({ error: 'User not found' });
+      }
+      else{
+          if (user.password !== password) {
+              return res.status(401).json({ error: 'Invalid password' });
+          }
+          return res.status(200).json({ message: 'Login successful', user });
+
       }
 
-      if (user.password !== password) {
-        res.status(401).json({ error: 'Invalid password' });
-      } 
-      res.status(200).json({ message: 'Login successful', user });
-      
+
+
     } catch (error) {
       console.error('Error logging in:', error);
-      res.status(500).json({ error: 'Server error' });
+        return res.status(500).json({ error: 'Server error' });
+
     }
 });
 
@@ -81,32 +86,32 @@ router.put('/:userId', async (req, res) => {
       )
 
       if (!user) {
-        res.status(404).json({ error: 'User not found' });
-      } 
-      res.status(200).json({ message: 'User updated successfully', user });
-      
+          return res.status(404).json({ error: 'User not found' });
+      }
+        return res.status(200).json({ message: 'User updated successfully', user });
+
     } catch (error) {
         console.error('Error updating user:', error);
-        res.status(500).json({ error: 'Server error' });
+        return res.status(500).json({ error: 'Server error' });
     }
-}); 
+});
 
 // Delete route
 router.delete('/:userId', async (req, res) => {
     const userId = req.params.userId;
-  
+
     try {
       const user = await User.findByIdAndDelete(userId);
-  
+
       if (!user) {
-        res.status(404).json({ error: 'User not found' });
-      } 
-      res.status(200).json({ message: 'User deleted successfully' });
-      
+          return res.status(404).json({ error: 'User not found' });
+      }
+        return res.status(200).json({ message: 'User deleted successfully' });
+
     } catch (error) {
       console.error('Error deleting user:', error);
-      res.status(500).json({ error: 'Server error' });
+        return res.status(500).json({ error: 'Server error' });
     }
-}); 
+});
 
 module.exports = router;

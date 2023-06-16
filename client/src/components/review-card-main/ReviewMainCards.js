@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import cl from './ReviewMainCards.module.scss'
+import cl from './ReviewMainCards.module.css'
 import ReviewMainCardsItem from '../review-card-item-main/ReviewMainCardsItem';
 import axios from 'axios';
 
@@ -15,7 +15,7 @@ const ReviewMainCards = () => {
     if (reviewIds.length !== 0) {
       for (let i=0; i < 12; i+=4){
         getReview(reviewIds[i]);
-        
+
       }
     }
   }, [reviewIds]);
@@ -45,7 +45,7 @@ const ReviewMainCards = () => {
     const options = {  day: 'numeric', month: 'long', year: 'numeric'}
     const dateForm = new Date(review.createdAt).toLocaleString("ru", options).split(" ");
     const date = dateForm[0] + " " + dateForm[1].charAt(0).toUpperCase() + dateForm[1].slice(1) + ", " + dateForm[2];
-        
+
       return (
         <ReviewMainCardsItem
           userName={review.userName}

@@ -40,12 +40,12 @@ const ArticleMainCards = () => {
     }
   }
 
-  
+
   const postsItems = posts.map((post) => {
     const options = {  day: 'numeric', month: 'long', year: 'numeric'}
     const dateForm = new Date(post.createdAt).toLocaleString("ru", options).split(" ");
     const date = dateForm[0] + " " + dateForm[1].charAt(0).toUpperCase() + dateForm[1].slice(1) + ", " + dateForm[2];
-      
+
       return (
         <ArticleCardsItem
           img={post.postImage}
