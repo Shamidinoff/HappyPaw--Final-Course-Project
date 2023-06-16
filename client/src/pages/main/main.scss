@@ -614,6 +614,25 @@ main {
                 }
               }
             }
+            .btn-answer {
+              p {
+                display: inline-block;
+                width: auto;
+
+                font-family: "Open Sans";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 27px;
+                color: #25282b;
+                text-align: left;
+                padding: 0 50px;
+              }
+
+              img {
+                display: inline-block;
+              }
+            }
           }
         }
 
@@ -661,8 +680,6 @@ main {
       }
     }
   }
-
-  
 
   ////////////
   .section8-underline {
@@ -5862,8 +5879,6 @@ footer {
               &:last-child {
                 margin-right: 0;
               }
-
-              
             }
           }
         }

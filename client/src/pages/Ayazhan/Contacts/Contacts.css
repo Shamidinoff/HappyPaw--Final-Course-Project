@@ -109,6 +109,7 @@ button {
   color: #ffffff;
   height: 40px;
   padding: 0 22px;
+  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   font-weight: 600;
@@ -121,6 +122,7 @@ button {
   border-radius: 10px;
   height: 40px;
   padding: 0 22px;
+  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   background-color: #fff;
@@ -1881,6 +1883,4 @@ header .header-flex .header-flex-reg .log-in {
   color: #25282B;
   font-size: 20px;
   line-height: 27px;
-}
-
-/*# sourceMappingURL=Contacts.css.map */
+}/*# sourceMappingURL=Contacts.css.map */
