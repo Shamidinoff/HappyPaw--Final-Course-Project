@@ -67,35 +67,35 @@ const PetsitterPageCard = () => {
                   <div className={cl.card}>
                     <img src={petsitter.avatars[0]} alt={petsitter.name} />
                     <div className={cl.dot}>
-                      <img src="images-main/p5-dot1.svg" alt="dot1" />
-                      <img src="images-main/p5-dot2.svg" alt="dot2" />
-                      <img src="images-main/p5-dot2.svg" alt="dot2" />
-                      <img src="images-main/p5-dot2.svg" alt="dot2" />
+                      <img src="/images-main/p5-dot1.svg" alt="dot1" />
+                      <img src="/images-main/p5-dot2.svg" alt="dot2" />
+                      <img src="/images-main/p5-dot2.svg" alt="dot2" />
+                      <img src="/images-main/p5-dot2.svg" alt="dot2" />
                     </div>
                   </div>
 
                   <div className={cl.card_descr}>
                     <div className={cl.margarita}>
                       <h2>{petsitter.name}</h2>
-                      <img src="images-main/p5-like.svg" alt="like" />
+                      <img src="/images-main/p5-like.svg" alt="like" />
                     </div>
                     <p>{petsitter.address}</p>
                     <p>Опыт работы: {petsitter.experience} года</p>
                     <div className={cl.stars}>
-                      <img src="images-main/p5-star.svg" alt="star" />
-                      <img src="images-main/p5-star.svg" alt="star" />
-                      <img src="images-main/p5-star.svg" alt="star" />
-                      <img src="images-main/p5-star.svg" alt="star" />
-                      <img src="images-main/p5-star.svg" alt="star" />
+                      <img src="/images-main/p5-star.svg" alt="star" />
+                      <img src="/images-main/p5-star.svg" alt="star" />
+                      <img src="/images-main/p5-star.svg" alt="star" />
+                      <img src="/images-main/p5-star.svg" alt="star" />
+                      <img src="/images-main/p5-star.svg" alt="star" />
                       <p className={cl.stars_review_count}>({petsitter.rating.reviewCount})</p>
                     </div>
-                    <button>Связаться с ситтером &#8594</button>
+                    <button>Связаться с ситтером &#8594;</button>
                     <div className={cl.verification}>
                       <div className={cl.checkmark}>
-                        <img src="images-main/p5-checkmark.svg" alt="checkmark" />
+                        <img src="/images-main/p5-checkmark.svg" alt="checkmark" />
                       </div>
                       <div className={cl.verif_descr}>
-                        <p>Успешно прошла подготовку</p> 
+                        <p>Успешно прошла подготовку</p>
                         <p>Прошла верификацию</p>
                       </div>
                     </div>

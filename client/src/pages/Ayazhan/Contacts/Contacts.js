@@ -3,9 +3,12 @@ import Footer from "../../../components/footer/Footer";
 import Header from "../../../components/header/Header";
 import "./Contacts.css";
 import {useEffect, useRef, useState} from "react";
+import {useNavigate} from "react-router-dom";
+import {MyMapComponent} from "../../../components/MyMapComponent/MyMapComponent";
 
 function Contacts() {
   const mapRef = useRef(null)
+  const navigate = useNavigate()
   return (
     <div>
       <Header />
@@ -13,7 +16,7 @@ function Contacts() {
         <div class="nav1_blog">
           <div class="container">
             <div>
-              <a class="main" href="#">
+              <a onClick={() => navigate("/home")} class="main" href="#">
                 Главная
               </a>
               <img src="../../images-blog/right1.svg" alt="right1" />
@@ -107,32 +110,6 @@ function Contacts() {
       <Footer />
     </div>
   );
-}
-
-export function MyMapComponent({
-
-                          zoom,
-                        }) {
-  const ref = useRef();
-  const [latitude, setLatitude] = useState(0)
-  const [longitude, setLongitude] = useState(0)
-
-  useEffect(() => {
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(function (position) {
-        setLatitude(position.coords.latitude)
-        setLongitude(position.coords.longitude)
-      })
-    }
-    console.log(latitude)
-    console.log(longitude)
-    new window.google.maps.Map(ref.current, {
-      center: {lat: latitude, lng: longitude},
-      zoom,
-    });
-  });
-
-  return <div ref={ref} id="map" className="ymap" />;
 }
 
 export default Contacts;

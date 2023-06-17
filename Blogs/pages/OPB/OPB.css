@@ -109,7 +109,6 @@ button {
   color: #FFFFFF;
   height: 40px;
   padding: 0 22px;
-  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   font-weight: 600;
@@ -122,7 +121,6 @@ button {
   border-radius: 10px;
   height: 40px;
   padding: 0 22px;
-  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   background-color: #fff;
@@ -1913,7 +1911,6 @@ header .header-flex-reg .log_out {
   }
 }
 .opb_content__left {
-  width: -moz-fit-content;
   width: fit-content;
   display: flex;
   flex-direction: column;
@@ -1982,6 +1979,7 @@ header .header-flex-reg .log_out {
 .tabs__item {
   font-size: 25px;
   padding: 6px;
+  cursor: pointer;
 }
 @media (max-width: 998px) {
   .tabs__item {
@@ -1990,4 +1988,6 @@ header .header-flex-reg .log_out {
 }
 .tabs__item:first-of-type {
   border-bottom: 1px solid #339CB3;
-}/*# sourceMappingURL=OPB.css.map */
+}
+
+/*# sourceMappingURL=OPB.css.map */

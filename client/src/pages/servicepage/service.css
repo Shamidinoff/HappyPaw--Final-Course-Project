@@ -28,14 +28,12 @@ header .container .header-flex .header-flex-logo {
 }
 header .container .header-flex .header-flex-logo .burger-menu {
   display: none; /* display - block when phone version */
-  background-image: url(/public/images-service/0-1-menu-burger.png);
   background-size: cover;
   width: 50px;
   height: 50px;
 }
 header .container .header-flex .header-flex-logo .close-menu {
   display: none; /* close menu icon */
-  background-image: url(/public/images-service/0-2-close-menu.png);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -189,7 +187,6 @@ main .section2-services .container .service-cards .card-item .wrapper .card-item
   justify-content: flex-start;
   align-items: center;
   text-align: left;
-  margin-bottom: 33px;
 }
 main .section2-services .container .service-cards .card-item .wrapper .card-item-content img {
   max-width: 100%;
@@ -458,14 +455,12 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-service/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-service/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -621,7 +616,6 @@ footer .myfreedom .container p {
     justify-content: flex-start;
     align-items: center;
     text-align: left;
-    margin-bottom: 33px;
   }
   main .section2-services .container .service-cards .card-item .wrapper .card-item-content img {
     max-width: 100%;
@@ -889,14 +883,12 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-service/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-service/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1054,7 +1046,6 @@ footer .myfreedom .container p {
     justify-content: flex-start;
     align-items: center;
     text-align: left;
-    margin-bottom: 33px;
   }
   main .section2-services .container .service-cards .card-item .wrapper .card-item-content img {
     max-width: 100%;
@@ -1334,14 +1325,12 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-service/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-service/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1499,7 +1488,6 @@ footer .myfreedom .container p {
     justify-content: flex-start;
     align-items: center;
     text-align: left;
-    margin-bottom: 33px;
   }
   main .section2-services .container .service-cards .card-item .wrapper .card-item-content img {
     max-width: 100%;
@@ -1780,14 +1768,12 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .burger-menu {
     display: none; /* display - block when phone version */
-    background-image: url(/public/images-service/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
   }
   header .container .header-flex .close-menu {
     display: none; /* close menu icon */
-    background-image: url(/public/images-service/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -1943,7 +1929,6 @@ footer .myfreedom .container p {
     justify-content: flex-start;
     align-items: center;
     text-align: left;
-    margin-bottom: 33px;
   }
   main .section2-services .container .service-cards .card-item .wrapper .card-item-content img {
     max-width: 100%;
@@ -2230,7 +2215,6 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-service/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -2239,7 +2223,6 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-service/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -2400,7 +2383,6 @@ footer .myfreedom .container p {
     justify-content: flex-start;
     align-items: center;
     text-align: left;
-    margin-bottom: 33px;
   }
   main .section2-services .container .service-cards .card-item .wrapper .card-item-content img {
     max-width: 100%;
@@ -2687,7 +2669,6 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-service/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -2696,7 +2677,6 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-service/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -2857,7 +2837,6 @@ footer .myfreedom .container p {
     justify-content: flex-start;
     align-items: center;
     text-align: left;
-    margin-bottom: 33px;
   }
   main .section2-services .container .service-cards .card-item .wrapper .card-item-content img {
     max-width: 100%;
@@ -3149,7 +3128,6 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-service/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -3158,7 +3136,6 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-service/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -3320,7 +3297,6 @@ footer .myfreedom .container p {
     justify-content: flex-start;
     align-items: center;
     text-align: left;
-    margin-bottom: 33px;
   }
   main .section2-services .container .service-cards .card-item .wrapper .card-item-content img {
     max-width: 100%;
@@ -3617,7 +3593,6 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .burger-menu {
     display: block; /* display - block when phone version */
-    background-image: url(/public/images-service/0-1-menu-burger.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -3626,7 +3601,6 @@ footer .myfreedom .container p {
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
-    background-image: url(/public/images-service/0-2-close-menu.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -3788,7 +3762,6 @@ footer .myfreedom .container p {
     justify-content: flex-start;
     align-items: center;
     text-align: left;
-    margin-bottom: 33px;
   }
   main .section2-services .container .service-cards .card-item .wrapper .card-item-content img {
     max-width: 100%;
@@ -4061,4 +4034,6 @@ footer .myfreedom .container p {
     line-height: 27px;
     color: #25282b;
   }
-}/*# sourceMappingURL=service.css.map */
+}
+
+/*# sourceMappingURL=service.css.map */

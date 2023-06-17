@@ -1,8 +1,10 @@
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
 import "./owner-page.css";
+import {useNavigate} from "react-router-dom";
 
 function OwnerPage() {
+  const navigate = useNavigate()
   return (
     <div>
       <Header />
@@ -11,9 +13,9 @@ function OwnerPage() {
           <div class="container">
             <div class="section1-link-content">
               <div class="link-item">
-                <p>Главная</p>
+                <p onClick={() => navigate("/home")}>Главная</p>
                 <p>&#8250;</p>
-                <p class="service-link">Личный кабинет</p>
+                <p class="service-link" onClick={() => navigate("/owner")}>Личный кабинет</p>
               </div>
             </div>
           </div>
@@ -23,12 +25,12 @@ function OwnerPage() {
           <div class="container">
             <div class="back-btn">
               <p>&#8249;</p>
-              <p>Назад</p>
+              <p onClick={() => navigate("/home")}>Назад</p>
             </div>
 
             <div class="mydata">
-              <p>Мои бронирования (1)</p>
-              <p>Мои сообщения (1)</p>
+              <p onClick={() => navigate("/opb")}>Мои бронирования (1)</p>
+              <p onClick={() => navigate("/opm")}>Мои сообщения (1)</p>
             </div>
 
             <div class="wrapper">

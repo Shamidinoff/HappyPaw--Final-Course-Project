@@ -2,8 +2,10 @@ import React, { useEffect, useState } from "react";
 import cl from "./ArticleCards.module.scss";
 import axios from "axios";
 import ArticleCardsItem from "../article-card-item/ArticleCardsItem";
+import {useNavigate} from "react-router-dom";
 
 const ArticleCards = () => {
+  const navigate = useNavigate()
   const [postIds, setPostIds] = useState([]);
   const [posts, setPosts] = useState([]);
 
@@ -46,7 +48,7 @@ const ArticleCards = () => {
   const postsItems = posts.map((post) => {
       const dateForm = new Date(post.createdAt).toLocaleString("ru", options).split(" ");
       const date = dateForm[0] + " " + dateForm[1].charAt(0).toUpperCase() + dateForm[1].slice(1) + ", " + dateForm[2];
-      
+
       return (
         <ArticleCardsItem
           img={post.postImage}

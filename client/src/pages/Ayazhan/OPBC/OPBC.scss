@@ -106,6 +106,7 @@ header {
       @media (max-width: $tablet_media_point) {
         font-size: 16px;
       }
+      cursor: pointer;
     }
 
     &__item-active {
@@ -132,4 +133,8 @@ header {
   }
 
   margin-bottom: 97px;
+}
+
+.main_opb .tabs__item:first-of-type{
+  border-bottom: 0;
 }

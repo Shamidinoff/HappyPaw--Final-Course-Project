@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
 import "./sitter2.css";
+import {useNavigate} from "react-router-dom";
 
 function SitterSearch2() {
+  const navigate = useNavigate()
   const [isHidden, setIsHidden] = useState(true);
 
   const toggleHidden = () => {
@@ -257,7 +259,7 @@ function SitterSearch2() {
                     </div>
 
                     <div className="button-content">
-                      <button className="apply">Применить</button>
+                      <button className="apply" onClick={() => navigate("/petsitters")}>Применить</button>
                       <button className="cancel">Отменить</button>
                     </div>
                   </div>

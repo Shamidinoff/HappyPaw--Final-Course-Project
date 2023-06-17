@@ -2,8 +2,10 @@ import React, { useEffect, useState } from "react";
 import cl from "./ArticleMainCards.module.scss";
 import axios from "axios";
 import ArticleCardsItem from "../article-card-item/ArticleCardsItem";
+import {useNavigate} from "react-router-dom";
 
 const ArticleMainCards = () => {
+  const navigate = useNavigate()
   const [postIds, setPostIds] = useState([]);
   const [posts, setPosts] = useState([]);
 
@@ -67,7 +69,7 @@ const ArticleMainCards = () => {
             </div>
 
             <div className={cl.read_more_button}>
-              <button className={cl.read_more_btn}>Читать больше &#8594;</button>
+              <button  onClick={() => navigate("/posts")}className={cl.read_more_btn}>Читать больше &#8594;</button>
             </div>
           </div>
         </section>

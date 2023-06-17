@@ -201,6 +201,10 @@ main .section1_login .container .wrapper .regwrapper .orline .lineright {
   border-top: 1px solid rgba(51, 156, 179, 0.25);
   width: 100%;
 }
+main .section1_login .container .wrapper .regwrapper .error {
+  color: red;
+  margin-bottom: 20px;
+}
 main .section1_login .container .wrapper .regwrapper .formcontent {
   width: 400px;
   margin-bottom: 16px;
@@ -3168,4 +3172,6 @@ footer .myfreedom2 .container p {
     line-height: 22px;
     color: #25282b;
   }
-}/*# sourceMappingURL=SignupPage.module.css.map */
+}
+
+/*# sourceMappingURL=SignupPage.module.css.map */

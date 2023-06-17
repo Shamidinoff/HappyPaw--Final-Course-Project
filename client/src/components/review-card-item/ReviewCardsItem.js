@@ -2,7 +2,7 @@ import React from 'react'
 import cl from './ReviewCardsItem.module.scss'
 
 const ReviewCardsItem = ({ userName, createdAt, star, comment, avatar}) => {
-    
+
       return (
         <div className={cl.view}>
           <div className={cl.item1}>
@@ -11,11 +11,11 @@ const ReviewCardsItem = ({ userName, createdAt, star, comment, avatar}) => {
           <div className={cl.item2}>
             <h3>{userName}</h3>
             <div className={cl.stars}>
-              <img src="images-main/p5-star.svg" alt="star" />
-              <img src="images-main/p5-star.svg" alt="star" />
-              <img src="images-main/p5-star.svg" alt="star" />
-              <img src="images-main/p5-star.svg" alt="star" />
-              <img src="images-main/p5-star.svg" alt="star" />
+              <img src="/images-main/p5-star.svg" alt="star" />
+              <img src="/images-main/p5-star.svg" alt="star" />
+              <img src="/images-main/p5-star.svg" alt="star" />
+              <img src="/images-main/p5-star.svg" alt="star" />
+              <img src="/images-main/p5-star.svg" alt="star" />
               <p>{star}/5</p>
             </div>
             <p>
@@ -28,5 +28,5 @@ const ReviewCardsItem = ({ userName, createdAt, star, comment, avatar}) => {
         </div>
       );
   }
-  
+
   export default ReviewCardsItem

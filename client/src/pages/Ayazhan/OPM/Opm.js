@@ -1,7 +1,10 @@
 import Footer from "../../../components/footer/Footer";
 import Header from "../../../components/header/Header";
+import './OPM.css'
+import {useNavigate} from "react-router-dom";
 
 function Opm() {
+  const navigate = useNavigate()
   return (
     <div>
       <Header />
@@ -9,11 +12,11 @@ function Opm() {
         <div class="nav1_opm">
           <div class="container">
             <div>
-              <a class="main" href="#">
+              <a class="main" href="#" onClick={() => navigate("/home")}>
                 Главная
               </a>
               <img src="../../images-blog/right1.svg" alt="right1" />
-              <a class="my_account" href="#">
+              <a class="my_account" href="#" onClick={() => navigate("/owner")}>
                 Личный кабинет
               </a>
               <img src="../../images-blog/right1.svg" alt="right1" />
@@ -27,7 +30,7 @@ function Opm() {
         <main class="container">
           <div class="nav2_opm">
             <img src="../../images-blog/left2.svg" alt="left2" />
-            <a href="#">Назад</a>
+            <a onClick={() => navigate("/owner")} href="#">Назад</a>
           </div>
 
           <div class="main_opm">

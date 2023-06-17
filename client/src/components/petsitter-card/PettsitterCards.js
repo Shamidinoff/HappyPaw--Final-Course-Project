@@ -3,6 +3,9 @@ import cl from './PettsitterCards.module.scss'
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom'
 import PettsitterCardsItem from '../petsitter-card-item/PettsitterCardsItem';
+import {MyMapComponent} from "../MyMapComponent/MyMapComponent";
+import {Wrapper} from "@googlemaps/react-wrapper";
+
 
 const PettsitterCards = () => {
   const [petsitIds, setPetsitIds] = useState([]);
@@ -40,7 +43,7 @@ const PettsitterCards = () => {
       console.error("GET POST ERROR: " + err);
     }
   }
-  
+
   const petsitterItems = petsitters.map((petsitter) => {
       return (
         <PettsitterCardsItem
@@ -64,12 +67,14 @@ const PettsitterCards = () => {
               {petsitters.length === 0 ? <p style={{ textAlign:"center", margin:"20px" }}>Данные загружаются...</p> : petsitterItems}
             </div>
 
-            <div className={cl.result_item+" "+cl.ymap_container}>
-              <img src="../../images-blog/mapmap2for.png" alt="" />
+            <div className={cl.result_item+" "+cl.ymap_container} >
+              <Wrapper apiKey={"AIzaSyAWqwiODfTL2GFly_Y3Yf9BKHSjVIMaSOI"} >
+                <MyMapComponent zoom={12} />
+              </Wrapper>
             </div>
           </div>
         </div>
       );
   }
-  
+
   export default PettsitterCards

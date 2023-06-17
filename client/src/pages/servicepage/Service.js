@@ -1,8 +1,10 @@
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import "./service.css";
+import {Link, useNavigate} from "react-router-dom";
 
 function Service() {
+  const navigate = useNavigate()
   return (
     <div>
       <Header />
@@ -11,9 +13,9 @@ function Service() {
           <div class="container">
             <div class="section1-link-content">
               <div class="link-item">
-                <p>Главная</p>
+                <p onClick={() => navigate("/home")}>Главная</p>
                 <p>&#8250;</p>
-                <p class="service-link">Услуги</p>
+                <p class="service-link" onClick={() => navigate("/services")}>Услуги</p>
               </div>
             </div>
           </div>
@@ -94,7 +96,7 @@ function Service() {
                   </div>
                 </div>
 
-                <button>Найти няню для собак &#8594;</button>
+                <button onClick={() => navigate("/petsitters")}>Найти няню для собак &#8594;</button>
               </div>
 
               <div class="card-item">
@@ -168,7 +170,7 @@ function Service() {
                   </div>
                 </div>
 
-                <button>Найти няню для собак &#8594;</button>
+                <button onClick={() => navigate("/petsitters")}>Найти няню для собак &#8594;</button>
               </div>
 
               <div class="card-item">
@@ -240,7 +242,7 @@ function Service() {
                   </div>
                 </div>
 
-                <button>Найти няню для собак &#8594;</button>
+                <button onClick={() => navigate("/petsitters")}>Найти няню для собак &#8594;</button>
               </div>
             </div>
           </div>
@@ -255,7 +257,7 @@ function Service() {
                 </div>
 
                 <div class="sitter-card-line">
-                  <p>&#8212</p>
+                  <p>&#8212;</p>
                 </div>
 
                 <div class="sitter-card-text">
@@ -273,7 +275,7 @@ function Service() {
                 </div>
 
                 <div class="sitter-card-line">
-                  <p>&#8212</p>
+                  <p>&#8212;</p>
                 </div>
 
                 <div class="sitter-card-text">
@@ -291,7 +293,7 @@ function Service() {
                 </div>
 
                 <div class="sitter-card-line">
-                  <p>&#8212</p>
+                  <p>&#8212;</p>
                 </div>
 
                 <div class="sitter-card-text">

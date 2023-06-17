@@ -109,7 +109,6 @@ button {
   color: #ffffff;
   height: 40px;
   padding: 0 22px;
-  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   font-weight: 600;
@@ -122,7 +121,6 @@ button {
   border-radius: 10px;
   height: 40px;
   padding: 0 22px;
-  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   background-color: #fff;
@@ -1823,4 +1821,8 @@ header .header-flex .header-flex-reg .log-in {
 .ymap_container {
   border-radius: 10px;
   overflow: hidden;
-}/*# sourceMappingURL=PettsitterCards.module.css.map */
+  height: 500px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=PettsitterCards.module.css.map */

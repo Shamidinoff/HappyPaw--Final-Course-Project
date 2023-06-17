@@ -109,7 +109,6 @@ button {
   color: #ffffff;
   height: 40px;
   padding: 0 22px;
-  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   font-weight: 600;
@@ -122,7 +121,6 @@ button {
   border-radius: 10px;
   height: 40px;
   padding: 0 22px;
-  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   background-color: #fff;
@@ -1884,6 +1882,7 @@ header .header-flex-reg .log_out {
 .main_opb .tabs__item {
   font-size: 25px;
   padding: 6px;
+  cursor: pointer;
 }
 @media (max-width: 998px) {
   .main_opb .tabs__item {
@@ -1908,4 +1907,10 @@ header .header-flex-reg .log_out {
   line-height: 56px;
   /* Ui/Text */
   color: #25282b;
-}/*# sourceMappingURL=OPBC.css.map */
+}
+
+.main_opb .tabs__item:first-of-type {
+  border-bottom: 0;
+}
+
+/*# sourceMappingURL=OPBC.css.map */

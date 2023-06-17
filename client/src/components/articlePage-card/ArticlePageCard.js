@@ -6,6 +6,7 @@ import ArticlePageTextItem from '../articlePage-text-item/ArticlePageTextItem'
 import ArticlePageTickItem from '../articlePage-tick-item/ArticlePageTickItem'
 
 const ArticlePageCard = () => {
+    const navigate = useNavigate()
     const [post, setPost] = useState({})
     const params = useParams()
     console.log(params.id);
@@ -37,7 +38,7 @@ const ArticlePageCard = () => {
           <div className={cl.nav1_blog}>
             <div className={cl.container}>
               <div>
-                <a className={cl.main} href="http://localhost:3000/home">
+                <a className={cl.main} onClick={() => navigate("/home")}>
                   Главная
                 </a>
                 <img

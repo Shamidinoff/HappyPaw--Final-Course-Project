@@ -195,7 +195,7 @@ header {
   &__item {
     font-size: 25px;
     padding: 6px;
-
+    cursor: pointer;
     @media (max-width: $tablet_media_point) {
       font-size: 16px;
     }
@@ -203,5 +203,6 @@ header {
 
   &__item:first-of-type {
     border-bottom: 1px solid $h2_color;
+
   }
 }

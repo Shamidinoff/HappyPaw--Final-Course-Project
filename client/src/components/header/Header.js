@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import "./header.css";
 import { useNavigate, Link } from "react-router-dom";
+import profilePng from './profile.png'
 
 function Header() {
   const navigate = useNavigate();
@@ -26,25 +27,31 @@ function Header() {
               onClick={toggleMenu}
             ></div>
             <a href="#">
+              <Link to={"/home"}>
               <img
                 className="main-logo"
                 src="/images-main/1.0-happy-paws-logo-1.svg"
                 alt="happy-paws-logo-1"
               />
+              </Link>
             </a>
           </div>
           <div className="header-flex-link">
             <ul>
               <li>
-                <a href="" onClick={() => navigate("/")}>
-                  Услуги
-                </a>
+                <Link to={"/services"}>
+                  <a>Услуги</a>
+                </Link>
               </li>
               <li>
-                <a href="">Блог</a>
+                <Link to={"/posts"}>
+                  <a href="">Блог</a>
+                </Link>
               </li>
               <li>
-                <a href="">Контакты</a>
+                <Link to={"/contacts"}>
+                  <a href="">Контакты</a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -57,7 +64,6 @@ function Header() {
           >
             <ul>
               <li>
-
                 <Link to={"/services"}>
                   <a>Услуги</a>
                 </Link>
@@ -72,9 +78,13 @@ function Header() {
           </div>
           <div className="header-flex-reg">
             {user ? (
-              <button className="sign-in" onClick={logout}>
-                Выйти
-              </button>
+              <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
+                <p style={{cursor: 'pointer'}} onClick={() => navigate("/owner")}>Личный кабинет</p>
+                <img src={profilePng} alt="" onClick={() => navigate("/owner")}/>
+                <p onClick={logout} style={{color: '#728ADF', cursor: 'pointer'}}>
+                  Выйти
+                </p>
+              </div>
             ) : (
               <>
                 <button className="sign-in" onClick={() => navigate("/login")}>

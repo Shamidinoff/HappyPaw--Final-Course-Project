@@ -1,8 +1,10 @@
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
 import "./sitter.css";
+import {useNavigate} from "react-router-dom";
 
 function SitterSearch1() {
+  const navigate = useNavigate()
   return (
     <div>
       <Header />
@@ -12,7 +14,7 @@ function SitterSearch1() {
             <div class="s1-description">
               <div class="descr-text">
                 <p>&#8249;</p>
-                <p>Назад</p>
+                <p onClick={() => navigate("/home")}>Назад</p>
               </div>
             </div>
             <div class="s1-sitter-bg">

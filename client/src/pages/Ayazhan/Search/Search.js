@@ -2,9 +2,10 @@ import Footer from "../../../components/footer/Footer";
 import Header from "../../../components/header/Header";
 import PettsitterCards from "../../../components/petsitter-card/PettsitterCards";
 import "./search.css";
+import {useNavigate} from "react-router-dom";
 
 function Search() {
-
+  const navigate = useNavigate()
 
 
   return (
@@ -14,7 +15,7 @@ function Search() {
         <div class="nav1_blog">
           <div class="container">
             <div>
-              <a class="main" href="#">
+              <a class="main" href="#" onClick={() => navigate("/home")}>
                 Главная
               </a>
               <img src="../../images-blog/right1.svg" alt="right1" />
@@ -59,8 +60,8 @@ function Search() {
           <p class="search-result">Найдено 15 вариантов</p>
 
           <PettsitterCards />
-          
-         </div>   
+
+         </div>
       </main>
       <Footer />
     </div>

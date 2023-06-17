@@ -2,8 +2,10 @@ import Footer from "../../../components/footer/Footer";
 import Header from "../../../components/header/Header";
 import "./blog1.css";
 import ArticleCards from "../../../components/article-card/ArticleCards";
+import {useNavigate} from "react-router-dom";
 
 function Blog1() {
+  const navigate = useNavigate()
   return (
     <div>
       <Header />
@@ -11,7 +13,7 @@ function Blog1() {
         <div class="nav1_blog">
           <div class="container">
             <div>
-              <a class="main" href="#">
+              <a class="main" href="#" onClick={() => navigate("/home")}>
                 Главная
               </a>
               <img src="../../images-blog/right1.svg" alt="right1" />

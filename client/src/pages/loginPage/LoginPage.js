@@ -2,6 +2,7 @@ import axios from "axios";
 import cl from "../loginPage/Login.module.scss"
 import {useEffect, useState} from "react";
 import { useNavigate } from "react-router-dom";
+import Header from "../../components/header/Header";
 
 function LoginPage() {
   const navigate = useNavigate()
@@ -58,40 +59,7 @@ function LoginPage() {
 
   return (
     <div>
-      <header>
-        <div className={cl.container}>
-          <div className={cl.header_flex}>
-            <div className={cl.header_flex_logo}>
-              <div className={cl.burger_menu}></div>
-
-              <a href="#">
-                <img
-                  className={cl.main_logo}
-                  src="images-main/1.0-happy-paws-logo-1.svg"
-                  alt="-happy-paws-logo-1"
-                />
-              </a>
-            </div>
-            <div className={cl.header_flex_link}>
-              <ul>
-                <li>
-                  <a href="#">Услуги</a>
-                </li>
-                <li>
-                  <a href="#">Блог</a>
-                </li>
-                <li>
-                  <a href="#">Контакты</a>
-                </li>
-              </ul>
-            </div>
-            <div className={cl.header_flex_reg}>
-              <button className={cl.signin}>Войти</button>
-              <button className={cl.login}>Зарегистрироваться</button>
-            </div>
-          </div>
-        </div>
-      </header>
+      <Header/>
       <main>
         <section className={cl.section1_login}>
           <div className={cl.container}>

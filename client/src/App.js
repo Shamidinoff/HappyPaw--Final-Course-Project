@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
+import 'animate.css';
 import Contacts from "./pages/Ayazhan/Contacts/Contacts";
 import Opb from "./pages/Ayazhan/OPB/Opb";
 import Opbc from "./pages/Ayazhan/OPBC/Opbc";
@@ -33,12 +34,17 @@ function App() {
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/services" element={<Service />} />
         <Route path="/owner" element={<OwnerPage />} />
-
+        <Route path="/opb" element={<Opb />} />
+o       <Route path="/opbc" element={<Opbc />} />
+o       <Route path="/opbpo" element={<Opbpo />} />
+o       <Route path="/opm" element={<Opm />} />
+o       <Route path="/sittersearch2" element={<SitterSearch2 />} />
+o
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
     // {/* <Main /> */}
-    // {/*  <Service /> */}
+    // {/* <Service /> */}
     // {/* <SitterSearch1 /> */}
     // {/* <SitterSearch2 /> */}
     // {/* <PersonalPage /> */}

@@ -1,22 +1,25 @@
 import Footer from "../../../components/footer/Footer";
 import Header from "../../../components/header/Header";
 import "./OPB.css";
+import {useNavigate} from "react-router-dom";
 
 function Opb() {
+  const navigate = useNavigate()
+
   return (
     <div>
       <Header />
       <main class="container">
         <div class="nav2_opm">
           <img src="../../images-blog/left2.svg" alt="left2" />
-          <a href="#">Назад</a>
+          <a onClick={() => navigate("/owner")} href="#">Назад</a>
         </div>
 
         <div class="main_opb">
           <ul class="tabs">
-            <li class="tabs__item">Предстоящие заказы (1)</li>
-            <li class="tabs__item">Отмененные заказы (0)</li>
-            <li class="tabs__item">Прошедшие заказы (1)</li>
+            <li class="tabs__item" onClick={() => navigate("/opb")} style={{borderBottom: '1px solid #339CB3'}}>Предстоящие заказы (1)</li>
+            <li class="tabs__item" onClick={() => navigate("/opbc")}>Отмененные заказы (0)</li>
+            <li class="tabs__item" onClick={() => navigate("/opbpo")}>Прошедшие заказы (1)</li>
           </ul>
 
           <div class="opb_content">
