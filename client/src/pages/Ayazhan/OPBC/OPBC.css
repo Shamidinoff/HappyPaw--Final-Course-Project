@@ -109,6 +109,7 @@ button {
   color: #ffffff;
   height: 40px;
   padding: 0 22px;
+  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   font-weight: 600;
@@ -121,6 +122,7 @@ button {
   border-radius: 10px;
   height: 40px;
   padding: 0 22px;
+  width: -moz-fit-content;
   width: fit-content;
   gap: 6px;
   background-color: #fff;
@@ -1911,6 +1913,4 @@ header .header-flex-reg .log_out {
 
 .main_opb .tabs__item:first-of-type {
   border-bottom: 0;
-}
-
-/*# sourceMappingURL=OPBC.css.map */
+}/*# sourceMappingURL=OPBC.css.map */

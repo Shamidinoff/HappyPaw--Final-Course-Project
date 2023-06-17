@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "./header.css";
 import { useNavigate, Link } from "react-router-dom";
-import profilePng from './profile.png'
+import profilePng from "./profile.png";
 
 function Header() {
   const navigate = useNavigate();
@@ -28,11 +28,11 @@ function Header() {
             ></div>
             <a href="#">
               <Link to={"/home"}>
-              <img
-                className="main-logo"
-                src="/images-main/1.0-happy-paws-logo-1.svg"
-                alt="happy-paws-logo-1"
-              />
+                <img
+                  className="main-logo"
+                  src="/images-main/1.0-happy-paws-logo-1.svg"
+                  alt="happy-paws-logo-1"
+                />
               </Link>
             </a>
           </div>
@@ -78,10 +78,24 @@ function Header() {
           </div>
           <div className="header-flex-reg">
             {user ? (
-              <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
-                <p style={{cursor: 'pointer'}} onClick={() => navigate("/owner")}>Личный кабинет</p>
-                <img src={profilePng} alt="" onClick={() => navigate("/owner")}/>
-                <p onClick={logout} style={{color: '#728ADF', cursor: 'pointer'}}>
+              <div
+                style={{ display: "flex", alignItems: "center", gap: "10px" }}
+              >
+                <p
+                  style={{ cursor: "pointer" }}
+                  onClick={() => navigate("/owner")}
+                >
+                  Личный кабинет
+                </p>
+                <img
+                  src={profilePng}
+                  alt=""
+                  onClick={() => navigate("/owner")}
+                />
+                <p
+                  onClick={logout}
+                  style={{ color: "#728ADF", cursor: "pointer" }}
+                >
                   Выйти
                 </p>
               </div>

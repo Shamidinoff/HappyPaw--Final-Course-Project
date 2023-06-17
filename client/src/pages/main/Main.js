@@ -5,10 +5,10 @@ import ReviewMainCards from "../../components/review-card-main/ReviewMainCards";
 import ArticleMainCards from "../../components/article-card-main/ArticleMainCards";
 import { useState } from "react";
 import AccordionItem from "./AccordionItem";
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Main() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const accordionItems = [
     {
       question: "Как выбрать лучшую няню для питомца?",
@@ -56,8 +56,8 @@ function Main() {
     <div>
       <Header />
       <main>
-        <section class="section1-page " >
-          <div class="container" >
+        <section class="section1-page ">
+          <div class="container">
             <div class="s1-description">
               <div class="descr-text ">
                 <p>Пока вас нет рядом, мы позаботимся о вашем питомце</p>
@@ -131,7 +131,7 @@ function Main() {
           <div class="container">
             <h2>Наши услуги</h2>
             <div class="service-cards">
-              <div class="card-item" >
+              <div class="card-item">
                 <img src="/images-main/2.1-cat.png" alt="cat" />
                 <h3>Няня для животных</h3>
                 <p>
@@ -139,7 +139,9 @@ function Main() {
                   Няня для животных (ситтера) - это временное содержание вашего
                   питомца другими людьми...
                 </p>
-                <button onClick={() => navigate("/petsitters")}>Подробнее &#8594;</button>
+                <button onClick={() => navigate("/petsitters")}>
+                  Подробнее &#8594;
+                </button>
               </div>
 
               <div class="card-item">
@@ -150,7 +152,9 @@ function Main() {
                   мероприятие или отлучиться по делам-не волнуйтесь, мы
                   с радостью выгуляем вашу собаку!
                 </p>
-                <button onClick={() => navigate("/petsitters")}>Подробнее &#8594;</button>
+                <button onClick={() => navigate("/petsitters")}>
+                  Подробнее &#8594;
+                </button>
               </div>
 
               <div class="card-item">
@@ -161,7 +165,9 @@ function Main() {
                   собак - воспользуйтесь нашей платформой для регистрации
                   в качестве пэтситтера
                 </p>
-                <button onClick={() => navigate("/petsitters")}>Подробнее &#8594;</button>
+                <button onClick={() => navigate("/petsitters")}>
+                  Подробнее &#8594;
+                </button>
               </div>
             </div>
           </div>
@@ -191,7 +197,9 @@ function Main() {
                   <img src="/images-main/3.0-checkbox.svg" alt="checkbox" />
                   <p>Все отзывы наших пользователей прошли проверку </p>
                 </div>
-                <button onClick={() => navigate("/sittersearch2")}>Найти пэтситтера &#8594;</button>
+                <button onClick={() => navigate("/sittersearch2")}>
+                  Найти пэтситтера &#8594;
+                </button>
               </div>
 
               <div class="why-item">
@@ -214,7 +222,9 @@ function Main() {
                     Поддержка менеджеров платформы и связь с пэтситтером 24/7
                   </p>
                 </div>
-                <button onClick={() => navigate("/sittersearch2")}>Найти пэтситтера &#8594;</button>
+                <button onClick={() => navigate("/sittersearch2")}>
+                  Найти пэтситтера &#8594;
+                </button>
               </div>
 
               <div class="why-item-img">
